@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>图书列表</title>
+</head>
+<body>
+<h1>{{title}}</h1>
+<a href="/create/">新增</a>
+<ul>
+    {%for i in list%}
+    <li>
+        <a href="/{{i.id}}">{{i.btitle}}</a >--&nbsp;&nbsp;<a href="/delete/{{i.id}}/">删除</a>
+    </li>
+    {%endfor%}
+</ul>
+
+<br>
+
+</body>
+</html>
