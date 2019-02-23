@@ -14,9 +14,13 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.conf.urls import include, url,re_path
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-
+    re_path('^admin/', admin.site.urls),
+    re_path(r'^user/', include( ('user.urls', 'user'), namespace="user")),
+    re_path(r'^tinymce/', include('tinymce.urls')), # 富文本编辑器
+    re_path(r'^cart/', include(('cart.urls','cart'), namespace='cart')), # 购物车模块
+    re_path(r'^order/', include(('order.urls', 'order'), namespace='order')), # 订单模块
+    url('', include(('goods.urls', 'goods'), namespace="goods")),
 ]
