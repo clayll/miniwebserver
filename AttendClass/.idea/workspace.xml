@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f152fa3-1765-4ef1-8a02-f7da7df65e2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2019-2-19.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flask_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flask_01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flask_01/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/../flask_01/hello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spider_02/36kr.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spider_02/36kr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spider_02/baidu_fanyi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spider_02/baidu_fanyi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spider_02/爬虫_json格式.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spider_02/爬虫_json格式.py" afterDir="false" />
-    </list>
+    <list default="true" id="0f152fa3-1765-4ef1-8a02-f7da7df65e2e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,11 +158,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python_miniserver" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -235,16 +225,17 @@
       <workItem from="1550576903185" duration="8918000" />
       <workItem from="1550790189913" duration="496000" />
       <workItem from="1550901467397" duration="12000" />
+      <workItem from="1550902059898" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9426000" />
+    <option name="totallyTimeSpent" value="9454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2027027" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20429252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />

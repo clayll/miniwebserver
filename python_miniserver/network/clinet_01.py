@@ -6,12 +6,15 @@ def createConnter():
 
     sk = socket.socket()
     sk.connect(ip_port)
-    time.sleep(random.randint(1,4))
-    sk.send("123".encode())
-    sk.send("3333".encode())
-    sk.close()
-    threading.current_thread()
+    return sk
 
-for i in range(10):
-    t = threading.Thread(target=createConnter)
-    t.start()
+
+sk = createConnter()
+sk.send("123".encode())
+sk.send("345".encode())
+sk.send("678".encode())
+sk.send("906".encode())
+sk.send("13".encode())
+sk.send("1234".encode())
+sk.send("234".encode())
+sk.send("3333".encode())
