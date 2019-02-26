@@ -1,21 +1,32 @@
 import socket, threading
 
-def connectClinet(newClinet, addr):
-    print("客户端连接上了{}".format(addr))
-    content = newClinet.recv(1024)
-    if content:
-        print(content.decode())
+class Web_server():
+    def __init__(self):
+        self.socket = socket.socket()
+        self.socket.bind(("127.0.0.1", 10100))
 
 
-s =socket.socket()
-s.bind(("127.0.0.1", 10100))
-s.listen(20)
-print("开始监听")
-
-while True:
+def connectClinet():
     newClinet, addr = s.accept()
-    t = threading.Thread(target=connectClinet, args=(newClinet, addr))
+    """连接客户端，接收消息"""
+    print("客户端连接上了{}".format(addr))
+    while True:
+        content = newClinet.recv(1024)
+        if content:
+            print(content.decode())
+
+
+
+def send_message(self):
+    pass
+
+def run(self):
+    self.socket.listen(10)
+    t = threading.Thread(target=connectClinet)
     t.start()
+
+
+
 
 
 
