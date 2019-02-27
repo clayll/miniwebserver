@@ -5,7 +5,7 @@
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\myPython\miniweb\miniwebserver\python_miniserver\network\chat.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:E:\mygithub\python\01\miniwebserver\python_miniserver\network\chat.db</jdbc-url>
       <driver-properties>
         <property name="enable_load_extension" value="true" />
       </driver-properties>

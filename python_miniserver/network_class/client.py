@@ -1,6 +1,6 @@
 import socket,json,threading,time
-from network.message import send_auth,send_message,send_heartbeat
-from network.DataHandler import DataHandler
+from network_class.message import send_auth,send_message,send_heartbeat
+from network_class.DataHandler import DataHandler
 
 class Client():
 

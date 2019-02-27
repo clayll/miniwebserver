@@ -1,10 +1,11 @@
 import socket, threading
+from  network.Message import Message
 
 
 class Web_server():
 
     def __init__(self):
-        print("diyongyong")
+        print("服务启动")
 
 
     # 存储已经登录的用户
@@ -19,7 +20,7 @@ class Web_server():
         while True:
             content = newClinet.recv(1024)
             if content:
-                # content = Message.unpackMsg(content)
+                content = Message.unpackMsg(content)
                 print(content.decode())
 
 
