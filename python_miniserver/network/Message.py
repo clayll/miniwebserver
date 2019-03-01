@@ -18,11 +18,17 @@ class Message():
     def sendData(cls,userinfo,msg,toUser=None):
 
         send_object = dict()
-        send_object['a'] = 'auth'
-        send_object['username'] = userinfo[0][0]
-        send_object['password'] = userinfo[0][1]
+        send_object['type'] = 'speak'
+        send_object['username'] = userinfo[0]
+        send_object['password'] = userinfo[1]
         send_object['msg'] = msg
+        if toUser:
+            send_object['to'] = toUser
+        else:
+            send_object['to'] = "大家"
         send_data = json.dumps(send_object)
         send_data = send_data.encode('utf-8')
         return cls.packMsg(send_data)
+
+
 

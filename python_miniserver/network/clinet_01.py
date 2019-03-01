@@ -1,7 +1,7 @@
 import socket
 from network.Message import Message
-from network.miniserver_01 import Web_server
-from network.Web_User import Web_User
+from network.miniserver_01 import Web_User
+# from network.Web_User import Web_User
 
 
 class Web_Client():
@@ -17,10 +17,6 @@ class Web_Client():
         self.sk = sk
 
     def send_message(self,msg,toUser=None):
-        userinfo = Web_server.loginusers[self.userinfo[0]]
-        if not userinfo:
-            print("请先登录")
-            return
         """发送消息"""
         self.sk.send(Message.sendData(userinfo,msg,toUser))
 
@@ -41,12 +37,21 @@ if __name__ == "__main__":
 #2. 客户登录后，启动客户端
     userhelp = Web_User()
     userinfo = userhelp.login("xiaohong","123")
-    if  userinfo:
-        user1 = Web_Client(userinfo)
-        user1.createConnter()
-        print(userinfo[0])
+    userinfo2 = userhelp.login("xiaoming","123")
 
-        Web_server.loginusers[userinfo[0]]=userinfo
-        user1.send_message("123")
-        user1.send_message("345")
-        user1.send_message("444444")
+    if userinfo2:
+        user2 = Web_Client(userinfo2[0])
+        user2.createConnter()
+        # Web_server.loginusers[userinfo2[0][0]] = userinfo2[0]
+        user2.send_message("我是小明")
+
+    if  userinfo:
+        user1 = Web_Client(userinfo[0])
+        user1.createConnter()
+        # Web_server.loginusers[userinfo[0][0]]=userinfo[0]
+        user1.send_message("我是小红")
+        user1.send_message("我来了")
+        user1.send_message("在不在，我有问题要问你",toUser="xiaoming")
+
+while True:
+    pass
