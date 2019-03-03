@@ -1,0 +1,24 @@
+﻿第一步 ： 
+	获取SurveyAcivity 表ID （可通过Title查询）
+
+	查询   select * from SurveyAcivity where     
+
+第二步 ：
+	通过第一步获取到的ID 查询Evaluation表数据 
+	
+	 SELECT   *  FROM [Evaluation]  
+                     WHERE Id='0289AED4-7945-4E3F-BE89-2A642E67E897' 
+
+第三步：
+	 复制一条查询结果 将userId 以及userName更改为 需要添加测评人的数据 新增一个guid 替换 复制数据的ID
+
+
+第四步：
+	通过原 [Evaluation]   ID 查询 EvaluationResultInBeAssessment 表 
+	select * from EvaluationResultInBeAssessment where EvaluationId = 
+
+第五步 : 
+	复制第四步查询所得数据
+		将其中的 EvaluationID 以及 SrcEvaluationID 更改为 第三部新增的guid
+		
+
