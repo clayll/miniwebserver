@@ -1,4 +1,4 @@
-import socket,os
+import socket,os,time,threading
 from network.Message import Message
 from network.Web_User import Web_User
 
@@ -35,7 +35,21 @@ class Web_Client():
 
         self.sk_file.send(Message.sendData_file(filename,content_data,userinfo))
 
-# sk = createConnter()
+    def __send_heartbeat(self,userinfo):
+
+        self.sk.send(Message.sendHeartbeat(userinfo,time.time()))
+
+    def send_heartbeat_func(self, userinfo):
+        self.__send_heartbeat(userinfo)
+        while True:
+            time.sleep(20)
+            t = threading.Thread(target=self.__send_heartbeat,args=(userinfo,))
+            t.start()
+
+
+
+
+    # sk = createConnter()
 # sk.send("123".encode())
 # sk.send("345".encode())
 # sk.send("678".encode())
@@ -56,7 +70,7 @@ if __name__ == "__main__":
         user2 = Web_Client(userinfo2[0])
         user2.createConnter()
         # Web_server.loginusers[userinfo2[0][0]] = userinfo2[0]
-        # user2.send_auth(userinfo2)
+        user2.send_auth(userinfo2)
         # user2.send_message("我是小明")
 
     if  userinfo:
@@ -67,10 +81,11 @@ if __name__ == "__main__":
         # user1.send_message("我是小红")
         # user1.send_message("我来了")
         # user1.send_message("在不在，我有问题要问你",toUser="xiaoming")
-        user1.createConnterFile()
-        filePath = r"C:\Users\刘靓\Documents\Tencent Files\20960180\FileRecv\截图1.jpg"
-        user1.send_file(userinfo,filePath)
+        # user1.createConnterFile()
+        # filePath = r"C:\Users\刘靓\Documents\Tencent Files\20960180\FileRecv\截图1.jpg"
+        # user1.send_file(userinfo,filePath)
         # filePath = "F:\重要资料\统计学\练习\px90第二阶段.jpg"
         # user1.send_file(userinfo, filePath)
         # filePath = "F:\重要资料\统计学\练习\px90第三阶段.jpg"
         # user1.send_file(userinfo, filePath)
+        user1.send_heartbeat_func(userinfo)

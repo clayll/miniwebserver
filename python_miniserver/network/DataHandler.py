@@ -1,5 +1,4 @@
-import struct , json
-
+import struct , json ,base64
 
 class DataHandler():
     """处理消息体，每一个线程形成一个Datahandler对象"""
@@ -45,10 +44,16 @@ class DataHandler():
 
             data_len = struct.unpack("HHi", self.filedatas[0:8])
             data = self.filedatas[8:8+data_len[0]]
-            data_name = self.filedatas[8 + data_len[0]:8 + data_len[0]+ data_len[1]].decode("utf-8")
-            content_data = self.filedatas[8 + data_len[0] + data_len[1]: 8 + data_len[0]+ data_len[1]+data_len[2]].decode("base64")
             data = data.decode("utf-8")
             data = json.loads(data)
+            data_name = self.filedatas[8 + data_len[0]:8 + data_len[0]+ data_len[1]].decode("utf-8")
+            if data['type'] == 'img':
+                tempdata = self.filedatas[8 + data_len[0] + data_len[1]: 8 + data_len[0]+ data_len[1]+data_len[2]]
+                l = len(tempdata)
+                content_data = base64.b64decode(tempdata)
+            else:
+                content_data = self.filedatas[8 + data_len[0] + data_len[1]: 8 + data_len[0]+ data_len[1]+data_len[2]].decode("utf-8")
+
             self.datafile_list.append((data, data_name, content_data))
             self.filedatas = self.filedatas[8 + data_len[0] + data_len[1]+data_len[2]:]
 

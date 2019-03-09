@@ -1,4 +1,4 @@
-import json, struct,re
+import json, struct,re,base64
 
 class Message():
     @classmethod
@@ -51,19 +51,28 @@ class Message():
             send_object['to'] = toUser
         else:
             send_object['to'] = "大家"
+        # 判断是否是图片传送
+        r = re.match(".*\.(.gif|jpeg|png|jpg|bmp)$", filename.decode("utf-8"))
+        if r:
+            send_object['type'] = 'img'
+            filedata = base64.b64encode(filedata)
+
+
         send_data = json.dumps(send_object)
         send_data = send_data.encode('utf-8')
-        # 判断是否是图片传送
-        # r = re.match(".*\.(.gif|jpeg|png|jpg|bmp)$", filename)
-        # if r:
-        #     send_object['type'] = 'img'
-        #     filedata = filedata.encode("base64")
-
         return cls.packFile(send_data,filename,filedata)
 
     @classmethod
     def sendAuth(cls,userinfo):
         send_object = cls.__gen_sendObj__(userinfo,type="auth")
+        send_data = json.dumps(send_object)
+        send_data = send_data.encode('utf-8')
+        return cls.packMsg(send_data)
+
+    @classmethod
+    def sendHeartbeat(cls, userinfo, time:float):
+        send_object = cls.__gen_sendObj__(userinfo, type="heartbeat")
+        send_object["time"] = time
         send_data = json.dumps(send_object)
         send_data = send_data.encode('utf-8')
         return cls.packMsg(send_data)
