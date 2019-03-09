@@ -68,9 +68,9 @@ if __name__ == "__main__":
         # user1.send_message("我来了")
         # user1.send_message("在不在，我有问题要问你",toUser="xiaoming")
         user1.createConnterFile()
-        filePath = "F:\重要资料\统计学\练习\px90第一阶段.jpg"
+        filePath = r"C:\Users\刘靓\Documents\Tencent Files\20960180\FileRecv\截图1.jpg"
         user1.send_file(userinfo,filePath)
-        filePath = "F:\重要资料\统计学\练习\px90第二阶段.jpg"
-        user1.send_file(userinfo, filePath)
-        filePath = "F:\重要资料\统计学\练习\px90第三阶段.jpg"
-        user1.send_file(userinfo, filePath)
+        # filePath = "F:\重要资料\统计学\练习\px90第二阶段.jpg"
+        # user1.send_file(userinfo, filePath)
+        # filePath = "F:\重要资料\统计学\练习\px90第三阶段.jpg"
+        # user1.send_file(userinfo, filePath)

@@ -46,7 +46,7 @@ class DataHandler():
             data_len = struct.unpack("HHi", self.filedatas[0:8])
             data = self.filedatas[8:8+data_len[0]]
             data_name = self.filedatas[8 + data_len[0]:8 + data_len[0]+ data_len[1]].decode("utf-8")
-            content_data = self.filedatas[8 + data_len[0] + data_len[1]: 8 + data_len[0]+ data_len[1]+data_len[2]].decode("utf-8")
+            content_data = self.filedatas[8 + data_len[0] + data_len[1]: 8 + data_len[0]+ data_len[1]+data_len[2]].decode("base64")
             data = data.decode("utf-8")
             data = json.loads(data)
             self.datafile_list.append((data, data_name, content_data))

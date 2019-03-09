@@ -17,7 +17,7 @@ class Web_server():
         except KeyError:
             return None
 
-    def delFile(self,data:dict):
+    def dealFile(self, data:dict):
         userinfo = data[0]
         filename = data[1]
         filecontent = data[2]
@@ -27,7 +27,7 @@ class Web_server():
                     print("对不起，{}不在线，请稍后再试！".format(data["to"]))
                     return
             print("{}对{}发送了文件，文件名称为：{}".format(userinfo["username"], userinfo["to"],filename))
-        dirName = os.path.join(os.path.abspath("files"),filename)
+        dirName = os.path.join(os.path.abspath("files"), filename)
         with open(dirName,"w",encoding="utf-8") as f:
             f.write(filecontent)
 
@@ -77,7 +77,7 @@ class Web_server():
                 dataHandler.reviceDataFile(content)
 
                 for data in dataHandler.getDataListFile():
-                    self.delFile(data)
+                    self.dealFile(data)
 
 
     def run(self):

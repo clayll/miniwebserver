@@ -1,4 +1,4 @@
-import json, struct
+import json, struct,re
 
 class Message():
     @classmethod
@@ -53,6 +53,12 @@ class Message():
             send_object['to'] = "大家"
         send_data = json.dumps(send_object)
         send_data = send_data.encode('utf-8')
+        # 判断是否是图片传送
+        # r = re.match(".*\.(.gif|jpeg|png|jpg|bmp)$", filename)
+        # if r:
+        #     send_object['type'] = 'img'
+        #     filedata = filedata.encode("base64")
+
         return cls.packFile(send_data,filename,filedata)
 
     @classmethod
