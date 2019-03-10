@@ -19,9 +19,14 @@ import struct, os,re,base64
 #
 #
 # print(r)
-# content=b''
-# with open("F:\重要资料\统计学\练习\px90第二阶段.jpg",'rb') as f:
+
+# with open(r"F:\重要资料\统计学\练习\test.txt",'r',encoding="utf-8") as f:
 #     content = f.read()
+#
+# print(type(content))
+# with open(os.path.join(os.path.abspath("files"), "ceshi.txt"),"w",encoding="utf-8") as f:
+#     f.write(content)
+
 #
 # bcontnt = base64.b64encode(content)
 #
@@ -55,3 +60,17 @@ import struct, os,re,base64
 #
 # t.start()
 # t1.start()
+
+# test = {}
+# test["a"] = "123"
+# test["b"] = "231"
+#
+# print(type(test.keys()))
+#
+# for i in list(test.keys()):
+#     if i == "b":
+#         del test[i]
+#         continue
+#
+# for i in test:
+#     print(i)

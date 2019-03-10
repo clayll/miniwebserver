@@ -13,30 +13,33 @@ class Web_server():
         "验证用户是否登录"
         try:
             data["time"] = time.time()
-            Web_server.loginusers[data["username"]] = data
+            Web_server.loginusers[data["loginName"]] = data
             print(Web_server.loginusers)
         except KeyError:
             return None
 
     def heartbeat(self, data):
         """得到用户心跳包"""
-        userinfo = Web_server.loginusers[data["username"]]
+        userinfo = Web_server.loginusers[data["loginName"]]
         if userinfo:
-            Web_server.loginusers[data["username"]]["time"] = data["time"]
+            Web_server.loginusers[data["loginName"]]["time"] = data["time"]
         else:
             print("请先该用户未登录")
+
 
     def checkUserOnline(self):
         """1分钟检查一次，用户是否在线，没有发送心跳包的移除登录状态"""
         while True:
             time.sleep(5)
             try:
-                for i in Web_server.loginusers:
+                for i in list(Web_server.loginusers.keys()):
                     userData = Web_server.loginusers[i]
                     print("检查：{}".format(userData["username"]))
                     if (time.time() - userData["time"]) > 15:
-                        print("心跳包检查到{}用户不在线，将其移除".format(userData["username"]))
+                        print("心跳包检查到{}用户未发送心跳包，将其移除".format(userData["username"]))
                         del Web_server.loginusers[i]
+                        continue
+
             except Exception as ex:
                 print(ex)
 
@@ -48,7 +51,7 @@ class Web_server():
         filecontent = data[2]
         if userinfo:
             if userinfo["to"] != "大家":
-                if not Web_server.loginusers[data["username"]]:
+                if not Web_server.loginusers[data["loginName"]]:
                     print("对不起，{}不在线，请稍后再试！".format(data["to"]))
                     return
             print("{}对{}发送了文件，文件名称为：{}".format(userinfo["username"], userinfo["to"],filename))
@@ -64,10 +67,19 @@ class Web_server():
     def dealMsg(self,data:dict):
         # print("dels{}".format(Web_server.loginusers))
         if data["type"] == "speak":
+            try:
+                Web_server.loginusers[data["loginName"]]
+            except KeyError:
+                print("检测到{}未登录验证，请先登录验证".format(data["username"]))
+                return
+
             if data["to"] != "大家":
-                if not Web_server.loginusers[data["username"]]:
+                try:
+                    Web_server.loginusers[data["to"]]
+                except KeyError:
                     print("对不起，{}不在线，请稍后再试！".format(data["to"]))
                     return
+
             print("{}对{}说：{}".format(data["username"],data["to"],data["msg"]))
 
         elif data["type"] == "auth":
@@ -114,7 +126,6 @@ class Web_server():
 
                 for data in dataHandler.getDataListFile():
                     self.dealFile(data)
-
     def connection_func(self):
         while True:
             newClinet, addr = self.socket.accept()
@@ -125,6 +136,7 @@ class Web_server():
         while True:
             newClinet1, addr1 = self.filesocket.accept()
             t1 = threading.Thread(target=self.connectClinetFile,args=(newClinet1,addr1))
+            t1.start()
 
     def run(self):
         self.socket = socket.socket()

@@ -23,7 +23,7 @@ class Web_Client():
 
     def send_message(self,msg,toUser=None):
         """发送消息"""
-        self.sk.send(Message.sendData(userinfo,msg,toUser))
+        self.sk.send(Message.sendData(self.userinfo,msg,toUser))
 
     def send_auth(self,userinfo):
         self.sk.send(Message.sendAuth(userinfo))
@@ -61,11 +61,45 @@ class Web_Client():
 
 if __name__ == "__main__":
 #2. 客户登录后，启动客户端
+    # 1 发送群聊
+    zhangxiang = Web_User.login("zhangxiang","123")
+    print(zhangxiang)
+    if zhangxiang:
+        # 初始化用户
+        web_zhangxiang = Web_Client(zhangxiang)
+        # 链接服务器
+        web_zhangxiang.createConnter()
+        web_zhangxiang.createConnterFile()
+        web_zhangxiang.send_auth(zhangxiang)
+        while True:
+            args = input("输入1.发起用户验证;输入2.发起群聊;3.发起私聊;4.发送文件；5.发送图片；输入Q退出")
+            if args == "1":
+                # 发送服务器登录验证
+                web_zhangxiang.send_auth(zhangxiang)
+            if args == "2":
+                args = input("输入发送的消息：")
+                web_zhangxiang.send_message(args)
+            if args == "3":
+                args = input("输入发送的消息：")
+                to = input("输入对方登录名：")
+                web_zhangxiang.send_message(args, to)
+            if args == "4":
+                args = input("请输入文件路径：")
+                # F:\重要资料\统计学\练习\test.txt
+                web_zhangxiang.send_file(zhangxiang,args)
+            if args == "5":
+                args = input("请输入文件路径：")
+                # F:\重要资料\统计学\练习\px90第三阶段.jpg
+                web_zhangxiang.send_file(zhangxiang,args)
+            if args.upper() == "Q":
+                break
 
-    userinfo = Web_User.login("xiaohong","123")
-    userinfo2 = Web_User.login("xiaoming","123")
+
+    userinfo = None #Web_User.login("xiaohong","123")
+    userinfo2 =None # Web_User.login("xiaoming","123")
 
     if userinfo2:
+
 
         user2 = Web_Client(userinfo2[0])
         user2.createConnter()

@@ -58,6 +58,7 @@ class Message():
             filedata = base64.b64encode(filedata)
 
 
+
         send_data = json.dumps(send_object)
         send_data = send_data.encode('utf-8')
         return cls.packFile(send_data,filename,filedata)
@@ -83,5 +84,7 @@ class Message():
         send_object['type'] = type
         send_object['username'] = userinfo[0]
         send_object['password'] = userinfo[1]
+        send_object['email'] = userinfo[2]
+        send_object['loginName'] = userinfo[3]
         return send_object
 
