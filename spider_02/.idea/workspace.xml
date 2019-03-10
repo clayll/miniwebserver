@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f0597ef3-a955-4225-9dc7-4f058f61f4d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../python_miniserver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python_miniserver/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python_miniserver/network/Message.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_miniserver/network/Message.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python_miniserver/network/Web_User.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_miniserver/network/Web_User.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python_miniserver/network/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_miniserver/network/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python_miniserver/network/chat.db" beforeDir="false" afterPath="$PROJECT_DIR$/../python_miniserver/network/chat.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../python_miniserver/network/clinet_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_miniserver/network/clinet_01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../python_miniserver/network/miniserver_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_miniserver/network/miniserver_01.py" afterDir="false" />
     </list>

@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f78eb7f-96b0-4ab8-b90f-22e36b846dcf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/Message.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/Message.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/Web_User.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/Web_User.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/chat.db" beforeDir="false" afterPath="$PROJECT_DIR$/network/chat.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network/clinet_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/clinet_01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network/miniserver_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/miniserver_01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spider_02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spider_02/.idea/workspace.xml" afterDir="false" />
@@ -24,8 +19,8 @@
     <SUITE FILE_PATH="coverage/python_miniserver$DataHandler.coverage" NAME="DataHandler Coverage Results" MODIFIED="1551521246388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network" />
     <SUITE FILE_PATH="coverage/python_miniserver$Web_User.coverage" NAME="Web_User Coverage Results" MODIFIED="1552217188108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network" />
     <SUITE FILE_PATH="coverage/python_miniserver$server.coverage" NAME="server Coverage Results" MODIFIED="1551249721919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network_class" />
-    <SUITE FILE_PATH="coverage/python_miniserver$miniserver_01.coverage" NAME="miniserver_01 Coverage Results" MODIFIED="1552225609696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network" />
-    <SUITE FILE_PATH="coverage/python_miniserver$clinet_01.coverage" NAME="clinet_01 Coverage Results" MODIFIED="1552225641725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network" />
+    <SUITE FILE_PATH="coverage/python_miniserver$miniserver_01.coverage" NAME="miniserver_01 Coverage Results" MODIFIED="1552226505619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network" />
+    <SUITE FILE_PATH="coverage/python_miniserver$clinet_01.coverage" NAME="clinet_01 Coverage Results" MODIFIED="1552226508667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network" />
     <SUITE FILE_PATH="coverage/python_miniserver$Message.coverage" NAME="Message Coverage Results" MODIFIED="1551259752819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/network" />
   </component>
   <component name="DatabaseView">
@@ -66,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/network/miniserver_01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-118">
-              <caret line="127" column="39" lean-forward="true" selection-start-line="127" selection-start-column="39" selection-end-line="127" selection-end-column="39" />
+            <state relative-caret-position="432">
+              <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -75,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/network/clinet_01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="764">
-              <caret line="93" column="35" lean-forward="true" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+            <state relative-caret-position="774">
+              <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -123,8 +118,8 @@
         <option value="$PROJECT_DIR$/network/Web_User.py" />
         <option value="$PROJECT_DIR$/network/Message.py" />
         <option value="$PROJECT_DIR$/network/__init__.py" />
-        <option value="$PROJECT_DIR$/network/miniserver_01.py" />
         <option value="$PROJECT_DIR$/network/clinet_01.py" />
+        <option value="$PROJECT_DIR$/network/miniserver_01.py" />
       </list>
     </option>
   </component>
@@ -348,7 +343,7 @@
       <workItem from="1551442014364" duration="7946000" />
       <workItem from="1551478850379" duration="18041000" />
       <workItem from="1552090584492" duration="14998000" />
-      <workItem from="1552215358134" duration="10457000" />
+      <workItem from="1552215358134" duration="10870000" />
     </task>
     <task id="LOCAL-00001" summary="网络编程">
       <created>1550901439996</created>
@@ -361,18 +356,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100716000" />
+    <option name="totallyTimeSpent" value="101129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49204665" visible="true" weight="0.09300477" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49204665" visible="true" weight="0.09300477" />
       <window_info id="Structure" order="1" sideWeight="0.50795335" side_tool="true" visible="true" weight="0.09300477" />
       <window_info id="Favorites" order="2" sideWeight="0.50272036" side_tool="true" weight="0.104531005" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299532" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49324325" visible="true" weight="0.26443058" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49324325" visible="true" weight="0.26443058" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4944356" weight="0.28315133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -408,11 +403,6 @@
           <url>file://$PROJECT_DIR$/network/Message.py</url>
           <line>14</line>
           <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/network/miniserver_01.py</url>
-          <line>63</line>
-          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -679,8 +669,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/network/clinet_01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="93" column="35" lean-forward="true" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+        <state relative-caret-position="774">
+          <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -689,8 +679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/network/miniserver_01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118">
-          <caret line="127" column="39" lean-forward="true" selection-start-line="127" selection-start-column="39" selection-end-line="127" selection-end-column="39" />
+        <state relative-caret-position="432">
+          <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
         </state>
       </provider>
     </entry>

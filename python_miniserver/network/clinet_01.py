@@ -42,7 +42,7 @@ class Web_Client():
     def send_heartbeat_func(self, userinfo):
         self.__send_heartbeat(userinfo)
         while True:
-            time.sleep(20)
+            time.sleep(5)
             t = threading.Thread(target=self.__send_heartbeat,args=(userinfo,))
             t.start()
 
@@ -71,6 +71,8 @@ if __name__ == "__main__":
         web_zhangxiang.createConnter()
         web_zhangxiang.createConnterFile()
         web_zhangxiang.send_auth(zhangxiang)
+        # 发送心跳包
+        web_zhangxiang.send_heartbeat_func(zhangxiang)
         while True:
             args = input("输入1.发起用户验证;输入2.发起群聊;3.发起私聊;4.发送文件；5.发送图片；输入Q退出")
             if args == "1":

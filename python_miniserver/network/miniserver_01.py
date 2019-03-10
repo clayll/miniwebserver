@@ -20,11 +20,15 @@ class Web_server():
 
     def heartbeat(self, data):
         """得到用户心跳包"""
-        userinfo = Web_server.loginusers[data["loginName"]]
-        if userinfo:
-            Web_server.loginusers[data["loginName"]]["time"] = data["time"]
-        else:
-            print("请先该用户未登录")
+        try:
+            userinfo = Web_server.loginusers[data["loginName"]]
+            if userinfo:
+                print("收到{}心跳包,更新在线时间{}".format(data["username"],data["time"]))
+                Web_server.loginusers[data["loginName"]]["time"] = data["time"]
+            else:
+                print("请先该用户未登录")
+        except KeyError:
+            print("心跳包过期，请重新登录")
 
 
     def checkUserOnline(self):
@@ -86,8 +90,8 @@ class Web_server():
             self.auth(data)
         elif data["type"] == "heartbeat":
             self.heartbeat(data)
-            print(data)
-            pass
+
+
         # elif data["type"] == "img":
         #     pass
 
