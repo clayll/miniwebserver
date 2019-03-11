@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f0597ef3-a955-4225-9dc7-4f058f61f4d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../python_miniserver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python_miniserver/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python_miniserver/network/clinet_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_miniserver/network/clinet_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python_miniserver/network/miniserver_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_miniserver/network/miniserver_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +69,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xpath_贴吧.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="1044">
               <caret line="58" column="39" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="39" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
@@ -82,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/戳爷.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
+            <state relative-caret-position="3348">
               <caret line="186" column="88" selection-start-line="186" selection-start-column="5" selection-end-line="186" selection-end-column="88" />
             </state>
           </provider>
@@ -152,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="763" />
     <option name="y" value="323" />
     <option name="width" value="1462" />
@@ -180,7 +179,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python_miniserver" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -332,17 +331,17 @@
       <workItem from="1550576846549" duration="55000" />
       <workItem from="1551531271343" duration="18723000" />
       <workItem from="1552224518411" duration="630000" />
+      <workItem from="1552344148070" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35736000" />
+    <option name="totallyTimeSpent" value="35758000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11049285" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.062400635" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -355,7 +354,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.377186" side_tool="true" visible="true" weight="0.36037442" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.377186" side_tool="true" visible="true" weight="0.2301092" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32956383" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -461,6 +460,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/戳爷.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3348">
+          <caret line="186" column="88" selection-start-line="186" selection-start-column="5" selection-end-line="186" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/url.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3258">
@@ -485,16 +491,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/戳爷.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="186" column="88" selection-start-line="186" selection-start-column="5" selection-end-line="186" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xpath_贴吧.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="1044">
           <caret line="58" column="39" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="39" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
