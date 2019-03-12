@@ -36,15 +36,13 @@ class Web_Client():
         self.sk_file.send(Message.sendData_file(filename,content_data,userinfo))
 
     def __send_heartbeat(self,userinfo):
-
-        self.sk.send(Message.sendHeartbeat(userinfo,time.time()))
-
-    def send_heartbeat_func(self, userinfo):
-        self.__send_heartbeat(userinfo)
         while True:
             time.sleep(5)
-            t = threading.Thread(target=self.__send_heartbeat,args=(userinfo,))
-            t.start()
+            self.sk.send(Message.sendHeartbeat(userinfo,time.time()))
+
+    def send_heartbeat_func(self, userinfo):
+        t = threading.Thread(target=self.__send_heartbeat,args=(userinfo,))
+        t.start()
 
 
 
@@ -63,14 +61,17 @@ if __name__ == "__main__":
 #2. 客户登录后，启动客户端
     # 1 发送群聊
     zhangxiang = Web_User.login("zhangxiang","123")
+    maike = Web_User.login("maike","123")
     print(zhangxiang)
     if zhangxiang:
         # 初始化用户
         web_zhangxiang = Web_Client(zhangxiang)
+        web_maike = Web_Client(maike)
         # 链接服务器
         web_zhangxiang.createConnter()
         web_zhangxiang.createConnterFile()
         web_zhangxiang.send_auth(zhangxiang)
+        web_maike.createConnter()
         # 发送心跳包
         web_zhangxiang.send_heartbeat_func(zhangxiang)
         while True:
@@ -82,6 +83,7 @@ if __name__ == "__main__":
                 args = input("输入发送的消息：")
                 web_zhangxiang.send_message(args)
             if args == "3":
+                web_maike.send_auth(maike)
                 args = input("输入发送的消息：")
                 to = input("输入对方登录名：")
                 web_zhangxiang.send_message(args, to)
