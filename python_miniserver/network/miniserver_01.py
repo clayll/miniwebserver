@@ -2,9 +2,9 @@ import socket, threading ,os,time
 from network.DataHandler import DataHandler
 
 class Web_server():
-    # 用户保存类
+    # 用来保存已经通过验证的用户
     loginusers = {}
-    # userHelper.init_tables()
+
 
     def __init__(self):
         print("服务启动")
@@ -69,6 +69,7 @@ class Web_server():
 
 
     def dealMsg(self,data:dict):
+        '''处理群里或者私了信息，如果未登录会提示先登录验证'''
         # print("dels{}".format(Web_server.loginusers))
         if data["type"] == "speak":
             try:
@@ -92,12 +93,8 @@ class Web_server():
             self.heartbeat(data)
 
 
-        # elif data["type"] == "img":
-        #     pass
-
-
-
     def connectClinet(self,newClinet: socket,addr):
+        ''''连接聊天客户端'''
         print("聊天socket开始监听:"+threading.current_thread().getName())
 
         dataHandler = DataHandler()
@@ -117,6 +114,7 @@ class Web_server():
 
 
     def connectClinetFile(self,newClinet,addr):
+        ''''连接文件客户端'''
         print("文件socket开始监听:"+threading.current_thread().getName())
         """连接客户端，接收消息"""
         dataHandler = DataHandler()
@@ -130,13 +128,16 @@ class Web_server():
 
                 for data in dataHandler.getDataListFile():
                     self.dealFile(data)
+
     def connection_func(self):
+        '''用于监听聊天客户端'''
         while True:
             newClinet, addr = self.socket.accept()
             t = threading.Thread(target=self.connectClinet, args=(newClinet,addr))
             t.start()
 
     def connectionfile_func(self):
+        '''用于监听文件客户端'''
         while True:
             newClinet1, addr1 = self.filesocket.accept()
             t1 = threading.Thread(target=self.connectClinetFile,args=(newClinet1,addr1))
@@ -154,19 +155,16 @@ class Web_server():
             # newClinet1, addr1 = self.filesocket.accept()
             # t = threading.Thread(target=self.connectClinet, args=(newClinet,addr))
             # t1 = threading.Thread(target=self.connectClinetFile,args=(newClinet1,addr1))
+        # 聊天客户端线程
         t = threading.Thread(target=self.connection_func)
+        # 文件客户端线程
         t1 = threading.Thread(target=self.connectionfile_func)
+        # 检查客户端心跳包
         t2 = threading.Thread(target=self.checkUserOnline)
         t.start()
         t1.start()
         t2.start()
 
-    # @classmethod
-    # def auth_User(cls,name, pwd):
-    #     user =  cls.userHelper.login(name,pwd)
-    #
-    #     print("auth{}".format(user))
-    #     return user
 
 
 

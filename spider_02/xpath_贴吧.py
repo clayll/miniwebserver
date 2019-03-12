@@ -12,7 +12,9 @@ class baidu_tieba_jijian():
 
     def init_allUrl(self):
         self.start_url = "m?kw={}&lp=5011&lm=&pn={}".format(self.tiebaName,0)
-        self.baseurl = "https://tieba.baidu.com/mo/q---E43010237FA469B37C96EDE1EAD664A9%3AFG%3D1-sz%40320_240%2C-1-3-0--2--wapp_1551576146607_550/"
+        self.baseurl ="https://tieba.baidu.com/mo/q---FG=1-sz@320_240"
+        # "https://tieba.baidu.com/mo/q---E43010237FA469B37C96EDE1EAD664A9%3AFG%3D1-sz%40320_240%2C-1-3-0--2--wapp_1551576146607_550/"
+
         self.url_list.append(self.start_url)
 
     def  parse_rul(self,url):
