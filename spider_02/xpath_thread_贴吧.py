@@ -47,7 +47,8 @@ class baidu_tieba_thread():
                 html.xpath("//div//a[@accesskey='6']/@href")) > 0 else None
 
     def getListDetails(self):
-        while not self.qurlList.empty():
+        while True:
+                # not self.qurlList.empty():
             item = self.qurlList.get()
             next_url = item["href"]
             while next_url:
@@ -59,25 +60,29 @@ class baidu_tieba_thread():
                 for r in result:
                     r = requests.utils.unquote(r).split("&src=")
                     img_list.append(r)
-                if len(item["img_list"]) > 0:
+                try:
                     item["img_list"] .extend (img_list)
-                else:
+                except:
                     item["img_list"] = img_list
 
                 next_url = self.baseurl+html.xpath("//div//a[@accesskey='6']/@href")[0] if len(
                     html.xpath("//div//a[@accesskey='6']/@href")) > 0 else None
-            self.qurlList.task_done()
+
             self.qurlDetial.put(item)
+            self.qurlList.task_done()
 
     def saveUrlContent(self):
-        while not self.qurlDetial.empty():
-            item = self.qurlDetial.get()
-            filePath = self.tiebaName + ".txt"
-            with open(filePath, "a", encoding="utf-8") as f:
-                content = json.dumps(item, ensure_ascii=False, indent=2)
-                f.write(content)
-                f.write("\n")
-            self.qurlDetial.task_done()
+        try:
+            while True:
+                item = self.qurlDetial.get()
+                filePath = self.tiebaName + ".txt"
+                with open(filePath, "a", encoding="utf-8") as f:
+                    content = json.dumps(item, ensure_ascii=False, indent=2)
+                    f.write(content)
+                    f.write("\n")
+                    self.qurlDetial.task_done()
+        except Exception as re:
+            print(re)
 
 
     def get_url_content(self, html):
@@ -123,7 +128,7 @@ class baidu_tieba_thread():
 
 
     def run(self):
-        t1 = time.time()
+
         # 1 获取贴吧整个页面的标题以及对应标题的URL
         self.init_allUrl()
         # next_url = self.start_url
@@ -141,20 +146,25 @@ class baidu_tieba_thread():
 
         for i in range(3):
             t = Thread(target=self.getListDetails)
-            # t.setDaemon(True)
+            t.setDaemon(True)
             t.start()
 
         for i in range(2):
             t = Thread(target=self.saveUrlContent)
-            # t.setDaemon(True)
+            t.setDaemon(True)
             t.start()
 
         self.qurlList.join()
         self.qurlDetial.join()
 
-        print(time.time()-t1)
-
 
 if __name__ == "__main__":
+    t1 = time.time()
     teiba = baidu_tieba_thread("戳爷")
     teiba.run()
+
+
+
+    print(time.time()-t1)
+
+print("--end--")

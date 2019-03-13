@@ -1,6 +1,56 @@
-import requests
-s = "http://c.hiphotos.baidu.com/forum/w%3D96%3Bq%3D45%3Bg%3D0/sign=72626c2a7ecf3bc7e800c1eaea718795/7d5e1e67d0160924be73323cda0735fae7cd34e3.jpg?&src=http%3A%2F%2Fimgsrc.baidu.com%2Fforum%2Fpic%2Fitem%2F7d5e1e67d0160924be73323cda0735fae7cd34e3.jpg"
-s= requests.utils.unquote(s)
 
-x = s.split("&src=")
-print(x)
+
+import threading,time,queue
+
+def foo(name):
+    time.sleep(2)
+    print("name:{}\n".format(name))
+
+def testThread():
+    myAttend = []
+    for x in range(5):
+        t = threading.Thread(target=foo,args=(x,))
+        t.setDaemon(True)
+
+        t.start()
+        t.join()
+        myAttend.append(t)
+
+    t3 = threading.Thread(target=foo, args=(56,))
+    t3.setDaemon(True)
+    t3.start()
+
+
+    print("main end")
+
+q = queue.Queue(maxsize=5)
+
+def produce():
+    for x in range(5):
+
+        s = "生成了item:{}\n".format(x)
+        q.put(s)
+        print(s)
+        # time.sleep(2)
+
+def customer():
+    while True:
+        time.sleep(1)
+        item = q.get()
+        print("已经完成了：{}\n".format(item))
+        q.task_done()
+        # print("队列是否为空：{}".format(q.empty()))
+
+if __name__ == "__main__":
+    t = threading.Thread(target=produce)
+    t.setDaemon(True)
+    t.start()
+    # t.join()
+    for i in range(3):
+        t = threading.Thread(target=customer)
+        t.setDaemon(True)
+        t.start()
+
+    #
+    q.join()
+    print("--end--")

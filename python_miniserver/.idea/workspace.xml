@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f78eb7f-96b0-4ab8-b90f-22e36b846dcf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/chat.db" beforeDir="false" afterPath="$PROJECT_DIR$/network/chat.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/clinet_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/clinet_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spider_02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_02/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spider_02/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_02/xpath_thread_贴吧.py" beforeDir="false" afterPath="$PROJECT_DIR$/../spider_02/xpath_thread_贴吧.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spider_02/戳爷.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../spider_02/戳爷.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/network/miniserver_01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
+            <state relative-caret-position="2250">
               <caret line="126" column="35" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="42" />
             </state>
           </provider>
@@ -73,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/network/clinet_01.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1134">
-              <caret line="63" column="41" lean-forward="true" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+              <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -81,11 +81,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/network/DataHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="18">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/network/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -102,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/network/Web_User.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
+            <state relative-caret-position="990">
               <caret line="55" column="58" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
             </state>
           </provider>
@@ -111,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/network/Message.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
+            <state relative-caret-position="1494">
               <caret line="83" column="25" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="25" />
             </state>
           </provider>
@@ -163,10 +172,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="221" />
-    <option name="y" value="231" />
-    <option name="width" value="1462" />
-    <option name="height" value="953" />
+    <option name="x" value="-274" />
+    <option name="y" value="47" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -176,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,13 +196,12 @@
             <path>
               <item name="python_miniserver" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_miniserver" type="462c0819:PsiDirectoryNode" />
-              <item name="network_class" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,6 +383,7 @@
       <workItem from="1552215358134" duration="10969000" />
       <workItem from="1552344172570" duration="601000" />
       <workItem from="1552395838759" duration="3091000" />
+      <workItem from="1552482619889" duration="420000" />
     </task>
     <task id="LOCAL-00001" summary="网络编程">
       <created>1550901439996</created>
@@ -386,13 +396,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104920000" />
+    <option name="totallyTimeSpent" value="105340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4896789" visible="true" weight="0.13036565" />
-      <window_info id="Structure" order="1" sideWeight="0.5103211" side_tool="true" visible="true" weight="0.13036565" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48623854" visible="true" weight="0.13275039" />
+      <window_info id="Structure" order="1" sideWeight="0.51376146" side_tool="true" visible="true" weight="0.13275039" />
       <window_info id="Favorites" order="2" sideWeight="0.50272036" side_tool="true" weight="0.104531005" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299532" />
@@ -415,7 +426,7 @@
       <window_info anchor="right" id="SciView" order="3" weight="0.32949126" />
       <window_info anchor="right" id="R Graphics" order="4" weight="0.32949126" />
       <window_info anchor="right" id="R Packages" order="5" weight="0.3297587" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.07869634" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.07829889" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,13 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/network/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/network/files/px90第二阶段.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -647,10 +651,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/network/Message.py">
+    <entry file="file://$PROJECT_DIR$/network/files/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/files/px90第三阶段.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/miniserver_01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="83" column="25" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="25" />
+        <state relative-caret-position="2250">
+          <caret line="126" column="35" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/clinet_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -661,40 +681,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/network/files/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/network/files/px90第三阶段.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/network/Web_User.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
+        <state relative-caret-position="990">
           <caret line="55" column="58" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/network/miniserver_01.py">
+    <entry file="file://$PROJECT_DIR$/network/Message.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="126" column="35" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/network/clinet_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="63" column="41" lean-forward="true" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1494">
+          <caret line="83" column="25" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/network/DataHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="18">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
         </state>
       </provider>
     </entry>
