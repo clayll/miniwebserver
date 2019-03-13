@@ -1,5 +1,5 @@
 from lxml import etree
-import requests,json
+import requests,json,time
 from pprint import pprint
 
 class baidu_tieba_jijian():
@@ -12,20 +12,23 @@ class baidu_tieba_jijian():
 
     def init_allUrl(self):
         self.start_url = "m?kw={}&lp=5011&lm=&pn={}".format(self.tiebaName,0)
-        self.baseurl ="https://tieba.baidu.com/mo/q---FG=1-sz@320_240"
+        self.baseurl ="https://tieba.baidu.com/mo/q---E43010237FA469B37C96EDE1EAD664A9%3AFG%3D1-sz%40320_240%2C-1-3-0--2--wapp_1551576146607_550/"
         # "https://tieba.baidu.com/mo/q---E43010237FA469B37C96EDE1EAD664A9%3AFG%3D1-sz%40320_240%2C-1-3-0--2--wapp_1551576146607_550/"
 
         self.url_list.append(self.start_url)
 
     def  parse_rul(self,url):
+
         url = self.baseurl + url
+
         response = requests.get(url, headers=self.headers)
         return response.content
 
     def get_url_content(self, html):
+
         """遍历所有的页面"""
         html = etree.HTML(html)
-        div_list = html.xpath("//div[contains(@class,'i')]")
+        div_list = html.xpath(r"//div/div[@class='i']")
         content_list = []
 
         for r in div_list:
@@ -65,7 +68,7 @@ class baidu_tieba_jijian():
 
 
     def run(self):
-
+        t1 = time.time()
         # 1 获取贴吧整个页面的标题以及对应标题的URL
         self.init_allUrl()
         next_url = self.start_url
@@ -79,6 +82,7 @@ class baidu_tieba_jijian():
             # 4.下一页数据的提取，重复上述循环
 
 
+        print(time.time()-t1)
 
 
 if __name__ == "__main__":
