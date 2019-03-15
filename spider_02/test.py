@@ -51,6 +51,8 @@ if __name__ == "__main__":
         t.setDaemon(True)
         t.start()
 
-    #
+
     q.join()
     print("--end--")
+    print(time.strftime("%Y-%m-%d %X", time.localtime()))
+    print("*" * 30)
