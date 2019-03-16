@@ -1,0 +1,4550 @@
+{
+  "intro": "年套！增幅11 12！ 光环 强化 天空",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/4446841_1030.png/dy1",
+  "zone": "DNF",
+  "user": "DNF灰辉",
+  "hot": "12.6万"
+}
+{
+  "intro": "【Jeeee 】今天露脸 吃鸡就送现金",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/4490802_1030.png/dy1",
+  "zone": "APEX英雄",
+  "user": "JeeeeeeeeE丶",
+  "hot": "20万"
+}
+{
+  "intro": "大表哥:蛮王逆版本韩服小号上钻石",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/231008_1029.png/dy1",
+  "zone": "英雄联盟",
+  "user": "宇宙大表哥丶",
+  "hot": "16.3万"
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "【重播】16日15点GK vs XQ",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/1863767_1032_0.png/dy1",
+  "zone": "王者荣耀",
+  "user": "王者荣耀官方赛事",
+  "hot": "192.4万"
+}
+{
+  "intro": "蓝战非猛猛的",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/11579_1029_66.png/dy1",
+  "zone": "绝地求生",
+  "user": "蓝战非OvO",
+  "hot": "141.1万"
+}
+{
+  "intro": "该主播距离您1.2KM.(同城)",
+  "img": "https://rpic.douyucdn.cn/live-cover/roomCover/cover_update/2019/02/22/0b9460d9a4bff69ba30149116e4c5081.jpg",
+  "zone": "刺激战场",
+  "user": "龙龍龍龖",
+  "hot": "23.6万"
+}
+{
+  "intro": "微信区带粉 飞机包车 火箭王者",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/5816376_1032_0.png/dy1",
+  "zone": "王者荣耀",
+  "user": "Ares暖阳",
+  "hot": "11.7万"
+}
+{
+  "intro": "等风也等你 4043801",
+  "img": "https://rpic.douyucdn.cn/live-cover/appCovers/2018/09/30/4043801_20180930193334_small.jpg",
+  "zone": "颜值",
+  "user": "你的斯嘉丽娜吖",
+  "hot": "11万"
+}
+{
+  "intro": "【林蒙】单排上100星",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/748396_1029.png/dy1",
+  "zone": "王者荣耀",
+  "user": "林蒙m",
+  "hot": "131.5万"
+}
+{
+  "intro": "13:00 V5vsWE",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/288016_1029.png/dy1",
+  "zone": "英雄联盟",
+  "user": "英雄联盟官方赛事",
+  "hot": "120.2万"
+}
+{
+  "intro": "yjj APEX~",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/687423_1029.png/dy1",
+  "zone": "APEX英雄",
+  "user": "yjjimpaopao",
+  "hot": "116.4万"
+}
+{
+  "intro": "[黄金赛第六季]4.16号 剑指伦敦",
+  "img": "https://rpic.douyucdn.cn/live-cover/roomCover/cover_update/2019/03/07/873451cdde7b4b605c0952aa311913a1.jpg",
+  "zone": "绝地求生",
+  "user": "黄金大奖赛",
+  "hot": "116.3万"
+}
+{
+  "intro": "萌新劳模主播球老公粉守护",
+  "img": "https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/29/2654953_20180829152533.jpg",
+  "zone": "FM233",
+  "user": "糖七baby",
+  "hot": "6.3万"
+}
+{
+  "intro": "余小C：有请4位倒霉蛋登场！！！",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/1126960_1029.png/dy1",
+  "zone": "英雄联盟",
+  "user": "余小C真的很强",
+  "hot": "94.7万"
+}
+{
+  "intro": "狐狸：希望安静点哈哈哈！",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/699689_1029_66.png/dy1",
+  "zone": "绝地求生",
+  "user": "狐狸不太Sao",
+  "hot": "89.2万"
+}
+{
+  "intro": "大司马：同学们来送大奖明天生日了",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "芜湖大司马丶",
+  "hot": "85.4万"
+}
+{
+  "intro": "村口帅气俊俏陈二狗的小卖部！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "炉石传说",
+  "user": "恩基爱萌萌哒的狗贼",
+  "hot": "73.6万"
+}
+{
+  "intro": "一见到你呀……",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "甜星kitty",
+  "hot": "7.7万"
+}
+{
+  "intro": "【骚某某】均场50杀，亚服第一",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "我是骚某某",
+  "hot": "65.8万"
+}
+{
+  "intro": "全程激情刚枪乱秀！9点到10点抽2500",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "80God",
+  "hot": "62万"
+}
+{
+  "intro": "东东：绝地求生真好玩！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "普朗东丷",
+  "hot": "60万"
+}
+{
+  "intro": "基轮：你的上午有我",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "主机游戏",
+  "user": "基轮Sama",
+  "hot": "60万"
+}
+{
+  "intro": "可以说我菜，但扣6全部禁言一分钟",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "William丶威廉",
+  "hot": "55.2万"
+}
+{
+  "intro": "重金聘请小姐姐带粉五排！好可爱哦！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "渝万丶钱少",
+  "hot": "54万"
+}
+{
+  "intro": "12:00抽800鱼翅！！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "艺帝帝",
+  "hot": "53万"
+}
+{
+  "intro": "上单王者DJ叫我官人丶冲冲冲",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "DJ叫我官人",
+  "hot": "52万"
+}
+{
+  "intro": "第一男刀：三级不单杀请举报主播",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "智勋勋勋勋",
+  "hot": "50.2万"
+}
+{
+  "intro": "满血复活小号冲分",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "王纪超666",
+  "hot": "49.2万"
+}
+{
+  "intro": "国服在榜李白 单排1V6疯狂屠杀~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "李天赐ERTC",
+  "hot": "49.2万"
+}
+{
+  "intro": "没错！我就是国服第一天使",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "MQ丶孙悟空",
+  "hot": "49.1万"
+}
+{
+  "intro": "哦哈呦O(∩_∩)O~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "美食",
+  "user": "嘿一只小河马",
+  "hot": "46.3万"
+}
+{
+  "intro": "S14献祭流创始人圆QQ区粉丝王者梦",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "渝万五百狸子3岁",
+  "hot": "46万"
+}
+{
+  "intro": "瞬间感觉轻松了很多！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DNF",
+  "user": "我是大坤坤啊",
+  "hot": "45.9万"
+}
+{
+  "intro": "全网第一铠：周末免费带粉。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "皇玺丶Fly高一刀",
+  "hot": "41.2万"
+}
+{
+  "intro": "全网第二李白 理财 单排王者上星",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "像枫",
+  "hot": "40万"
+}
+{
+  "intro": "暴躁杠开集锦，这才叫麻将！！！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "欢乐麻将",
+  "user": "靓旭",
+  "hot": "39.9万"
+}
+{
+  "intro": "冲101星小姐姐在线虐菜",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "未央央0v0",
+  "hot": "39.2万"
+}
+{
+  "intro": "【令北】我在考虑 做好人还是坏人",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "正经人令北",
+  "hot": "39万"
+}
+{
+  "intro": "涛哥涛弟：小姐姐尬聊！送红包！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "老实敦厚的涛哥涛弟",
+  "hot": "37万"
+}
+{
+  "intro": "骑行株洲给二哥送鸡送蛋。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "美食",
+  "user": "魅力生活i",
+  "hot": "36.7万"
+}
+{
+  "intro": "⚡️大甜圈：丸子甜⚡️",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "APEX英雄",
+  "user": "大甜甜甜圈儿",
+  "hot": "31.9万"
+}
+{
+  "intro": "秋日：8000",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "炉石传说",
+  "user": "秋日丶",
+  "hot": "31.6万"
+}
+{
+  "intro": "6000场公孙离 50星单排虐人",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "守护丶遇见美好",
+  "hot": "31.4万"
+}
+{
+  "intro": "天秀露婉带粉,一把不输",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "秀梦哒哒",
+  "hot": "30.8万"
+}
+{
+  "intro": "钢枪不识罩城主 下一句",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "罩城主",
+  "hot": "30.7万"
+}
+{
+  "intro": "316846的房间,欢乐LOL",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "欢乐麻将",
+  "user": "毛鸡儿阿",
+  "hot": "30.3万"
+}
+{
+  "intro": "春风十里 我在等你",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "言锦o",
+  "hot": "29.9万"
+}
+{
+  "intro": "无限火力-英雄全能",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "爷大干",
+  "hot": "29.4万"
+}
+{
+  "intro": "又沫：自瞄枪法，高达身法，如诗如画。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "又沫",
+  "hot": "29.3万"
+}
+{
+  "intro": "【28】你的宝藏男孩",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "大魔王马小跳",
+  "hot": "28.7万"
+}
+{
+  "intro": "小茶娱乐创业史",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "主机游戏",
+  "user": "午夜抹抹茶",
+  "hot": "28.7万"
+}
+{
+  "intro": "2天14万关注的新主播！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "黄雀1691",
+  "hot": "28.7万"
+}
+{
+  "intro": "ChinaGT马来西亚站 R1",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "汽车",
+  "user": "老司机6个6",
+  "hot": "28.3万"
+}
+{
+  "intro": "刘备带粉五排",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "刘皇叔是个弟弟",
+  "hot": "27.2万"
+}
+{
+  "intro": "该连胜了啊",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "三国杀",
+  "user": "丶砍你焉用菜刀",
+  "hot": "27.1万"
+}
+{
+  "intro": "粒：天才打野少女杀人如喝水❤",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "AQ丶果粒",
+  "hot": "26.8万"
+}
+{
+  "intro": "夏洛克：新主播夏洛",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "你好我是夏洛克",
+  "hot": "25.8万"
+}
+{
+  "intro": "Zard-chill dude",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DOTA2",
+  "user": "zard1991",
+  "hot": "25万"
+}
+{
+  "intro": "国服最强赵云 上八十星",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "声优赵猥琐",
+  "hot": "24.8万"
+}
+{
+  "intro": "吕布单排上荣耀",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "八神君Lpp",
+  "hot": "24.8万"
+}
+{
+  "intro": "【PDL】F组H组 发展联赛 DAY8",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "斗鱼绝地赛事",
+  "hot": "24.4万"
+}
+{
+  "intro": "没有我盘不到的小哥哥！！！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "wuli聪妹儿",
+  "hot": "24万"
+}
+{
+  "intro": "上九节录像",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "美食",
+  "user": "深山大咖",
+  "hot": "23.9万"
+}
+{
+  "intro": "带粉~办卡上车，火箭包月",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "童话哥哥呀",
+  "hot": "23.8万"
+}
+{
+  "intro": "世界排名第一手枪击杀！国内单场最高击杀者",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "APEX英雄",
+  "user": "YW三冰卡尔",
+  "hot": "23.8万"
+}
+{
+  "intro": "刘莱厄斯温酒斩上单，一血极限体验",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "旋转的老刘诺手",
+  "hot": "23.5万"
+}
+{
+  "intro": "NO:战猎崛起？毒狗再见",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DOTA2",
+  "user": "Nostalie",
+  "hot": "23.5万"
+}
+{
+  "intro": "【神乐】华语 经典 电影 周星驰 星爷",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "进击的神乐",
+  "hot": "23.2万"
+}
+{
+  "intro": "【林正英】僵尸 女鬼 弹幕 护体",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "UnaDirezione",
+  "hot": "23万"
+}
+{
+  "intro": "第一露娜带粉！一张办卡上王者",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "月下无限连小啊鹏",
+  "hot": "22.8万"
+}
+{
+  "intro": "QQ区黑科技国服韩信八分钟神装",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "扑捉一只筱漠然",
+  "hot": "22.5万"
+}
+{
+  "intro": "奶哥哥の直播间",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DOTA2",
+  "user": "谢彬DD",
+  "hot": "22万"
+}
+{
+  "intro": "Major 小组赛重播",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DOTA2",
+  "user": "imbadota2频道",
+  "hot": "21.8万"
+}
+{
+  "intro": "震惊！这游戏居然这么好玩！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "主机游戏",
+  "user": "老皮历险记",
+  "hot": "21.2万"
+}
+{
+  "intro": "不开心进来看看~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "林熙Lxxi",
+  "hot": "21.2万"
+}
+{
+  "intro": "输出太乙快乐理财太乙",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "豆豆丶Thomas",
+  "hot": "21.1万"
+}
+{
+  "intro": "9.5版本船长强势来袭我被暗削了",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "十月船长丶",
+  "hot": "20.7万"
+}
+{
+  "intro": "空难背后-听说你们都不想坐飞机了",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "科普",
+  "user": "斗鱼科普",
+  "hot": "20.7万"
+}
+{
+  "intro": "皇冠1v4 单人四排教学第一人",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "屿鹿你好阿",
+  "hot": "20.5万"
+}
+{
+  "intro": "小弱鸡：一日皇后咯",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刀塔自走棋",
+  "user": "可爱的小弱鸡",
+  "hot": "20.3万"
+}
+{
+  "intro": "单人四排单排秀全服前三",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "吴山人丷",
+  "hot": "20.2万"
+}
+{
+  "intro": "【Jeeee 】今天露脸 吃鸡就送现金",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "APEX英雄",
+  "user": "JeeeeeeeeE丶",
+  "hot": "20万"
+}
+{
+  "intro": "【小老虎】kakao小霸王",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "小脑斧彦霖",
+  "hot": "19.8万"
+}
+{
+  "intro": "⭐单人四排",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "贤宝0927",
+  "hot": "19.7万"
+}
+{
+  "intro": "捕鱼加土建，明天更灿烂！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "微山湖捕鱼武工队",
+  "hot": "19.4万"
+}
+{
+  "intro": "伟哥：运营流打法，劝架吃鸡",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "APEX英雄",
+  "user": "老实人伟哥",
+  "hot": "19.4万"
+}
+{
+  "intro": "人美声甜歌入耳~~~yayayayaya",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "沈小蔓丶",
+  "hot": "18.2万"
+}
+{
+  "intro": "在吗 ，你就是天残脚？",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "暴力盲僧逗B虎",
+  "hot": "17.9万"
+}
+{
+  "intro": "【周星驰】星爷 喜剧之王 经典电影 神乐",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "进击の神乐",
+  "hot": "17.8万"
+}
+{
+  "intro": "探索仙岛湖",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "户外小玉",
+  "hot": "17.7万"
+}
+{
+  "intro": "瞬镜屠岛1v4追杀秀！场均25杀人头盛宴",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "QL羽七",
+  "hot": "17.6万"
+}
+{
+  "intro": "荣耀百星全能打野，你想看哪个",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "林豆豆y",
+  "hot": "17.3万"
+}
+{
+  "intro": "【 一見生財 】",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "Aegis丶Lin",
+  "hot": "17.3万"
+}
+{
+  "intro": "带粉5排：26星下可上车",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "安然Okami",
+  "hot": "17.2万"
+}
+{
+  "intro": "金宝/绝皇 独家冠名~ ❤ 招收优质主持",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "约会现场",
+  "user": "豚首一最美遇见",
+  "hot": "17万"
+}
+{
+  "intro": "左边捡钱，挑战3天不输！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "狗康Bfate丶",
+  "hot": "17万"
+}
+{
+  "intro": "2019，每一天都有你",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "Angel希希希",
+  "hot": "16.9万"
+}
+{
+  "intro": "世界级边路打野 70星欢乐排位",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "木神刂",
+  "hot": "16.6万"
+}
+{
+  "intro": "28星-50星冲击~第四个荣耀号",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "上海饭饭",
+  "hot": "16.4万"
+}
+{
+  "intro": "飞机赛季王者，荣耀百星教学中！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "滚石丶橙子",
+  "hot": "16.4万"
+}
+{
+  "intro": "大表哥:蛮王逆版本韩服小号上钻石",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "宇宙大表哥丶",
+  "hot": "16.3万"
+}
+{
+  "intro": "99胜率李白带粉，办卡上车",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "电竞信白丶",
+  "hot": "16.1万"
+}
+{
+  "intro": "高端王牌你只管看我来秀！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "潇男莫虐",
+  "hot": "15.7万"
+}
+{
+  "intro": "排位帝：生而为人 我很特别",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "QQ飞车",
+  "user": "一直在努力的炮哥",
+  "hot": "15.6万"
+}
+{
+  "intro": "今天周六先带水友",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "CS:GO",
+  "user": "loveyou_qq",
+  "hot": "15.4万"
+}
+{
+  "intro": "总有人山高水长为我而来",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "南雁翎",
+  "hot": "15.3万"
+}
+{
+  "intro": "WEC赛百灵1000英里耐力赛",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "汽车",
+  "user": "斗鱼汽车官方直播间",
+  "hot": "15.3万"
+}
+{
+  "intro": "扫码上车，全凭手速~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "泡芙小仙女vivi",
+  "hot": "15.1万"
+}
+{
+  "intro": "国服赵云：宗师创始人带粉90胜率",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "大遥阿丶",
+  "hot": "14.9万"
+}
+{
+  "intro": "37807啊",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "格斗游戏",
+  "user": "战神_河池VR",
+  "hot": "14.8万"
+}
+{
+  "intro": "第一VN：这个vn太强了8",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "暗夜猎手光头强",
+  "hot": "14.7万"
+}
+{
+  "intro": "其：早起的雷欧其 先冲个前十。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "炉石传说",
+  "user": "我为文燕上传说",
+  "hot": "14.6万"
+}
+{
+  "intro": "最强蜘蛛：钻石局野区细节反野养猪教学",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "MQ丶蜘蛛馍",
+  "hot": "14.6万"
+}
+{
+  "intro": "【贝爷影厅】经典 科幻 动作 灾难 巨兽",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "狂仔酷炫",
+  "hot": "14.5万"
+}
+{
+  "intro": "忍界之神樱",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "火影忍者",
+  "user": "佐助是真的像小万",
+  "hot": "14.5万"
+}
+{
+  "intro": "布局陷阱，中局飞刀，残棋攻杀，欢迎来到",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "中国象棋",
+  "user": "八卦象棋大师",
+  "hot": "14.3万"
+}
+{
+  "intro": "杰尼龟八卦：卡布达进化",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "杰尼龟upup",
+  "hot": "14.2万"
+}
+{
+  "intro": "暴躁：攻速流猴子 30星排位",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "暴躁zzz",
+  "hot": "14.1万"
+}
+{
+  "intro": "视频轮播中~直播会提前通知哦。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "二次元",
+  "user": "蔡包子OvO",
+  "hot": "13.9万"
+}
+{
+  "intro": "稻哥：棒服竞技场杀戮之旅",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "炉石传说",
+  "user": "一本稻",
+  "hot": "13.8万"
+}
+{
+  "intro": "动漫 热血 木叶忍者 草帽路飞 青春",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "所有人都在装",
+  "hot": "13.6万"
+}
+{
+  "intro": "惊了！双百星带粉,办卡上车~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "渝万丶伊芙琳",
+  "hot": "13.4万"
+}
+{
+  "intro": "我是真的帅没有办法。。。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "魔兽世界",
+  "user": "黑哥wow",
+  "hot": "13.3万"
+}
+{
+  "intro": "年套！增幅11 12！ 光环 强化 天空",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/4446841_1030.png/dy1",
+  "zone": "DNF",
+  "user": "DNF灰辉",
+  "hot": "12.6万"
+}
+{
+  "intro": "【Jeeee 】今天露脸 吃鸡就送现金",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/4490802_1030.png/dy1",
+  "zone": "APEX英雄",
+  "user": "JeeeeeeeeE丶",
+  "hot": "20万"
+}
+{
+  "intro": "大表哥:蛮王逆版本韩服小号上钻石",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/231008_1029.png/dy1",
+  "zone": "英雄联盟",
+  "user": "宇宙大表哥丶",
+  "hot": "16.3万"
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "动漫 热血 木叶忍者 草帽路飞 青春",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/206858_1029.png/dy1",
+  "zone": "一起看",
+  "user": "所有人都在装",
+  "hot": "13.6万"
+}
+{
+  "intro": "惊了！双百星带粉,办卡上车~",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/4505400_1030_76.png/dy1",
+  "zone": "王者荣耀",
+  "user": "渝万丶伊芙琳",
+  "hot": "13.4万"
+}
+{
+  "intro": "国服露露 带粉上星",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/4334531_1030.png/dy1",
+  "zone": "王者荣耀",
+  "user": "渝万丶紫宸",
+  "hot": "13.2万"
+}
+{
+  "intro": "国服万场橘子 微信带粉",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/2007832_1032_0.png/dy1",
+  "zone": "王者荣耀",
+  "user": "FeiYu丶苏蓝",
+  "hot": "13.2万"
+}
+{
+  "intro": "【小U陪你看】丧尸 鬼片 恐怖 惊悚",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/96577_1029.png/dy1",
+  "zone": "一起看",
+  "user": "UU娇哒哒呀",
+  "hot": "13.1万"
+}
+{
+  "intro": "天使焦： 复盘KG胜液体",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/97376_1029.png/dy1",
+  "zone": "DOTA2",
+  "user": "天使焦520",
+  "hot": "13.1万"
+}
+{
+  "intro": "我是真的帅没有办法。。。",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/2456621_1030.png/dy1",
+  "zone": "魔兽世界",
+  "user": "黑哥wow",
+  "hot": "13万"
+}
+{
+  "intro": "我爱唱歌~",
+  "img": "https://rpic.douyucdn.cn/live-cover/roomCover/2018/12/10/bf7e8aa9aca76841865f177e34604631.jpg",
+  "zone": "FM233",
+  "user": "橙味沙士",
+  "hot": "12.7万"
+}
+{
+  "intro": "盒子：8发子弹秒杀敌人弹无虚发1v4",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/5181223_1030.png/dy1",
+  "zone": "刺激战场",
+  "user": "主播盒子",
+  "hot": "12.7万"
+}
+{
+  "intro": "琦玉：单人四排！疯狂杀戮！",
+  "img": "https://rpic.douyucdn.cn/live-cover/roomCover/cover_update/2019/02/27/a6c39df07e02e80aca7e5a135fb729ba.jpg",
+  "zone": "刺激战场",
+  "user": "琦玉琦玉丶",
+  "hot": "12.5万"
+}
+{
+  "intro": "峡谷从零上王者1000分",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/6296895_1031.png/dy1",
+  "zone": "英雄联盟",
+  "user": "左手吸血鬼QAQ",
+  "hot": "12.4万"
+}
+{
+  "intro": "新版摇头天使:天使剑法输一把表演忍术！",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/537366_1029.png/dy1",
+  "zone": "英雄联盟",
+  "user": "杀神丶晴空",
+  "hot": "12.4万"
+}
+{
+  "intro": "LDL春季赛3月15日重播",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/705690_1029.png/dy1",
+  "zone": "英雄联盟",
+  "user": "LDL官方直播间",
+  "hot": "12.4万"
+}
+{
+  "intro": "最强李白：给对面射手戒波网瘾",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/2157153_1030_66.png/dy1",
+  "zone": "王者荣耀",
+  "user": "小七都",
+  "hot": "12.4万"
+}
+{
+  "intro": "梦幻西游电脑版武神坛性感直播",
+  "img": "https://rpic.douyucdn.cn/live-cover/roomCover/cover_update/2019/03/12/aff59b824ca0c6db514be5afc4d8a74c.jpg",
+  "zone": "梦幻西游",
+  "user": "梦幻西游官方直播间",
+  "hot": "12.4万"
+}
+{
+  "intro": "探花之路！冲！",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/5110403_1030.png/dy1",
+  "zone": "炉石传说",
+  "user": "驴鸽LvGe",
+  "hot": "12.4万"
+}
+{
+  "intro": "兔兔:大家，早上好~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "珊儿兔兔兔",
+  "hot": "12.4万"
+}
+{
+  "intro": "陈翔六点半，每周更新为你加速！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "鱼教",
+  "user": "陈翔六点半",
+  "hot": "12.3万"
+}
+{
+  "intro": "甜音小可爱✿打野各种秀❤",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "甜逗逗丶软萌小可爱",
+  "hot": "12.3万"
+}
+{
+  "intro": "求家人求守护",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "肉肉的里里",
+  "hot": "12.2万"
+}
+{
+  "intro": "【全网第一】❤今天刷礼物今天都有妹陪❤~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "二次元",
+  "user": "娇曼honey",
+  "hot": "12.1万"
+}
+{
+  "intro": "年套！增幅11 12！ 光环 强化 天空",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DNF",
+  "user": "DNF灰辉",
+  "hot": "11.9万"
+}
+{
+  "intro": "这个打野叫张顺飞！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "网友张顺飞",
+  "hot": "11.9万"
+}
+{
+  "intro": "臭弟:王者之心最后两天",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "穿越火线",
+  "user": "太原庞臭臭",
+  "hot": "11.9万"
+}
+{
+  "intro": "御姐音老狮开课啦~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "狮子大魔王丶",
+  "hot": "11.9万"
+}
+{
+  "intro": "爱笑的姑娘一定会有好运吧～9点开播～",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "超甜的陶子",
+  "hot": "11.7万"
+}
+{
+  "intro": "微信区带粉 飞机包车 火箭王者",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/5816376_1032_0.png/dy1",
+  "zone": "王者荣耀",
+  "user": "Ares暖阳",
+  "hot": "11.7万"
+}
+{
+  "intro": "【凰儿手搓直播】周末欢乐多多呀~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "云中欧凰",
+  "hot": "11.7万"
+}
+{
+  "intro": "国服鬼叫五排上车滴滴~~~~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "iNs楚洛",
+  "hot": "11.7万"
+}
+{
+  "intro": "免费带粉拿mvp送皮肤",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "小棒棒乄",
+  "hot": "11.7万"
+}
+{
+  "intro": "一楼狄仁杰求针对全网最高战力边射",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "雪碧丶国一狄仁杰",
+  "hot": "11.7万"
+}
+{
+  "intro": "【MAJOR】D组 重播",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DOTA2",
+  "user": "imbadota2频道2",
+  "hot": "11.7万"
+}
+{
+  "intro": "哈尔滨到成都骑行day7.今天去锦州北镇",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "带象公寓",
+  "hot": "11.6万"
+}
+{
+  "intro": "✌七七酱✌ 绝地吃鸡空姐上线~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "chere七七",
+  "hot": "11.5万"
+}
+{
+  "intro": "迷离劫：1300分能拿下吗？",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "迷离之道丶",
+  "hot": "11.5万"
+}
+{
+  "intro": "点击打开新世界的大门！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "二次元",
+  "user": "暴走漫画",
+  "hot": "11.5万"
+}
+{
+  "intro": "国服元歌，死三次随便喷",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "xqc倾城",
+  "hot": "11.5万"
+}
+{
+  "intro": "又是美好的一天 哒哒哒",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "CF手游",
+  "user": "W小姨妈",
+  "hot": "11.4万"
+}
+{
+  "intro": "今天的我 是个狠人！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DOTA",
+  "user": "子子阳",
+  "hot": "11.4万"
+}
+{
+  "intro": "黑科技：凤鸣九霄万丈狂澜斩杀术",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "炉石传说",
+  "user": "炉石小安哥",
+  "hot": "11.3万"
+}
+{
+  "intro": "一天回到主教！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "主机游戏",
+  "user": "主播温州炮哥",
+  "hot": "11.3万"
+}
+{
+  "intro": "重庆漂移表演（第二天）",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "霸陆者DK奥巴明哥",
+  "hot": "11.3万"
+}
+{
+  "intro": "想拥有超能力！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "逆战",
+  "user": "PE气质哥嘉宝",
+  "hot": "11.2万"
+}
+{
+  "intro": "【肖璐】巅峰带妹",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DOTA",
+  "user": "肖璐s",
+  "hot": "11.2万"
+}
+{
+  "intro": "「小葫芦星球助力」有英雄钻石拿",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "CF手游",
+  "user": "荒岛大魔王战77",
+  "hot": "11.1万"
+}
+{
+  "intro": "高端局战神全服双排前百最高KD！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "口渴橙",
+  "hot": "11.1万"
+}
+{
+  "intro": "诺夏：锤石辅助教学",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "诺夏辅助",
+  "hot": "11万"
+}
+{
+  "intro": "百星全能主播微信带粉",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "潇潇爱吃猪蹄",
+  "hot": "11万"
+}
+{
+  "intro": "养眼心跳~送送魔法少女超大终极圆神精品",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "主机游戏",
+  "user": "琼斯小卫",
+  "hot": "10.8万"
+}
+{
+  "intro": "63星单排边路选手。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "秋纬",
+  "hot": "10.7万"
+}
+{
+  "intro": "薇薇：AK小姐姐Zz",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "倾城小薇儿",
+  "hot": "10.7万"
+}
+{
+  "intro": "草丛藏獒， 战神哈士奇！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "香蕉c",
+  "hot": "10.7万"
+}
+{
+  "intro": "【鬼泣5】新人肝帝明，开荒！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "主机游戏",
+  "user": "Dell工程师小明",
+  "hot": "10.6万"
+}
+{
+  "intro": "3.16 LSP请来办个恰",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "熊熊熊熊熊yo",
+  "hot": "10.5万"
+}
+{
+  "intro": "小哥哥，网恋么，我御姐。。。。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "开心麻辣堂",
+  "hot": "10.5万"
+}
+{
+  "intro": "【小勇】免费领15个箱子组合包",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "APEX英雄",
+  "user": "随缘吃鸡的骚勇",
+  "hot": "10.5万"
+}
+{
+  "intro": "来领取小萝莉尤物女朋友一枚",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "二次元",
+  "user": "菟菟萌酱",
+  "hot": "10.4万"
+}
+{
+  "intro": "ECS S7常规赛 重播",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "CS:GO",
+  "user": "imbacsgo频道2",
+  "hot": "10.3万"
+}
+{
+  "intro": "甜过初恋，带粉吃鸡~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "你的娜美呀",
+  "hot": "10.3万"
+}
+{
+  "intro": "【蓝翔】三国弹幕天团[请勿刷屏]",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "山东蓝翔技工学院",
+  "hot": "10.2万"
+}
+{
+  "intro": "【哭红】已吃2859只鸡游戏时长6000",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "哭红",
+  "hot": "10.2万"
+}
+{
+  "intro": "世界第一赵信（官方认证）1秒9吹创始人",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "刀疤城丶你41朵小菊花",
+  "hot": "10.2万"
+}
+{
+  "intro": "又是买买买的商场",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "堡垒之夜",
+  "user": "三仙阿",
+  "hot": "10.1万"
+}
+{
+  "intro": "今天争取做个 枪钢的小仙女^_^",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "CF手游",
+  "user": "小冰曦",
+  "hot": "10.1万"
+}
+{
+  "intro": "《征途2》黄金国战联赛",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "征途2",
+  "user": "斗鱼网游",
+  "hot": "10万"
+}
+{
+  "intro": "这游戏叫冒险岛",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "热门网游",
+  "user": "无限跳票中",
+  "hot": "10万"
+}
+{
+  "intro": "人在斗鱼,不外乎笑一笑,笑着笑着就出不去",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "二次元",
+  "user": "关注破100W的男人",
+  "hot": "9.8万"
+}
+{
+  "intro": "上分中，求锤爆。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "CF手游",
+  "user": "主播余温",
+  "hot": "9.8万"
+}
+{
+  "intro": "胖萱：宝贝送办卡抽永久英雄武器❤",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "穿越火线",
+  "user": "小公主安筱萱",
+  "hot": "9.7万"
+}
+{
+  "intro": "皮不皮就完了！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "主播季屿",
+  "hot": "9.7万"
+}
+{
+  "intro": "131星10国服免费上王者",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "与世无争孤浅",
+  "hot": "9.6万"
+}
+{
+  "intro": "【s1134】经典 科幻 动作 灾难",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "s1134",
+  "hot": "9.6万"
+}
+{
+  "intro": "国服最强露娜 带粉天秀胜率99.8%",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "右手的梦",
+  "hot": "9.6万"
+}
+{
+  "intro": "上午11点抽王者之心之翼",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "穿越火线",
+  "user": "老V丶",
+  "hot": "9.5万"
+}
+{
+  "intro": "一切随缘～～",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "大琳Dalin",
+  "hot": "9.4万"
+}
+{
+  "intro": "在韩国的香港小姐姐",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "小汉娜Hannah",
+  "hot": "9.3万"
+}
+{
+  "intro": "两指同样可以打出经典操作",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "智慧刚丶",
+  "hot": "9.3万"
+}
+{
+  "intro": "第一扎女，包C输了抽奖~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "文伊伊丶",
+  "hot": "9.3万"
+}
+{
+  "intro": "❤女司机逮虾户❤",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "主机游戏",
+  "user": "甜心战士",
+  "hot": "9.2万"
+}
+{
+  "intro": "国服第一老鼠，我要一个打十个！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "瓜皮乐OvO",
+  "hot": "9.2万"
+}
+{
+  "intro": "三亚八十小时不关播第二天",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "555张",
+  "hot": "9.2万"
+}
+{
+  "intro": "彩粉:12套年套！增幅！天空！光环",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DNF",
+  "user": "DNF彩粉",
+  "hot": "9.1万"
+}
+{
+  "intro": "明早6点开播，12点结束。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "欢乐麻将",
+  "user": "红太阳0804",
+  "hot": "9.1万"
+}
+{
+  "intro": "【很甜的幂】路人局有车位喔",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "甜幂QuQ",
+  "hot": "9万"
+}
+{
+  "intro": "Papa 李哥 中单歌手的真实直播间",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DOTA2",
+  "user": "PaparazziS",
+  "hot": "9万"
+}
+{
+  "intro": "可爱迷人的小姐姐",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "酷酷de芝芝呀",
+  "hot": "9万"
+}
+{
+  "intro": "【单排6000分鱼塘局抢空投5.5KD】",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "主播八戒戒",
+  "hot": "8.9万"
+}
+{
+  "intro": "单排女王者-上分恶霸",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "芝哥丫",
+  "hot": "8.8万"
+}
+{
+  "intro": "万古局挣扎的一条小鱼",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DOTA2",
+  "user": "千寻小学妹",
+  "hot": "8.8万"
+}
+{
+  "intro": "【院長】唉唷睡過頭",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "阿春疯人院院长",
+  "hot": "8.8万"
+}
+{
+  "intro": "是菜缘不是锦年",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "QQ飞车",
+  "user": "午夜锦年",
+  "hot": "8.7万"
+}
+{
+  "intro": "【阿雪讲堂】国服第一猴，无敌带粉！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "王者荣耀亦小钢丶",
+  "hot": "8.7万"
+}
+{
+  "intro": "交友/校花妹妹等你/初心，鲨娜冠名",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "约会现场",
+  "user": "遇见一海天盛筵",
+  "hot": "8.6万"
+}
+{
+  "intro": "你的名字，就是我的故事。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "陈颠颠儿",
+  "hot": "8.6万"
+}
+{
+  "intro": "全能选手在线1v4！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "我真不是萧导",
+  "hot": "8.6万"
+}
+{
+  "intro": "千千静听‭‭‭‭‭‭‭‭‭",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "音乐电台",
+  "user": "三千很忙的",
+  "hot": "8.6万"
+}
+{
+  "intro": "今天能钓到50条鱼吗",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "黑哥户外",
+  "hot": "8.6万"
+}
+{
+  "intro": "圆，妙不可言~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "小肉球阿",
+  "hot": "8.6万"
+}
+{
+  "intro": "天秀玄策 木兰 韩信无敌带粉",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "MZ丶鬼毅",
+  "hot": "8.6万"
+}
+{
+  "intro": "美服恐怖可爱寻血犬",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "APEX英雄",
+  "user": "鲨丶鱼王大大",
+  "hot": "8.4万"
+}
+{
+  "intro": "峡谷之巅亚索上个王者目前钻一",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "付小翁",
+  "hot": "8.3万"
+}
+{
+  "intro": "户外走走 巨婴美食娱乐",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "美食",
+  "user": "雪纳瑞三口之家",
+  "hot": "8.3万"
+}
+{
+  "intro": "现在没锅都不好意思和人打招呼",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "魔兽世界",
+  "user": "痴汉万宝路",
+  "hot": "8.3万"
+}
+{
+  "intro": "你的呆头熊",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "闪电熊二",
+  "hot": "8.3万"
+}
+{
+  "intro": "【龙之神途】处处有真情.不抢经验行不行",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "神途",
+  "user": "龙之神途07",
+  "hot": "8.3万"
+}
+{
+  "intro": "一见到你呀……",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "甜星kitty",
+  "hot": "8.2万"
+}
+{
+  "intro": "欢迎，遇见最美的仙岛湖",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "仙岛湖丶清水传奇",
+  "hot": "8.2万"
+}
+{
+  "intro": "文哥八卦:每天早7点直播",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "文哥八卦",
+  "hot": "8.1万"
+}
+{
+  "intro": "『录播』我安静唱 你安静听～",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "音乐电台",
+  "user": "颜采薇儿",
+  "hot": "8.1万"
+}
+{
+  "intro": "一言八卦 儒雅随和",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "一言八卦",
+  "hot": "8.1万"
+}
+{
+  "intro": "高雅直播间直播高雅",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刀塔自走棋",
+  "user": "隔夜茶大人",
+  "hot": "8.1万"
+}
+{
+  "intro": "七哥：12年套补刀年套！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DNF",
+  "user": "尼古拉斯小七丶",
+  "hot": "8.1万"
+}
+{
+  "intro": "【交友】我们最好的遇见/无名哥冠。招主持",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "约会现场",
+  "user": "豚首一与你相遇",
+  "hot": "8万"
+}
+{
+  "intro": "欢迎大家进来听歌",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "喵yoon",
+  "hot": "8万"
+}
+{
+  "intro": "我是喵呜呜鸭",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "魔兽世界",
+  "user": "喵呜呜丶",
+  "hot": "8万"
+}
+{
+  "intro": "来两把鲁班先虐虐菜",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "我叫皮老师",
+  "hot": "8万"
+}
+{
+  "intro": "增幅10-13强化年套搞起",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DNF",
+  "user": "大鹏老湿丶",
+  "hot": "7.9万"
+}
+{
+  "intro": "【表妹】国产青春 动作 喜剧轮播",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "安全套不套",
+  "hot": "7.9万"
+}
+{
+  "intro": "跨一漩涡,欺负罗什!",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DNF",
+  "user": "小蛟",
+  "hot": "7.9万"
+}
+{
+  "intro": "国一典韦带粉99胜率",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "川娱丶小宗",
+  "hot": "7.8万"
+}
+{
+  "intro": "年套！增幅11 12！ 光环 强化 天空",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/4446841_1030.png/dy1",
+  "zone": "DNF",
+  "user": "DNF灰辉",
+  "hot": "12.6万"
+}
+{
+  "intro": "【Jeeee 】今天露脸 吃鸡就送现金",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/4490802_1030.png/dy1",
+  "zone": "APEX英雄",
+  "user": "JeeeeeeeeE丶",
+  "hot": "20万"
+}
+{
+  "intro": "大表哥:蛮王逆版本韩服小号上钻石",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/231008_1029.png/dy1",
+  "zone": "英雄联盟",
+  "user": "宇宙大表哥丶",
+  "hot": "16.3万"
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "电影 欧美 科幻 经典 恐怖 华语周星驰",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/20415_1029.png/dy1",
+  "zone": "一起看",
+  "user": "Sai_C",
+  "hot": "7.8万"
+}
+{
+  "intro": "素右右：早上好哟~",
+  "img": "https://rpic.douyucdn.cn/live-cover/appCovers/2018/05/17/1797614_20180517095218_small.jpg",
+  "zone": "颜值",
+  "user": "素右右yo",
+  "hot": "7.8万"
+}
+{
+  "intro": "【香港赌片】喜剧、黑帮、动作、武侠、经典",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/315457_1029.png/dy1",
+  "zone": "一起看",
+  "user": "吃米滴虫",
+  "hot": "7.8万"
+}
+{
+  "intro": "黄沙水库野钓",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/828705_1029.png/dy1",
+  "zone": "户外",
+  "user": "中华户外钓鱼",
+  "hot": "7.8万"
+}
+{
+  "intro": "快乐风男：教你W杀人~",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/68172_1029.png/dy1",
+  "zone": "英雄联盟",
+  "user": "凉风亚索yasuo",
+  "hot": "7.8万"
+}
+{
+  "intro": "办卡抽王者炫金英雄级 飞机永久玩号",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/292797_1029.png/dy1",
+  "zone": "穿越火线",
+  "user": "大猫是谁哇哇",
+  "hot": "7.7万"
+}
+{
+  "intro": "大型极限野炊",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/5850311_1030.png/dy1",
+  "zone": "美食",
+  "user": "628丶老字號",
+  "hot": "7.7万"
+}
+{
+  "intro": "【贝贝】来自哈尔滨萌新主播求关注~",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/5970074_1032_6.png/dy1",
+  "zone": "绝地求生",
+  "user": "贝贝ov",
+  "hot": "7.7万"
+}
+{
+  "intro": "录/有人陪 谁愿意一个人孤独流浪 歌曲数",
+  "img": "https://rpic.douyucdn.cn/live-cover/roomCover/2019/03/15/0c014e795f0121e8178ecf7e150a1c28.jpg",
+  "zone": "音乐电台",
+  "user": "米嘉Mika",
+  "hot": "7.7万"
+}
+{
+  "intro": "话痨绅：赤裸裸的报复！",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/45662_1029.png/dy1",
+  "zone": "魔兽世界",
+  "user": "AC绅士向",
+  "hot": "7.7万"
+}
+{
+  "intro": "炫石八卦一哥：披荆斩棘，勇敢前行！",
+  "img": "https://rpic.douyucdn.cn/live-cover/roomCover/cover_update/2018/12/17/9247050fe9726c9fde40fd7b655d5a18.jpg",
+  "zone": "户外",
+  "user": "炫石丶风云八卦",
+  "hot": "7.7万"
+}
+{
+  "intro": "飞机永久车位的！国服鲁班后羿在线赔钱",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/4425665_1032_26.png/dy1",
+  "zone": "王者荣耀",
+  "user": "飞扬小弟",
+  "hot": "7.6万"
+}
+{
+  "intro": "無極 4389730",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/4389730_1030.png/dy1",
+  "zone": "逆水寒",
+  "user": "丨愿得一人丶心",
+  "hot": "7.6万"
+}
+{
+  "intro": "吾单：峡谷第2 王者1726",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/316336_1029.png/dy1",
+  "zone": "英雄联盟",
+  "user": "吾单丶丶丶",
+  "hot": "7.5万"
+}
+{
+  "intro": "钻 2 冲冲冲！",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/2636_1029.png/dy1",
+  "zone": "英雄联盟",
+  "user": "琦琦7",
+  "hot": "7.5万"
+}
+{
+  "intro": "无心印 ADの王峡谷70胜率宗师",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/103755_1029.png/dy1",
+  "zone": "英雄联盟",
+  "user": "圣枪游侠无心印y",
+  "hot": "7.4万"
+}
+{
+  "intro": "性感猪播，在线养鲲！！！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "主机游戏",
+  "user": "盖世猪猪丶",
+  "hot": "7.4万"
+}
+{
+  "intro": "【花卷陪看】真人陪看花卷陪你看电影",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "春卷大师",
+  "hot": "7.4万"
+}
+{
+  "intro": "国服三指杨玉环",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "高叫",
+  "hot": "7.3万"
+}
+{
+  "intro": "声优妮：今天是略略略的一天 ❤",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "黑川优姬",
+  "hot": "7.3万"
+}
+{
+  "intro": "今天总不能排到气死人的队友了吧！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DOTA",
+  "user": "渣萌大表哥丨",
+  "hot": "7.2万"
+}
+{
+  "intro": "全职业直播PK教学：新版剑帝华丽爆炸伤害",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DNF",
+  "user": "DNF凤凰羽",
+  "hot": "7.2万"
+}
+{
+  "intro": "魔兽争霸3~精彩视频~LioN大帝解说",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "魔兽争霸",
+  "user": "大帝LioN",
+  "hot": "7.2万"
+}
+{
+  "intro": "单排选手的细腻操作63-76",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "蓝澈呀",
+  "hot": "7.2万"
+}
+{
+  "intro": "王：大家想要什么礼物、偷笑",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "军事游戏",
+  "user": "火色的王老湿",
+  "hot": "7.1万"
+}
+{
+  "intro": "【小片片说大片】片荒的日子找片片",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "原创IP",
+  "user": "小片片说大片",
+  "hot": "7.1万"
+}
+{
+  "intro": "滚啊。。烦死了",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "语语UvU",
+  "hot": "7.1万"
+}
+{
+  "intro": "上单剑圣！从零单排！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "91陈大G",
+  "hot": "7万"
+}
+{
+  "intro": "两仪：无情单排，怒上皇后",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "炉石传说",
+  "user": "两仪未娜丶",
+  "hot": "7万"
+}
+{
+  "intro": "一统海岛，指日可待！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "众竞丶FSM阿灿",
+  "hot": "7万"
+}
+{
+  "intro": "17苞米：fpp",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "bom1n",
+  "hot": "7万"
+}
+{
+  "intro": "新版天使上单屠杀砖石上王者！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "龙大根zz",
+  "hot": "7万"
+}
+{
+  "intro": "清晨屠夫点播机",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "第5人格",
+  "user": "汪团长",
+  "hot": "7万"
+}
+{
+  "intro": "国服鲁班请求出战",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "喵吉",
+  "hot": "6.9万"
+}
+{
+  "intro": "认真打DOTA！！！！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DOTA2",
+  "user": "南财杀戮秀",
+  "hot": "6.8万"
+}
+{
+  "intro": "正义会迟到，但不会缺席",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "魔兽世界",
+  "user": "圈圈蜀黍",
+  "hot": "6.8万"
+}
+{
+  "intro": "皇后来来回回",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刀塔自走棋",
+  "user": "华府丶csy影",
+  "hot": "6.8万"
+}
+{
+  "intro": "这个世界有时候就是这样~~~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "舒雅大魔王",
+  "hot": "6.7万"
+}
+{
+  "intro": "【斗鱼最强资源】24H韩国女团超清",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "二次元",
+  "user": "我们可爱的程程",
+  "hot": "6.7万"
+}
+{
+  "intro": "千寻雅：我超猛的～",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "千寻雅",
+  "hot": "6.6万"
+}
+{
+  "intro": "再赌狗我就是猪",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刀塔自走棋",
+  "user": "少女鱼FishAhHa",
+  "hot": "6.6万"
+}
+{
+  "intro": "流浪地球720小时",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "东北郭老二",
+  "hot": "6.5万"
+}
+{
+  "intro": "【贝爷影厅2号厅】世界电影大全",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "酷炫小剧场",
+  "hot": "6.5万"
+}
+{
+  "intro": "【小包子陪看】最早港剧点播",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "地瓜小弟",
+  "hot": "6.5万"
+}
+{
+  "intro": "QQ区带粉开车啦 又菜又爱玩 ❤",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "喵大大zr",
+  "hot": "6.5万"
+}
+{
+  "intro": "一首歌，一个故事~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "音乐电台",
+  "user": "念唸惗",
+  "hot": "6.5万"
+}
+{
+  "intro": "12点抽12套年套+5亿游戏币亲情打造！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DNF",
+  "user": "可乐网吧",
+  "hot": "6.5万"
+}
+{
+  "intro": "施坦威皇冠珠宝钢琴了解一下？",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "二次元",
+  "user": "妙音巧奇",
+  "hot": "6.4万"
+}
+{
+  "intro": "蓝绿：不是标题党!~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "蓝绿呀",
+  "hot": "6.4万"
+}
+{
+  "intro": "美神:中午隐形的守护者",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "主机游戏",
+  "user": "超级花美男",
+  "hot": "6.4万"
+}
+{
+  "intro": "晚安呀小可爱~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "音乐电台",
+  "user": "孙紫涵s",
+  "hot": "6.4万"
+}
+{
+  "intro": "跳舞小改改",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "罂粟可可儿",
+  "hot": "6.4万"
+}
+{
+  "intro": "没事下下棋 ID",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "主机游戏",
+  "user": "这个ID很流弊",
+  "hot": "6.4万"
+}
+{
+  "intro": "与粉丝双排上荣耀",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "杰锐丶",
+  "hot": "6.3万"
+}
+{
+  "intro": "想把我唱给你听 2549450",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "音乐",
+  "user": "LikeMoon如月",
+  "hot": "6.3万"
+}
+{
+  "intro": "小哥青钢影：腿长两米，一脚千伤！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "小哥青钢影cc",
+  "hot": "6.3万"
+}
+{
+  "intro": "鱼栏，丝网一起来",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "八零后户外",
+  "hot": "6.3万"
+}
+{
+  "intro": "听说，你在找我",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "声优奺",
+  "hot": "6.3万"
+}
+{
+  "intro": "舟：凶残野王，恐怖如斯。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "Zhou_",
+  "hot": "6.3万"
+}
+{
+  "intro": "老实人带粉时间！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "老实人很优秀",
+  "hot": "6.2万"
+}
+{
+  "intro": "山川河流 大梦一场",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "FM233",
+  "user": "阿泓小仙女",
+  "hot": "6.2万"
+}
+{
+  "intro": "西北野王—时间差反野教你轻松上分",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "卷子丶",
+  "hot": "6.2万"
+}
+{
+  "intro": "招真爱房管 4531135",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "哎呀哈呀呀mmm",
+  "hot": "6.2万"
+}
+{
+  "intro": "钢枪王者在线求喷子安排",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "奇法丶",
+  "hot": "6.2万"
+}
+{
+  "intro": "有人迷途知返 但是苦盡甘來",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "FM233",
+  "user": "薄凉哟",
+  "hot": "6.2万"
+}
+{
+  "intro": "【魔渊之刃】★压力测试最后一天",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "新游中心",
+  "user": "三黄猫",
+  "hot": "6.2万"
+}
+{
+  "intro": "（秀不起来请举报）",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "探灵笔记",
+  "user": "摇摇摇摇光",
+  "hot": "6.1万"
+}
+{
+  "intro": "补分中休息几天后见",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "二次元",
+  "user": "温柔善良的雪雪",
+  "hot": "6.1万"
+}
+{
+  "intro": "你的劫王黄升亮",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "空大的劫zz",
+  "hot": "6.1万"
+}
+{
+  "intro": "听说爱笑的女孩运气不会差",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "Wuli伊凡",
+  "hot": "6.1万"
+}
+{
+  "intro": "【老六】圣歌~今天出金装了吗~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "主机游戏",
+  "user": "六爷直播",
+  "hot": "6.1万"
+}
+{
+  "intro": "全网最强刘备，不服来看",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "刘小备105415",
+  "hot": "6.1万"
+}
+{
+  "intro": "第一老卡特：屠杀盛宴",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "波波卡特0411",
+  "hot": "6万"
+}
+{
+  "intro": "kenshi（剑士），废土世界艰难求生！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "主机游戏",
+  "user": "陡壁饥荒",
+  "hot": "6万"
+}
+{
+  "intro": "悲伤:激情抽奖在线强怼！！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "QQ飞车端游",
+  "user": "悲伤解说丶崔金",
+  "hot": "6万"
+}
+{
+  "intro": "微信区带粉上分帮打号",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "君顾9527",
+  "hot": "6万"
+}
+{
+  "intro": "玩哈新区等合区",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "天涯明月刀",
+  "user": "贝茨旅馆266号房",
+  "hot": "6万"
+}
+{
+  "intro": "一个努力带粉渡劫的老妹~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "渝万丶葡萄",
+  "hot": "6万"
+}
+{
+  "intro": "三国战纪：各类修改版本",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "怀旧游戏",
+  "user": "douyu素酒",
+  "hot": "6万"
+}
+{
+  "intro": "兰晨：最强辛德拉 王者冲峡谷1000",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "兰晨丶",
+  "hot": "5.9万"
+}
+{
+  "intro": "【贝贝】我也来斗鱼啦~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "baby丶贝贝",
+  "hot": "5.9万"
+}
+{
+  "intro": "【贝爷】站在食物链顶端的男人！ 4332",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "狂拽酷炫",
+  "hot": "5.9万"
+}
+{
+  "intro": "福建小姐姐办卡上车哦",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "艾阿颜",
+  "hot": "5.9万"
+}
+{
+  "intro": "又菜又凶！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "666蛙",
+  "hot": "5.9万"
+}
+{
+  "intro": "雷顿：还有人想打渣渣辉的吗",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "怪物猎人",
+  "user": "少女雷顿",
+  "hot": "5.9万"
+}
+{
+  "intro": "你说故事，我唱情歌",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "音乐电台",
+  "user": "Memory陈美丽",
+  "hot": "5.9万"
+}
+{
+  "intro": "看号：细节提升",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DNF",
+  "user": "主播轩辕",
+  "hot": "5.9万"
+}
+{
+  "intro": "IMBA爱华的直播间",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "CS:GO",
+  "user": "IMBA爱华",
+  "hot": "5.9万"
+}
+{
+  "intro": "【牛叔】几分钟看完各种美国大片",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "原创IP",
+  "user": "牛叔说电影",
+  "hot": "5.9万"
+}
+{
+  "intro": "今天还是猫片主播♥~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "甜发财",
+  "hot": "5.9万"
+}
+{
+  "intro": "谁是三国第一谋士？",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "三国杀",
+  "user": "猴子三国杀",
+  "hot": "5.8万"
+}
+{
+  "intro": "蹦嚓：一架飞机永久玩号，办卡抽神器",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "穿越火线",
+  "user": "主播蹦嚓149435",
+  "hot": "5.8万"
+}
+{
+  "intro": "我承受了大师不该有的压力",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "守望先锋",
+  "user": "小光YA",
+  "hot": "5.8万"
+}
+{
+  "intro": "后土啊：烟妹天秀带妹局",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "APEX英雄",
+  "user": "后土啊",
+  "hot": "5.8万"
+}
+{
+  "intro": "国服榜一芈月帮房管上荣耀",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "萧浪月",
+  "hot": "5.8万"
+}
+{
+  "intro": "韩信带五排，最专业的王牌指挥",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "阿潴丶丶",
+  "hot": "5.8万"
+}
+{
+  "intro": "NO.1极难团数",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "主机游戏",
+  "user": "白白的胖胖呀",
+  "hot": "5.8万"
+}
+{
+  "intro": "王牌局带水友上分.办卡上车咯",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "老街学长",
+  "hot": "5.7万"
+}
+{
+  "intro": "三月120h 网晒好了打鱼了",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "音乐",
+  "user": "吃饱了面面阿",
+  "hot": "5.7万"
+}
+{
+  "intro": "天鲲核心变异过载觉醒石九死一生排位",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "逆战",
+  "user": "萧涵是直男",
+  "hot": "5.7万"
+}
+{
+  "intro": "郑州80it：小白搞机防坑",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "数码科技",
+  "user": "80it电脑网",
+  "hot": "5.7万"
+}
+{
+  "intro": "仙女瑶： ♥有车位♥",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "嘟嘟瑶OvO",
+  "hot": "5.7万"
+}
+{
+  "intro": "户外活动 ～减肥我是认真的",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "初哥户外",
+  "hot": "5.7万"
+}
+{
+  "intro": "这个”变声器“你喜欢吗",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "一一小姐丶",
+  "hot": "5.6万"
+}
+{
+  "intro": "【小贤】青春爱情 高能爆笑",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "曾小贤兒",
+  "hot": "5.6万"
+}
+{
+  "intro": "复古暗黑1.80金币版震撼开启",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "神途",
+  "user": "神途专业主播",
+  "hot": "5.6万"
+}
+{
+  "intro": "赛季末百星带粉一飞机上王者福利！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "思如遥望",
+  "hot": "5.5万"
+}
+{
+  "intro": "性感小艺 在线吃鸡",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "小艺mia",
+  "hot": "5.5万"
+}
+{
+  "intro": "认证号路人解压局",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "陈海的直播间",
+  "hot": "5.5万"
+}
+{
+  "intro": "解说西朴：你们的散财童子又回来辣",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "解说西朴",
+  "hot": "5.5万"
+}
+{
+  "intro": "大家好啊嘻嘻嘻嘻。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "守望先锋",
+  "user": "工口工口工口",
+  "hot": "5.5万"
+}
+{
+  "intro": "死鬼 别在错过你的淼",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "逆战",
+  "user": "PE李淼淼",
+  "hot": "5.5万"
+}
+{
+  "intro": "峡谷单排王者900点，鱼人战神白色风车！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "白色风车丶丶丶丶",
+  "hot": "5.5万"
+}
+{
+  "intro": "一起玩apex么咯 突脸白给的呦",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "APEX英雄",
+  "user": "VTA丶末",
+  "hot": "5.4万"
+}
+{
+  "intro": "不要方。小场面！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DOTA2",
+  "user": "wenshen589",
+  "hot": "5.4万"
+}
+{
+  "intro": "小号冲荣耀啦~双区双系统",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "不秀小仙女",
+  "hot": "5.4万"
+}
+{
+  "intro": "【野食小哥】更新啦！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "美食",
+  "user": "野食小哥",
+  "hot": "5.4万"
+}
+{
+  "intro": "晚晚：单排女武神",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "守望先锋",
+  "user": "晚晚呦",
+  "hot": "5.4万"
+}
+{
+  "intro": "世界顶级单人四排!6倍无后座！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "苦茶先森",
+  "hot": "5.4万"
+}
+{
+  "intro": "陌生人你有多努力就有多优秀，加油哦！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "倪的小圈圈",
+  "hot": "5.4万"
+}
+{
+  "intro": "年套！增幅11 12！ 光环 强化 天空",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/4446841_1030.png/dy1",
+  "zone": "DNF",
+  "user": "DNF灰辉",
+  "hot": "12.6万"
+}
+{
+  "intro": "【Jeeee 】今天露脸 吃鸡就送现金",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/4490802_1030.png/dy1",
+  "zone": "APEX英雄",
+  "user": "JeeeeeeeeE丶",
+  "hot": "20万"
+}
+{
+  "intro": "大表哥:蛮王逆版本韩服小号上钻石",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/231008_1029.png/dy1",
+  "zone": "英雄联盟",
+  "user": "宇宙大表哥丶",
+  "hot": "16.3万"
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "不要方。小场面！",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/244290_1029.png/dy1",
+  "zone": "DOTA2",
+  "user": "wenshen589",
+  "hot": "5.4万"
+}
+{
+  "intro": "世界顶级单人四排!6倍无后座！",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/5436766_1032_66.png/dy1",
+  "zone": "绝地求生",
+  "user": "苦茶先森",
+  "hot": "5.4万"
+}
+{
+  "intro": "小号冲荣耀啦~双区双系统",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/6367728_1031_76.png/dy1",
+  "zone": "王者荣耀",
+  "user": "不秀小仙女",
+  "hot": "5.4万"
+}
+{
+  "intro": "晚晚：单排女武神",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/4514420_1030.png/dy1",
+  "zone": "守望先锋",
+  "user": "晚晚呦",
+  "hot": "5.4万"
+}
+{
+  "intro": "【丹尼尔】免费领1000金币",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/2012150_1030.png/dy1",
+  "zone": "APEX英雄",
+  "user": "Tea丹尼尔",
+  "hot": "5.3万"
+}
+{
+  "intro": "小生来装机了！",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/304391_1029.png/dy1",
+  "zone": "数码科技",
+  "user": "黑冰科技",
+  "hot": "5.3万"
+}
+{
+  "intro": "全军最狠手搓M16 S12K",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/3320243_1030.png/dy1",
+  "zone": "全军出击",
+  "user": "紫茎泽兰大叔",
+  "hot": "5.3万"
+}
+{
+  "intro": "超强反应 灵动指法 带粉炸岛",
+  "img": "https://rpic.douyucdn.cn/live-cover/roomCover/cover_update/2019/02/15/05e0db253e0df5d3b2994309b2f4f027.jpg",
+  "zone": "刺激战场",
+  "user": "dy熊舒舒",
+  "hot": "5.3万"
+}
+{
+  "intro": "洪兴十三妹，花样成盒了解一下？",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/608389_0053.png/dy1",
+  "zone": "刺激战场",
+  "user": "娇儿Sugar",
+  "hot": "5.3万"
+}
+{
+  "intro": "天鲲核心飞机，今日登陆送永久",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/6093523_1031.png/dy1",
+  "zone": "逆战",
+  "user": "烧饼哥呀",
+  "hot": "5.3万"
+}
+{
+  "intro": "勿以心安何以为安",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/5330975_1030.png/dy1",
+  "zone": "逆战",
+  "user": "E十丶娜娜",
+  "hot": "5.3万"
+}
+{
+  "intro": "咦？我队友呢？",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/3676368_1030.png/dy1",
+  "zone": "APEX英雄",
+  "user": "天才少女小螃蟹",
+  "hot": "5.3万"
+}
+{
+  "intro": "光环深渊盒子天空补刀碰瓷丨永久免费混团",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/577707_1029.png/dy1",
+  "zone": "DNF",
+  "user": "九门丶胡汉九",
+  "hot": "5.3万"
+}
+{
+  "intro": "我知道被疼是一种运气",
+  "img": "https://rpic.douyucdn.cn/live-cover/appCovers/2019/03/11/4463647_20190311180636_small.jpg",
+  "zone": "颜值",
+  "user": "你的美鹿",
+  "hot": "5.2万"
+}
+{
+  "intro": "内斯塔~安静的踢球~自闭的合卡",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/291313_1029.png/dy1",
+  "zone": "FIFA ONLINE 4",
+  "user": "SH内斯塔",
+  "hot": "5.2万"
+}
+{
+  "intro": "主播操作好心态棒实属难得",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/526408_1029.png/dy1",
+  "zone": "英雄联盟",
+  "user": "良人与猫zzz",
+  "hot": "5.2万"
+}
+{
+  "intro": "单人四排自闭城，场均20杀",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "我叫mvp呀",
+  "hot": "5.2万"
+}
+{
+  "intro": "摸鱼走起！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "狼叔行天下",
+  "hot": "5.2万"
+}
+{
+  "intro": "檬哥：“小狙神”定级、上分中",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "穿越火线",
+  "user": "柠檬LemonQueen",
+  "hot": "5.2万"
+}
+{
+  "intro": "努力向上嘿嘿636319",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "艺昕酱",
+  "hot": "5.2万"
+}
+{
+  "intro": "好想每天都在你左右",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "蔓崽睡醒了",
+  "hot": "5.1万"
+}
+{
+  "intro": "第一王者男枪在线打枪",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "无敌男枪张学友",
+  "hot": "5.1万"
+}
+{
+  "intro": "皇妹：ლ(′◉❥◉｀ლ)",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "单手解bras",
+  "hot": "5万"
+}
+{
+  "intro": "【交友】招收优质女主持/顶坑嘉宾",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "约会现场",
+  "user": "巅峰一王者归来",
+  "hot": "5万"
+}
+{
+  "intro": "【小鸽陪看】动作 枪战 华语 经典",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "萌小鬼",
+  "hot": "5万"
+}
+{
+  "intro": "apex自闭美少女",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "APEX英雄",
+  "user": "可爱雯呀",
+  "hot": "5万"
+}
+{
+  "intro": "最可爱的百星带粉小主播，帮房管荣耀ing",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "勉强职业带粉",
+  "hot": "5万"
+}
+{
+  "intro": "想拥有超能力！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "逆战",
+  "user": "PE气质哥嘉宝",
+  "hot": "4.9万"
+}
+{
+  "intro": "今晚8点美女盛宴",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "约会现场",
+  "user": "遇见一超级巨星",
+  "hot": "4.9万"
+}
+{
+  "intro": "全职业PK匹配（空闲）",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DNF",
+  "user": "全职pk惜别",
+  "hot": "4.9万"
+}
+{
+  "intro": "期待不期而遇的惊喜QAQ",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "小韩韩吖QAQ",
+  "hot": "4.9万"
+}
+{
+  "intro": "三元礼物抽炫金雷神",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "穿越火线",
+  "user": "婷久丶529军团",
+  "hot": "4.9万"
+}
+{
+  "intro": "三文鱼帝王鲑",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "美食",
+  "user": "大连哥俩刺身",
+  "hot": "4.9万"
+}
+{
+  "intro": "【刀刀】来斗鱼啦 求关注哦！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "伊太刀刀",
+  "hot": "4.9万"
+}
+{
+  "intro": "佛系玩家。。。。。。。。。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "方舟：生存进化",
+  "user": "渝万丶非凡",
+  "hot": "4.8万"
+}
+{
+  "intro": "【动漫屋】鸟山明 赛亚人 热血",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "二次元",
+  "user": "傲娇的超级赛亚人",
+  "hot": "4.8万"
+}
+{
+  "intro": "国服老虎李白带粉连胜摘星!",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "余温strong",
+  "hot": "4.8万"
+}
+{
+  "intro": "【普林斯晋】败者组毒瘤 ...",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "皇室战争",
+  "user": "Prince灬尜瑨",
+  "hot": "4.8万"
+}
+{
+  "intro": "【林正英】 僵尸 恐怖片 鬼片 国外",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "久了旧知",
+  "hot": "4.8万"
+}
+{
+  "intro": "安排的明明白白 5935857",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "向东nice",
+  "hot": "4.8万"
+}
+{
+  "intro": "0632钓场 400的黑坑！！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "贱贱钓鱼",
+  "hot": "4.8万"
+}
+{
+  "intro": "20分钟800Q狗头 套路狗头1V5",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "三江丶小然",
+  "hot": "4.8万"
+}
+{
+  "intro": "二胖★全境封锁2肝爆，疯狂肝肝肝",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "全境封锁",
+  "user": "一本正经的二胖子",
+  "hot": "4.8万"
+}
+{
+  "intro": "不洗牌！满级卡神的魅力丶",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "欢乐斗地主",
+  "user": "避风港丶老顽童",
+  "hot": "4.7万"
+}
+{
+  "intro": "冲刺大师！ 爆灯送满级或者改装配件",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "QQ飞车端游",
+  "user": "DY丶棒棒",
+  "hot": "4.7万"
+}
+{
+  "intro": "白虎玄策陪玩专场 办卡上车全天飞机包车",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "良辰打野贼6丶",
+  "hot": "4.7万"
+}
+{
+  "intro": "晚些国服开车哟！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "守望先锋",
+  "user": "若若IRIS",
+  "hot": "4.7万"
+}
+{
+  "intro": "【修修-战就战】：感谢耳机的飞机。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "魔兽争霸",
+  "user": "修修1994",
+  "hot": "4.7万"
+}
+{
+  "intro": "【交友】妹妹都在等你",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "约会现场",
+  "user": "遇见一你最珍贵",
+  "hot": "4.7万"
+}
+{
+  "intro": "阳光指数满天星",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "呆萌灵丶mm",
+  "hot": "4.7万"
+}
+{
+  "intro": "3月16日，性感主播，在线咳嗽",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "Aura阿茶",
+  "hot": "4.6万"
+}
+{
+  "intro": "西瓜：使劲打打",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "CS:GO",
+  "user": "CSGO西瓜",
+  "hot": "4.6万"
+}
+{
+  "intro": "❤鲜夕阳❤ 新人斗鱼首播 求订阅~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "鲜夕阳",
+  "hot": "4.6万"
+}
+{
+  "intro": "声优小姐姐的音乐直播间微信王者局上车滴滴",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "Baby依依11",
+  "hot": "4.6万"
+}
+{
+  "intro": "iGAME 家族大联动",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "数码科技",
+  "user": "carry电竞俱乐部",
+  "hot": "4.6万"
+}
+{
+  "intro": "日常窝警下的预言家天敌~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "狼人杀",
+  "user": "じò依依菟ò",
+  "hot": "4.6万"
+}
+{
+  "intro": "数千小时KD 0.3 呵呵",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "你的网友小董",
+  "hot": "4.6万"
+}
+{
+  "intro": "芳华是一指流沙",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "张一芯o",
+  "hot": "4.6万"
+}
+{
+  "intro": "办卡免费抽炫金王者神器呀",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "穿越火线",
+  "user": "小脑妹",
+  "hot": "4.6万"
+}
+{
+  "intro": "带你领略，珠宝玉石文化",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "正能量",
+  "user": "中憬珠宝569349",
+  "hot": "4.6万"
+}
+{
+  "intro": "{有车位} 一起吗❤️",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "是你的二狗呀",
+  "hot": "4.6万"
+}
+{
+  "intro": "野外吃到你不想吃",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "乔治麦克",
+  "hot": "4.6万"
+}
+{
+  "intro": "双冰龙蚂蚱创始人若雨",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "Douyu若雨",
+  "hot": "4.5万"
+}
+{
+  "intro": "❤Mimi❤眼熟一下嘛~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "栀音c",
+  "hot": "4.5万"
+}
+{
+  "intro": "金庸武侠、古装神剧",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "傲娇的虾虾",
+  "hot": "4.5万"
+}
+{
+  "intro": "刀哥亚索 钻石屠杀",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "刀皇CyberMan",
+  "hot": "4.5万"
+}
+{
+  "intro": "西双版纳易武普洱茶",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "越南皇上",
+  "hot": "4.5万"
+}
+{
+  "intro": "沈欲疯：疯狂挨揍呜呜呜！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "守望先锋",
+  "user": "沈欲疯",
+  "hot": "4.5万"
+}
+{
+  "intro": "年度最佳前男友！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "猫仔丶King",
+  "hot": "4.5万"
+}
+{
+  "intro": "Pc琦涵❥欧美❥科幻❥经典❥恐怖",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "Pc琦涵",
+  "hot": "4.4万"
+}
+{
+  "intro": "阿飞：感冒了额，可能话会少點~~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DOTA2",
+  "user": "小鹏鹏",
+  "hot": "4.4万"
+}
+{
+  "intro": "我猜你想我了！！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "阮绵绵童鞋",
+  "hot": "4.4万"
+}
+{
+  "intro": "【欧美车】救救孩子 爸爸们来互动互动吧",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "陈多多不是陈少少",
+  "hot": "4.4万"
+}
+{
+  "intro": "天际边缘的世界线 二次元的湫霜椿落",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "二次元",
+  "user": "小吃街b",
+  "hot": "4.4万"
+}
+{
+  "intro": "国服最强边境鸡皇，热血屠戮，正在上演",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "FeiYu丶鸡仙",
+  "hot": "4.4万"
+}
+{
+  "intro": "声优源：天才少年十杀保底，有车位就上",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "邻居家的阿源哥哥",
+  "hot": "4.4万"
+}
+{
+  "intro": "暴雪影院-得入暴雪门，无悔游人生",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "炉石传说",
+  "user": "暴雪游戏频道",
+  "hot": "4.4万"
+}
+{
+  "intro": "在线写作业",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "小马儿em",
+  "hot": "4.4万"
+}
+{
+  "intro": "失踪人口回归 5758395",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DOTA",
+  "user": "DOTA迷恋酒",
+  "hot": "4.4万"
+}
+{
+  "intro": "【小宇】科幻 灾难 动作 喜剧",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "Rainsunn",
+  "hot": "4.4万"
+}
+{
+  "intro": "佛山SVP萌妹在线求带滴滴滴滴~~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "小兮姑娘",
+  "hot": "4.4万"
+}
+{
+  "intro": "联力O11雷蛇 分体水冷",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "数码科技",
+  "user": "BRO兄弟水冷",
+  "hot": "4.4万"
+}
+{
+  "intro": "我以心动的名义逮捕你，麻烦你和我走一趟",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "涵曦521",
+  "hot": "4.4万"
+}
+{
+  "intro": "韩国小姐姐 5625225",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "李在悧LEEJ",
+  "hot": "4.3万"
+}
+{
+  "intro": "【冲榜挑战】新版本测试猎人强度~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刀塔自走棋",
+  "user": "畅咕咕dei",
+  "hot": "4.3万"
+}
+{
+  "intro": "科伦：祝大家周末愉快~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "NBA2KOL2",
+  "user": "Akira加油科伦",
+  "hot": "4.3万"
+}
+{
+  "intro": "我回来了小可爱们",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "甜八百",
+  "hot": "4.3万"
+}
+{
+  "intro": "带你领略翡翠传承",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "中憬翡翠文化传扬",
+  "hot": "4.3万"
+}
+{
+  "intro": "成都酷冷攒机 开学季装机进行中",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "数码科技",
+  "user": "成都酷冷科技",
+  "hot": "4.3万"
+}
+{
+  "intro": "【耳语】她在狂笑",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "APEX英雄",
+  "user": "耳语小姐姐",
+  "hot": "4.3万"
+}
+{
+  "intro": "【竖屏专用】二次元走进现实精选女团",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "二次元",
+  "user": "竖屏的狐狸",
+  "hot": "4.3万"
+}
+{
+  "intro": "坏北：开开心心又是一天",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "主机游戏",
+  "user": "菜龟77",
+  "hot": "4.3万"
+}
+{
+  "intro": "性感宝贝在线挨打。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "守望先锋",
+  "user": "BigYa44198",
+  "hot": "4.3万"
+}
+{
+  "intro": "闲人免进！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "二次元",
+  "user": "好莱坞影片",
+  "hot": "4.2万"
+}
+{
+  "intro": "白龙韩信 性感带粉 26星以下随便屠杀",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "渝万丶半阳",
+  "hot": "4.2万"
+}
+{
+  "intro": "郑州改装诗：七彩虹1660直播游戏测试",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "数码科技",
+  "user": "改装诗",
+  "hot": "4.2万"
+}
+{
+  "intro": "❤睡前故事，大家晚安哦❤",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "FM233",
+  "user": "小月月月月月QwQ",
+  "hot": "4.2万"
+}
+{
+  "intro": "█80邪神合击██好玩不变态█打金合击█",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "传奇",
+  "user": "80星王合击散人服",
+  "hot": "4.2万"
+}
+{
+  "intro": "我是一个美貌与技术并存的美少女战士",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "Meal猫宅妹",
+  "hot": "4.2万"
+}
+{
+  "intro": "天7来了。增幅强化星空光环",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DNF",
+  "user": "小明不是旧事甚歉",
+  "hot": "4.2万"
+}
+{
+  "intro": "【德哥 贝爷】24小时直播",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "科普",
+  "user": "酷炫你你你",
+  "hot": "4.2万"
+}
+{
+  "intro": "R直播|一起撕名牌24时全民乐翻天",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "詹姆斯龚",
+  "hot": "4.2万"
+}
+{
+  "intro": "带两位大哥上荣耀",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "请叫我龍Sir",
+  "hot": "4.2万"
+}
+{
+  "intro": "真香火锅·~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "魔兽世界",
+  "user": "Sunny蘭兰兰丶",
+  "hot": "4.2万"
+}
+{
+  "intro": "野山参集市……",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "中华人参王",
+  "hot": "4.2万"
+}
+{
+  "intro": "钢枪一时爽，一直钢枪一直爽！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "沫里的春天",
+  "hot": "4.2万"
+}
+{
+  "intro": "S8快完了，还没车神的快进来～～",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "QQ飞车",
+  "user": "小恒很帅",
+  "hot": "4.1万"
+}
+{
+  "intro": "小伙子，上车么？",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "超级大元宵",
+  "hot": "4.1万"
+}
+{
+  "intro": "10点35开播",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "主播海涛",
+  "hot": "4.1万"
+}
+{
+  "intro": "二蛋：开心~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "街头篮球",
+  "user": "二蛋的天222",
+  "hot": "4.1万"
+}
+{
+  "intro": "个竞200杀10年狙神抽奖上号寻真爱粉",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "穿越火线",
+  "user": "湖南个竞狙神宝锅",
+  "hot": "4.1万"
+}
+{
+  "intro": "春暖花开～收一个地龙～有货？",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "补缝的汉子",
+  "hot": "4.1万"
+}
+{
+  "intro": "3.5亿开始",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "欢乐斗地主",
+  "user": "曾经是何年",
+  "hot": "4万"
+}
+{
+  "intro": "如果有人陪，谁愿意一个人孤独流浪",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "秀秀一冉吖",
+  "hot": "4万"
+}
+{
+  "intro": "点皇独家冠名播出",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "沉迷直播的林小小",
+  "hot": "4万"
+}
+{
+  "intro": "♥♥ ８０星王合击♥♥今日首区",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "传奇",
+  "user": "逆天丶小哥哥",
+  "hot": "4万"
+}
+{
+  "intro": "很烦打游戏埋怨人的人，如果你是以后别来这",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "CF手游",
+  "user": "杀戮泡沫",
+  "hot": "4万"
+}
+{
+  "intro": "宇宙级后羿单排冲101星！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "农药走a王",
+  "hot": "4万"
+}
+{
+  "intro": "直女橙：你的6000分宝藏女孩",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "橙妹summer",
+  "hot": "4万"
+}
+{
+  "intro": "感谢我小徒弟荣升伯爵！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "逆战",
+  "user": "渝万丶馨儿",
+  "hot": "4万"
+}
+{
+  "intro": "年套！增幅11 12！ 光环 强化 天空",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/4446841_1030.png/dy1",
+  "zone": "DNF",
+  "user": "DNF灰辉",
+  "hot": "12.6万"
+}
+{
+  "intro": "【Jeeee 】今天露脸 吃鸡就送现金",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/4490802_1030.png/dy1",
+  "zone": "APEX英雄",
+  "user": "JeeeeeeeeE丶",
+  "hot": "20万"
+}
+{
+  "intro": "大表哥:蛮王逆版本韩服小号上钻石",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/231008_1029.png/dy1",
+  "zone": "英雄联盟",
+  "user": "宇宙大表哥丶",
+  "hot": "16.3万"
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "",
+  "user": "",
+  "hot": ""
+}
+{
+  "intro": "今天请个假",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/831528_1029.png/dy1",
+  "zone": "刀塔自走棋",
+  "user": "Em丶丶",
+  "hot": "4万"
+}
+{
+  "intro": "年套 天空1-8件你说了算",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/1991821_1030.png/dy1",
+  "zone": "DNF",
+  "user": "只愛大波浪",
+  "hot": "4万"
+}
+{
+  "intro": "全职业PK.(空闲）点歌台",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/457231_1029.png/dy1",
+  "zone": "DNF",
+  "user": "恭丶喜丶發丶財",
+  "hot": "3.9万"
+}
+{
+  "intro": "三国服在榜公孙离带粉带粉带粉",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/4857941_1032_0.png/dy1",
+  "zone": "王者荣耀",
+  "user": "久游丶演帝",
+  "hot": "3.9万"
+}
+{
+  "intro": "甜蜜三排，办卡上车滴滴~",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/2518888_1030_85.png/dy1",
+  "zone": "王者荣耀",
+  "user": "全暖暖s",
+  "hot": "3.9万"
+}
+{
+  "intro": "百星国射 边射上王者如人机",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/1878058_1029_99.png/dy1",
+  "zone": "王者荣耀",
+  "user": "污妖王丶斯巴达",
+  "hot": "3.9万"
+}
+{
+  "intro": "国服万场猴王！带粉上王者~",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/258718_1029_66.png/dy1",
+  "zone": "王者荣耀",
+  "user": "国服万场猴王丶宅哥",
+  "hot": "3.9万"
+}
+{
+  "intro": "【米娅陪看】初来斗鱼，请多关照~",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/6537888_1031.png/dy1",
+  "zone": "一起看",
+  "user": "开森的Mia",
+  "hot": "3.9万"
+}
+{
+  "intro": "奶爸鳄鱼：上单霸主了解一下？",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/5129265_1030.png/dy1",
+  "zone": "英雄联盟",
+  "user": "奶爸鳄鱼",
+  "hot": "3.9万"
+}
+{
+  "intro": "又二又乖又上头~",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/1373724_1032_6.png/dy1",
+  "zone": "绝地求生",
+  "user": "永不回头丶Cc小可爱",
+  "hot": "3.9万"
+}
+{
+  "intro": "全能大神，本色摩擦",
+  "img": "https://rpic.douyucdn.cn/asrpic/190315/6394494_2100.png/dy1",
+  "zone": "三国杀",
+  "user": "秦时之我",
+  "hot": "3.9万"
+}
+{
+  "intro": "点个关注8 蟹蟹！",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/6362097_1032_6.png/dy1",
+  "zone": "APEX英雄",
+  "user": "蜜拉贝儿QvQ",
+  "hot": "3.9万"
+}
+{
+  "intro": "喵放送☀️喵呜~",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/71771_1029.png/dy1",
+  "zone": "户外",
+  "user": "喵放送",
+  "hot": "3.9万"
+}
+{
+  "intro": "100种成盒方式任您挑选",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/4727840_1030.png/dy1",
+  "zone": "全军出击",
+  "user": "ly李咩咩",
+  "hot": "3.9万"
+}
+{
+  "intro": "❤️美服萌新求带~(◕ܫ◕)~",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/469012_1024.png/dy1",
+  "zone": "CS:GO",
+  "user": "SARO๑",
+  "hot": "3.9万"
+}
+{
+  "intro": "小高：独门绝活3转1",
+  "img": "https://rpic.douyucdn.cn/asrpic/190316/1671644_1029.png/dy1",
+  "zone": "DOTA2",
+  "user": "小高Phenomenal",
+  "hot": "3.9万"
+}
+{
+  "intro": "打野姐姐上荣耀今天不自闭",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "馒头属性貂蝉",
+  "hot": "3.9万"
+}
+{
+  "intro": "【粤兒经典粤语】喜剧 赌片 动作",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "小粤兒",
+  "hot": "3.9万"
+}
+{
+  "intro": "扶我起来，我还能直播 5841435",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "超萌的小夏天",
+  "hot": "3.9万"
+}
+{
+  "intro": "斗鱼最骚诺手,钻石局随便砍一下",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "主播浩钦",
+  "hot": "3.9万"
+}
+{
+  "intro": "百星国服打野。40星单排",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "闻君丶",
+  "hot": "3.9万"
+}
+{
+  "intro": "176热血回忆 纯净复古",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "传奇",
+  "user": "比齐山庄",
+  "hot": "3.9万"
+}
+{
+  "intro": "滴滴滴~~带你躺遍峡谷每个角落",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "微beautiful吖",
+  "hot": "3.9万"
+}
+{
+  "intro": "一直看到吐系列",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "美食",
+  "user": "老瞪",
+  "hot": "3.8万"
+}
+{
+  "intro": "动漫 回忆 热血 电影 路飞 悟空",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "两心相怡i",
+  "hot": "3.8万"
+}
+{
+  "intro": "哎呀呀迟到了",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "主机游戏",
+  "user": "波波菜呀",
+  "hot": "3.8万"
+}
+{
+  "intro": "报告老板，这里发现一只秒人梦魇!",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "八神梦魇丶",
+  "hot": "3.8万"
+}
+{
+  "intro": "飞机秒上号激情排位上分！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "穿越火线",
+  "user": "重置排位推土机",
+  "hot": "3.8万"
+}
+{
+  "intro": "最专业的枭雄，风云。欢迎点播，开枪",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "怀旧游戏",
+  "user": "兄弟盟丶盟主",
+  "hot": "3.8万"
+}
+{
+  "intro": "【办卡建房】百张蓝图选择",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "明日之后",
+  "user": "大宝dabao",
+  "hot": "3.8万"
+}
+{
+  "intro": "【人偶】超混奶妈 在线等队友",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "APEX英雄",
+  "user": "T1丶提线人偶",
+  "hot": "3.8万"
+}
+{
+  "intro": "王族蓝芒已翻10倍，短期倒卖为主！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DNF",
+  "user": "商人雷神",
+  "hot": "3.8万"
+}
+{
+  "intro": "关注周日晚上8点甜心女王争夺战",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "约会现场",
+  "user": "环星一甜心派对",
+  "hot": "3.8万"
+}
+{
+  "intro": "QQ区带粉啦 人很少 谢谢你们来看我~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "渝万丶空了半城",
+  "hot": "3.8万"
+}
+{
+  "intro": "办卡局 赌王亂开心 密码999",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DOTA2",
+  "user": "亂开心Duc",
+  "hot": "3.8万"
+}
+{
+  "intro": "WZM宁夏-训练营TOP1职业选手",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "WZM宁夏",
+  "hot": "3.8万"
+}
+{
+  "intro": "【4K超清点播】国内外电影，海量佳作！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "4K超清",
+  "hot": "3.8万"
+}
+{
+  "intro": "带房管摘星星！！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "初晗i",
+  "hot": "3.8万"
+}
+{
+  "intro": "冲呀！ 单排上101，现在73星",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "小魔女酱酱",
+  "hot": "3.8万"
+}
+{
+  "intro": "赵本山那些事",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "谢飞鸡",
+  "hot": "3.7万"
+}
+{
+  "intro": "这游戏看过之后你们会发现。。。。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "主机游戏",
+  "user": "ZH小毛蛋",
+  "hot": "3.7万"
+}
+{
+  "intro": "等一个脚踏七彩祥云的盖世英雄。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "是甜啾啊",
+  "hot": "3.7万"
+}
+{
+  "intro": "【邵氏影院】经典武侠 动作 老电影你懂的",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "Only丶邵氏",
+  "hot": "3.7万"
+}
+{
+  "intro": "挑战个人日杀敌两千，你的V10满级五百强",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "CF手游",
+  "user": "张心疼冲鸭",
+  "hot": "3.7万"
+}
+{
+  "intro": "萌新导师！第2个号冲皇后！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刀塔自走棋",
+  "user": "777主播大何",
+  "hot": "3.7万"
+}
+{
+  "intro": "❤这个世界需要更多的睡裤",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刀塔自走棋",
+  "user": "骆小汀儿",
+  "hot": "3.7万"
+}
+{
+  "intro": "单排上荣耀 4568687",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "娇娇小仙",
+  "hot": "3.7万"
+}
+{
+  "intro": "momo：拯救凉凉mo",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "小醋王momo",
+  "hot": "3.6万"
+}
+{
+  "intro": "新号单排法鸡从零到五百强",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "守望先锋",
+  "user": "大名鼎鼎陈某人",
+  "hot": "3.6万"
+}
+{
+  "intro": "你的阳先森来了哦(有车位）",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "你的阳先森",
+  "hot": "3.6万"
+}
+{
+  "intro": "体验服更新爆肝送海博伦装备",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DNF",
+  "user": "DNF李兄",
+  "hot": "3.6万"
+}
+{
+  "intro": "【D朵】爬！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "堡垒之夜",
+  "user": "Double朵丶",
+  "hot": "3.6万"
+}
+{
+  "intro": "让你心动的声音",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "音乐电台",
+  "user": "温柔朴",
+  "hot": "3.6万"
+}
+{
+  "intro": "素质主播，国服玄策元芳王者屠杀",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "渝万丶霖疯",
+  "hot": "3.6万"
+}
+{
+  "intro": "FPP6900分，听响就干！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "墨灿丶",
+  "hot": "3.6万"
+}
+{
+  "intro": "没有伞的孩子只能拼命奔跑",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "小梦不萌呀",
+  "hot": "3.6万"
+}
+{
+  "intro": "来干起来，干干干",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "棋牌娱乐",
+  "user": "777丶少将测评未来",
+  "hot": "3.6万"
+}
+{
+  "intro": "国服达摩，骚操作，实力带粉!!!",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "Cen如今",
+  "hot": "3.6万"
+}
+{
+  "intro": "单场28杀伤害八千：可上车",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "APEX英雄",
+  "user": "一颗梦白菜",
+  "hot": "3.6万"
+}
+{
+  "intro": "ღ . 求路过好心人丢垃圾渡劫",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "FM233",
+  "user": "宋亚伦",
+  "hot": "3.5万"
+}
+{
+  "intro": "狄仁杰：想听听我的故事吗",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "小狐狸4481",
+  "hot": "3.5万"
+}
+{
+  "intro": "温柔：每天晚上7点准时OB盛世各区激情",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "传奇",
+  "user": "传奇温柔",
+  "hot": "3.5万"
+}
+{
+  "intro": "突破手的直播间 慎入",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "CS:GO",
+  "user": "Aee1essN",
+  "hot": "3.5万"
+}
+{
+  "intro": "音匪：欧服散装英语秀，人头全靠雷带走~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "音匪",
+  "hot": "3.5万"
+}
+{
+  "intro": "斗花：主神刀副所有论剑升段清币。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "天涯明月刀",
+  "user": "斗花丶",
+  "hot": "3.5万"
+}
+{
+  "intro": "旭宝宝【至尊画质点播】经典精选▶百里挑一",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "甜漫妮666",
+  "hot": "3.5万"
+}
+{
+  "intro": "总有惊喜的奇遇～喵～",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "池优优丶",
+  "hot": "3.5万"
+}
+{
+  "intro": "皇冠局简单粗暴的1V4，我还不够强。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "Real丶雷老虎",
+  "hot": "3.5万"
+}
+{
+  "intro": "军团战争，钻3-钻1",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "魔兽争霸",
+  "user": "坚心",
+  "hot": "3.5万"
+}
+{
+  "intro": "1灰机钻石，下蛋上号~~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "逆战",
+  "user": "PE林乐清",
+  "hot": "3.5万"
+}
+{
+  "intro": "沿海徒步，大温州。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "徒步老冯",
+  "hot": "3.5万"
+}
+{
+  "intro": "高分好电影",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "蛋挞人",
+  "hot": "3.5万"
+}
+{
+  "intro": "最新大极品 千人在线激情",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "传奇",
+  "user": "太子丹宝宝",
+  "hot": "3.5万"
+}
+{
+  "intro": "躺 ，僵直播间。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DOTA",
+  "user": "无情伤丶",
+  "hot": "3.5万"
+}
+{
+  "intro": "你知道我在等你么~~ 5166465",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "QQ飞车端游",
+  "user": "看自己都来火的萌丶",
+  "hot": "3.5万"
+}
+{
+  "intro": "百星野王光速带粉，飞机躺上王者",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "Dy丶殤情7",
+  "hot": "3.5万"
+}
+{
+  "intro": "打会单4！晚点冲战神！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "一只贝贝塔",
+  "hot": "3.5万"
+}
+{
+  "intro": "国服第一301 在线教学",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "APEX英雄",
+  "user": "绝望的小一",
+  "hot": "3.5万"
+}
+{
+  "intro": "十2套 强化13 增幅天空！！！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DNF",
+  "user": "DNF小青龙",
+  "hot": "3.5万"
+}
+{
+  "intro": "好想买女忍者啊！香菇",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "堡垒之夜",
+  "user": "我是阿呆呆阿",
+  "hot": "3.5万"
+}
+{
+  "intro": "实况点播OB：RNG/IG/Faker",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "老杨OB黑铁五",
+  "hot": "3.4万"
+}
+{
+  "intro": "是我不可爱。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "软软的凉笙",
+  "hot": "3.4万"
+}
+{
+  "intro": "萌新小姐姐鸭~~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "橙子呀橙子",
+  "hot": "3.4万"
+}
+{
+  "intro": "0基础吉他教学，大家一起弹吉他~~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "吉他小豆丁",
+  "hot": "3.4万"
+}
+{
+  "intro": "公益单职业-《三国霸业》",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "传奇",
+  "user": "三国霸业直播间",
+  "hot": "3.4万"
+}
+{
+  "intro": "晚上8点开荒比赛",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "怀旧游戏",
+  "user": "南极猫的眼泪",
+  "hot": "3.4万"
+}
+{
+  "intro": "出小僵了，还限时免费哦~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "主机游戏",
+  "user": "谭机霸开播了",
+  "hot": "3.4万"
+}
+{
+  "intro": "【狼人对决】比狠人多一点",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "新游中心",
+  "user": "飞雪艾克LOVE",
+  "hot": "3.4万"
+}
+{
+  "intro": "战地5 冲鸭~",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "战地风云",
+  "user": "住你隔壁的二黑",
+  "hot": "3.4万"
+}
+{
+  "intro": "峡谷王者奥拉夫细节教学",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "英雄联盟",
+  "user": "斧头帮疾风阴比奥拉夫",
+  "hot": "3.4万"
+}
+{
+  "intro": "♥你的女孩♥~请签收＾-＾",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "APEX英雄",
+  "user": "苜籽籽",
+  "hot": "3.4万"
+}
+{
+  "intro": "「渡劫」12点ow",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "守望先锋",
+  "user": "渝万丶不鸽的渡劫君",
+  "hot": "3.4万"
+}
+{
+  "intro": "男孩子可以性感和可爱",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "你的女孩囧囧丸",
+  "hot": "3.4万"
+}
+{
+  "intro": "满级恶灵场均伤1000+",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "APEX英雄",
+  "user": "Gulf丶宇",
+  "hot": "3.4万"
+}
+{
+  "intro": "新主播 你是我的小可爱啊^O^",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "APEX英雄",
+  "user": "夕阳敲甜的",
+  "hot": "3.4万"
+}
+{
+  "intro": "九点半抽甲鱼！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "户外",
+  "user": "大拇指户外",
+  "hot": "3.4万"
+}
+{
+  "intro": "【驴萨】王子进化战吼萨！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "炉石传说",
+  "user": "腹语丶驴叔术",
+  "hot": "3.4万"
+}
+{
+  "intro": "养猪流98%胜率带水友微信区",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "歌神凡",
+  "hot": "3.3万"
+}
+{
+  "intro": "商机那么多你还要错过多少波",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DNF",
+  "user": "商人可乐",
+  "hot": "3.3万"
+}
+{
+  "intro": "满满正能量!!!!",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "穿越火线",
+  "user": "美素小月亮",
+  "hot": "3.3万"
+}
+{
+  "intro": "万部动漫电影找回属于你的童年回忆",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "二次元",
+  "user": "污妃丿小仙女",
+  "hot": "3.3万"
+}
+{
+  "intro": "生化金字塔第一人不服来战！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "穿越火线",
+  "user": "南小海丶",
+  "hot": "3.3万"
+}
+{
+  "intro": "跳最刚的城阴最刚的人",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "初蔻mm",
+  "hot": "3.3万"
+}
+{
+  "intro": "易中天带你领略三国文化。",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "人文军事",
+  "user": "易中天",
+  "hot": "3.3万"
+}
+{
+  "intro": "小罗.这是个战士的直播间",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "魔兽世界",
+  "user": "大剑师丶罗隆",
+  "hot": "3.3万"
+}
+{
+  "intro": "███急缺打金███刚开2分钟███",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "传奇",
+  "user": "传奇龍爺",
+  "hot": "3.3万"
+}
+{
+  "intro": "21号周年庆送好礼",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "逆战",
+  "user": "PE迟缩",
+  "hot": "3.3万"
+}
+{
+  "intro": "斗鱼夺魄赛冠军人皇",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "探灵笔记",
+  "user": "般喐喐",
+  "hot": "3.3万"
+}
+{
+  "intro": "♥苹果动漫♥有妖气！慎入！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "一起看",
+  "user": "苹果Zei甜",
+  "hot": "3.3万"
+}
+{
+  "intro": "☀喜欢吗？",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "婉婉很迷",
+  "hot": "3.3万"
+}
+{
+  "intro": "办卡上车,飞机包周",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "刺激战场",
+  "user": "战斧阿zfa",
+  "hot": "3.3万"
+}
+{
+  "intro": "距离你0.01km 6226794",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "颜值",
+  "user": "blingbling的诗妹",
+  "hot": "3.3万"
+}
+{
+  "intro": "追梦76小极品纯散人，RMB回收",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "传奇",
+  "user": "少女斯",
+  "hot": "3.3万"
+}
+{
+  "intro": "【奔驰小哥】中文字幕",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "美食",
+  "user": "翼风110",
+  "hot": "3.3万"
+}
+{
+  "intro": "亚瑟归来 输一把抽500！",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "DOTA2",
+  "user": "亚瑟归来丶",
+  "hot": "3.3万"
+}
+{
+  "intro": "免费带粉天秀全能打野第一吸血娜可露露",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "DY唔系小猪",
+  "hot": "3.3万"
+}
+{
+  "intro": "荣耀辅助 粉丝号钻石到王者",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "王者荣耀",
+  "user": "柔柔冰冰冰柔",
+  "hot": "3.3万"
+}
+{
+  "intro": "（409） 斗鱼车评24小时开播",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "汽车",
+  "user": "蒙奇你你你",
+  "hot": "3.3万"
+}
+{
+  "intro": "超厉害阿音同学♥",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "绝地求生",
+  "user": "吃土小in",
+  "hot": "3.3万"
+}
+{
+  "intro": "WAR3全系列赛回放",
+  "img": "https://sta-op.douyucdn.cn/front-publish/sdk-file-master/room_list_default@2x_a960c5b.png",
+  "zone": "魔兽争霸",
+  "user": "opopophuhu",
+  "hot": "3.3万"
+}

@@ -2,15 +2,15 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/36kr.py" line="10" />
-    <bookmark url="file://$PROJECT_DIR$/xpath_thread_贴吧.py" line="148" />
+    <bookmark url="file://$PROJECT_DIR$/xpath_thread_贴吧.py" line="151" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0597ef3-a955-4225-9dc7-4f058f61f4d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/file/cookie/douban.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium_02_douban_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_02_douban_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_02_douban_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xpath_thread_贴吧.py" beforeDir="false" afterPath="$PROJECT_DIR$/xpath_thread_贴吧.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/戳爷 - 副本.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/戳爷.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,34 +20,22 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/spider_02$_json.coverage" NAME="爬虫_json格式 Coverage Results" MODIFIED="1550401673827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spider_02$test.coverage" NAME="test Coverage Results" MODIFIED="1552628846610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider_02$baidu_fanyi.coverage" NAME="baidu_fanyi Coverage Results" MODIFIED="1550395780840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider_02$36kr.coverage" NAME="36kr Coverage Results" MODIFIED="1550408434026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/spider_02$xpath_thread_.coverage" NAME="xpath_thread_贴吧 Coverage Results" MODIFIED="1552484544370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/spider_02$selenium_01.coverage" NAME="selenium_01 Coverage Results" MODIFIED="1552623620896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/spider_02$test.coverage" NAME="test Coverage Results" MODIFIED="1552628846610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/spider_02$xpath_.coverage" NAME="xpath_贴吧 Coverage Results" MODIFIED="1552482513434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/spider_02$selenium_02_douban_login.coverage" NAME="selenium_02_douban_login Coverage Results" MODIFIED="1552643590485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spider_02$xpath_thread_.coverage" NAME="xpath_thread_贴吧 Coverage Results" MODIFIED="1552695463054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spider_02$selenium_02_douban_login.coverage" NAME="selenium_02_douban_login Coverage Results" MODIFIED="1552703623226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider_02$xmlpath_01.coverage" NAME="xmlpath_01 Coverage Results" MODIFIED="1551575282225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spider_02$selenium_01.coverage" NAME="selenium_01 Coverage Results" MODIFIED="1552623620896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spider_02$xpath_.coverage" NAME="xpath_贴吧 Coverage Results" MODIFIED="1552482513434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/爬虫_json格式.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="90">
               <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium_01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="16" column="79" lean-forward="true" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="79" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -55,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selenium_02_douban_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="41" column="77" lean-forward="true" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
+            <state relative-caret-position="818">
+              <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -65,11 +53,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/file/cookie/douban.txt">
+        <entry file="file://$PROJECT_DIR$/file/直播.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="26" />
-            </state>
+            <state relative-caret-position="-2700" />
           </provider>
         </entry>
       </file>
@@ -103,19 +89,21 @@
         <option value="$PROJECT_DIR$/xmlpath_01.py" />
         <option value="$PROJECT_DIR$/xpath_贴吧.py" />
         <option value="$PROJECT_DIR$/戳爷.txt" />
-        <option value="$PROJECT_DIR$/xpath_thread_贴吧.py" />
         <option value="$PROJECT_DIR$/selenium_01.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/selenium_02_douban_login.py" />
         <option value="$PROJECT_DIR$/file/cookie/douban.txt" />
+        <option value="$PROJECT_DIR$/file/tieba.py" />
+        <option value="$PROJECT_DIR$/xpath_thread_贴吧.py" />
+        <option value="$PROJECT_DIR$/file/直播.txt" />
+        <option value="$PROJECT_DIR$/selenium_02_douban_login.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="342" />
-    <option name="y" value="217" />
-    <option name="width" value="1365" />
-    <option name="height" value="744" />
+    <option name="x" value="331" />
+    <option name="y" value="186" />
+    <option name="width" value="1233" />
+    <option name="height" value="1122" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -123,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,11 +130,16 @@
               <item name="file" type="462c0819:PsiDirectoryNode" />
               <item name="cookie" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider_02" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+              <item name="tieba" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,6 +148,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\mygithub\python\01\miniwebserver\spider_02\file\tieba" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -281,9 +280,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.selenium_02_douban_login" />
+        <item itemvalue="Python.xpath_thread_贴吧" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.selenium_01" />
-        <item itemvalue="Python.xpath_thread_贴吧" />
         <item itemvalue="Python.xpath_贴吧" />
       </list>
     </recent_temporary>
@@ -310,22 +309,23 @@
       <workItem from="1552550072334" duration="4382000" />
       <workItem from="1552557487227" duration="18000" />
       <workItem from="1552615781013" duration="17016000" />
+      <workItem from="1552694942591" duration="11824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70149000" />
+    <option name="totallyTimeSpent" value="81973000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16353887" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16494435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.61863273" weight="0.23512748" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4953083" weight="0.398017" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.61863273" visible="true" weight="0.18018721" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4953083" weight="0.5156006" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Python Console" order="6" sideWeight="0.49806577" weight="0.5021552" />
@@ -350,34 +350,61 @@
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="self.qurlDetial" language="Python" />
+        <watch expression="self.driver.find_element_by_xpath(&quot;//span[@class='dy-Pagination-item-custom']&quot;)" language="Python" />
+        <watch expression="self.driver.find_elements_by_xpath(&quot;//span[@class='dy-Pagination-item-custom']&quot;)[1]" language="Python" />
+        <watch expression="json.dumps(item,indent=2,ensure_ascii=False)" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>self.qurlDetial</expression-string>
+        <expression-string>json.dumps(item,indent=2,ensure_ascii=False)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self.qurlList</expression-string>
+        <expression-string>item[&quot;intro&quot;]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self.qurlDetial.empty()</expression-string>
+        <expression-string>self.driver.find_elements_by_xpath(&quot;//span[@class='dy-Pagination-item-custom']&quot;)[1]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>item[&quot;img_list&quot;]self.qurlDetial.empty()</expression-string>
+        <expression-string>self.driver.find_element_by_xpath(&quot;//span[@class='dy-Pagination-item-custom']&quot;)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>item[&quot;img_list&quot;]</expression-string>
+        <expression-string>i.find_element_by_xpath(&quot;.//img&quot;).get_attribute(&quot;src&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i.find_element_by_xpath(&quot;.//img&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i.find_element_by_xpath(&quot;.//h2[@class='DyListCover-user']&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i.find_element_by_xpath(&quot;.//span[@class='DyListCover-hot']&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i.find_element_by_xpath(&quot;.//span[@class='DyListCover-zone']&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i.find_element_by_xpath(&quot;.//img/@src&quot;)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -449,38 +476,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/戳爷.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/ie/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/chrome/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/发展1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/长城.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/发展.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/发展1.png" />
+    <entry file="file://$PROJECT_DIR$/长城.png" />
+    <entry file="file://$PROJECT_DIR$/发展.png" />
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xpath_贴吧.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -491,10 +499,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="79" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/tieba.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/做头发.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/tieba/做头发.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/tieba/戳爷.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/xpath_thread_贴吧.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="166" selection-start-line="166" selection-end-line="166" />
+        <state relative-caret-position="838">
+          <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/cookie/douban.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/tieba/腹肌.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="58" column="90" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xpath_贴吧.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
@@ -503,36 +557,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫_json格式.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="90">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" column="79" lean-forward="true" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="79" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium_02_douban_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="41" column="77" lean-forward="true" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
+        <state relative-caret-position="818">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file/cookie/douban.txt">
+    <entry file="file://$PROJECT_DIR$/file/直播.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="26" />
-        </state>
+        <state relative-caret-position="-2700" />
       </provider>
     </entry>
   </component>

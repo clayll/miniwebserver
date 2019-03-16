@@ -1,5 +1,5 @@
 from lxml import etree
-import requests,json,time
+import requests,json,time,os
 from threading import Thread
 from queue import Queue
 
@@ -75,7 +75,8 @@ class baidu_tieba_thread():
         try:
             while True:
                 item = self.qurlDetial.get()
-                filePath = self.tiebaName + ".txt"
+                filePath = os.path.join(os.path.abspath("file"), "tieba", self.tiebaName + ".txt")
+                print(filePath)
                 with open(filePath, "a", encoding="utf-8") as f:
                     content = json.dumps(item, ensure_ascii=False, indent=2)
                     f.write(content)
@@ -119,7 +120,9 @@ class baidu_tieba_thread():
 
 
     def save_content_list(self,content_list):
-        filePath = self.tiebaName+".txt"
+
+        filePath = os.path.join(os.path.abspath("file"),"tieba",self.tiebaName+".txt")
+        print(filePath)
         with open(filePath,"a",encoding="utf-8") as f:
             for content in content_list:
                 content = json.dumps(content,ensure_ascii=False,indent=2)
@@ -160,7 +163,7 @@ class baidu_tieba_thread():
 
 if __name__ == "__main__":
     t1 = time.time()
-    teiba = baidu_tieba_thread("戳爷")
+    teiba = baidu_tieba_thread(u"腹肌")
     teiba.run()
 
 
