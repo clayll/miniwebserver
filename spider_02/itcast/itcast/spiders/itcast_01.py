@@ -14,7 +14,7 @@ class Itcast01Spider(scrapy.Spider):
             name = t.xpath("./h3/text()").extract_first()
             position = t.xpath("./h4/text()").extract_first()
             profile = t.xpath("./p/text()").extract_first()
-            item = {"name" : name,"position":position,"profile" : None}
-            print(item)
+            item = {"name": name,"position":position,"profile" : profile}
+
             yield item
 

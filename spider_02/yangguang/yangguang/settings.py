@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for itcast project
+# Scrapy settings for yangguang project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'itcast'
+BOT_NAME = 'yangguang'
 
-SPIDER_MODULES = ['itcast.spiders']
-NEWSPIDER_MODULE = 'itcast.spiders'
+SPIDER_MODULES = ['yangguang.spiders']
+NEWSPIDER_MODULE = 'yangguang.spiders'
 LOG_LEVEL = 'WARNING'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'itcast (+http://www.yourdomain.com)'
+#USER_AGENT = 'yangguang (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'itcast.middlewares.ItcastSpiderMiddleware': 543,
+#    'yangguang.middlewares.YangguangSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'itcast.middlewares.ItcastDownloaderMiddleware': 543,
+#    'yangguang.middlewares.YangguangDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -64,9 +64,9 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {
-   'itcast.pipelines.ItcastPipeline': 300,
-}
+#ITEM_PIPELINES = {
+#    'yangguang.pipelines.YangguangPipeline': 300,
+#}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
