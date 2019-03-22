@@ -8,10 +8,7 @@
 import scrapy
 
 
-class YangguangItem(scrapy.Item):
+class CsdnCrawlItem(scrapy.Item):
     # define the fields for your item here like:
-    title = scrapy.Field()
-    href = scrapy.Field()
-    content = scrapy.Field()
-    img = scrapy.Field()
-
+    # name = scrapy.Field()
+    pass

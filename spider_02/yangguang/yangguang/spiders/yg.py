@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
+from  yangguang.items import YangguangItem
 
 
 class YgSpider(scrapy.Spider):
@@ -9,16 +10,21 @@ class YgSpider(scrapy.Spider):
 
     def parse(self, response):
         tds = response.xpath("//div[@class='pagecenter']//tr")[1:-1]
-        print(tds)
         for t in tds:
-            href = t.xpath(".//a[2]/@href").extract_first()
-            title = t.xpath(".//a[2]/text()").extract_first()
-            item = dict({"title":title,"href":href})
-            scrapy.Request(href , callback=self.parseDetails)
+            item = YangguangItem()
+            item["href"] = t.xpath(".//a[2]/@href").extract_first()
+            item["title"] = t.xpath(".//a[2]/text()").extract_first()
 
-        yield
+            yield scrapy.Request(item["href"] , callback=self.parseDetails,meta={"item":item})
+
+        nexturl =response.xpath("//div[@class='pagination']/a[text()='>']/@href").extract_first()
+        while nexturl:
+            yield scrapy.Request(nexturl, callback=self.parse)
 
     def parseDetails(self, response):
-        print(response.Meta["item"])
-        pass
+        td = response.xpath("//td[@class='txt16_3']")
+        item = response.meta["item"]
+        item["content"] = td.xpath(".//text()").extract()
+        item["img"] = td.xpath(".//img/@src").extract()
+        yield item
 
