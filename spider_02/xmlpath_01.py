@@ -1,4 +1,5 @@
 from lxml import  etree
+import json
 from pprint import pprint
 
 text = '''
@@ -26,5 +27,7 @@ for r in result:
     print(r.tag)
 
 
+s = '[{"id":"J_12431121","m":"49.80","op":"31.10","p":"31.10"}]'
 
-
+x = json.loads(s)
+print(x[0]["op"])
