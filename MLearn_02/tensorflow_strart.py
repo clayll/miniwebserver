@@ -60,10 +60,23 @@ def tensor_test():
     with tf.Session() as session:
         print(session.run([s,s1]))
 
+def tensorbord_test():
+    a = tf.constant(10,name="a")
+    array1 = tf.random_normal([4,3],mean=32,stddev=0.9)
+    ar2 = tf.Variable(tf.random_normal([3,3],mean=0,stddev=0.5))
+
+    initVar = tf.global_variables_initializer()
+    with tf.Session() as sess:
+        sess.run(initVar)
+        sess.run([a,array1,ar2])
+        summaryfile = tf.summary.FileWriter("./summary/01/",graph=sess.graph)
+        print(summaryfile)
+
 
 if __name__ == '__main__':
     # first_01()
     #
     # graph_first()
     # session_test()
-    tensor_test()
+    # tensor_test()
+    tensorbord_test()
