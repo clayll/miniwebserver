@@ -42,5 +42,6 @@ def pca():
 if __name__ == '__main__':
     # guiyi()
     # stander()
-    pca()
+    # pca()
 
+    print(1.1*1.6)
