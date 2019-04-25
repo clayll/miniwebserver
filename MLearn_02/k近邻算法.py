@@ -1,7 +1,9 @@
 from sklearn import neighbors
 from sklearn import datasets
 from sklearn import model_selection
+from sklearn.model_selection import GridSearchCV
 import csv
+from sklearn.model_selection import cross_val_score
 import json
 import numpy as np
 
@@ -40,14 +42,17 @@ def irisShow():
     # tocsvfile("y_test.csv", rs.target_names, y_test.tolist())
     nkn = neighbors.KNeighborsClassifier(n_neighbors=3)
     nkn.fit(x_train,y_train)
+
     print(nkn.predict(x_test))
     print(nkn.score(x_test,y_test))
-    # nkn = neighbors.KNeighborsClassifier(n_neighbors=8)
-    # nkn.fit(x_train, y_train)
-    # x_test[0,0]=20
-    # x_test[3,0] = 70
-    # print(nkn.predict(x_test))
-    # print(nkn.score(x_test,y_test))
+
+    #采用k折交叉验证
+    # print(cross_val_score(nkn,x_test,y_test,cv=3))
+    param = {"n_neighbors": [3, 5, 7]}
+    gridCv = GridSearchCV(nkn,param)
+    gridCv.fit(x_train,y_train)
+    print(gridCv.predict(x_test))
+    print(gridCv.score(x_test,y_test))
 
 def neighbors_1():
     X = [[0], [1], [2], [3]]
@@ -118,6 +123,8 @@ def display_date(num, loop):
 
 if __name__ == '__main__':
     irisShow()
+    data = ['晴天', '下雨', '下雪']
+
     pass
     # irisShow()
     # x = simple_continue()
