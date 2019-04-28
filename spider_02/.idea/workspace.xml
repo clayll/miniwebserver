@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0597ef3-a955-4225-9dc7-4f058f61f4d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MLearn_02/tensorflow_strart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spiber_03/19-4-10/requests_实例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spiber_03/19-4-19/无头浏览器.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spiber_03/19-4-10/糗事百科.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../spiber_03/19-4-10/糗事百科.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixinProject/component_tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixinProject/component_tools/findtag_tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixinProject/component_tools/scrollbar_tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixinProject/txview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixinProject/weixin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixinProject/wxtools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixinProject/wxtools/viewdao_tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixinProject/wxtools/windows_tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/电影天堂/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/电影天堂/dyttSpider/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,14 +28,33 @@
     <SUITE FILE_PATH="coverage/spider_02$test.coverage" NAME="test Coverage Results" MODIFIED="1551601660771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider_02$baidu_fanyi.coverage" NAME="baidu_fanyi Coverage Results" MODIFIED="1550395780840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider_02$36kr.coverage" NAME="36kr Coverage Results" MODIFIED="1550408434026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spider_02$txview.coverage" NAME="txview Coverage Results" MODIFIED="1556360248223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weixinProject" />
+    <SUITE FILE_PATH="coverage/spider_02$weixin.coverage" NAME="weixin Coverage Results" MODIFIED="1556490568727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weixinProject" />
+    <SUITE FILE_PATH="coverage/spider_02$yg.coverage" NAME="yg Coverage Results" MODIFIED="1556112371883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yangguang/yangguang/spiders" />
     <SUITE FILE_PATH="coverage/spider_02$xmlpath_01.coverage" NAME="xmlpath_01 Coverage Results" MODIFIED="1553611119613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider_02$xpath_.coverage" NAME="xpath_贴吧 Coverage Results" MODIFIED="1551601716555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/itcast/itcast/spiders/itcast_01.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/weixinProject/weixin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weixinProject/txview.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="13" />
+              <folding>
+                <element signature="e#14#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -48,6 +73,9 @@
       <find>:[</find>
       <find>东南亚</find>
       <find>price</find>
+      <find>pip</find>
+      <find>findviewname</find>
+      <find>gxviewdbnames</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -67,13 +95,22 @@
         <option value="$PROJECT_DIR$/xmlpath_01.py" />
         <option value="$PROJECT_DIR$/jdbook/jdbook/spiders/jdforbook.py" />
         <option value="$PROJECT_DIR$/urllib_01.py" />
+        <option value="$PROJECT_DIR$/电影天堂/dyttSpider/dyttSpider/items.py" />
+        <option value="$PROJECT_DIR$/电影天堂/dyttSpider/dyttSpider/pipelines.py" />
+        <option value="$PROJECT_DIR$/电影天堂/dyttSpider/dyttSpider/settings.py" />
+        <option value="$PROJECT_DIR$/电影天堂/dyttSpider/test.csv" />
+        <option value="$PROJECT_DIR$/电影天堂/dyttSpider/dyttSpider/spiders/dyttSpider_01.py" />
+        <option value="$PROJECT_DIR$/weixinProject/component_tools/findtag_tool.py" />
+        <option value="$PROJECT_DIR$/weixinProject/wxtools/viewdao_tool.py" />
+        <option value="$PROJECT_DIR$/weixinProject/txview.py" />
+        <option value="$PROJECT_DIR$/weixinProject/weixin.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="489" />
-    <option name="y" value="484" />
-    <option name="width" value="1943" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="708" />
+    <option name="y" value="196" />
+    <option name="width" value="1158" />
     <option name="height" value="1103" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -95,53 +132,7 @@
             <path>
               <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider_02" type="462c0819:PsiDirectoryNode" />
-              <item name="csdn_crawl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider_02" type="462c0819:PsiDirectoryNode" />
-              <item name="csdn_crawl" type="462c0819:PsiDirectoryNode" />
-              <item name="csdn_crawl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider_02" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider_02" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider_02" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider_02" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider_02" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbook" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider_02" type="462c0819:PsiDirectoryNode" />
-              <item name="yangguang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider_02" type="462c0819:PsiDirectoryNode" />
-              <item name="yangguang" type="462c0819:PsiDirectoryNode" />
-              <item name="yangguang" type="462c0819:PsiDirectoryNode" />
+              <item name="weixinProject" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -156,6 +147,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\mygithub\python\01\miniwebserver\spider_02\weixinProject" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\mygithub\python\01\miniwebserver\spider_02\weixinProject" />
+      <recent name="E:\mygithub\python\01\miniwebserver\spider_02\电影天堂\dyttSpider\dyttSpider\spiders" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -168,8 +168,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.xmlpath_01">
-    <configuration name="36kr" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.weixin">
+    <configuration name="txview" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider_02" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,12 +177,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weixinProject" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/36kr.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weixinProject/txview.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,7 +191,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="爬虫_json格式" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="weixin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider_02" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,34 +199,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weixinProject" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫_json格式.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="spider_02" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weixinProject/weixin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,13 +257,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="yg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider_02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yangguang/yangguang/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yangguang/yangguang/spiders/yg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.weixin" />
+        <item itemvalue="Python.txview" />
+        <item itemvalue="Python.yg" />
         <item itemvalue="Python.xmlpath_01" />
         <item itemvalue="Python.xpath_贴吧" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.36kr" />
-        <item itemvalue="Python.爬虫_json格式" />
       </list>
     </recent_temporary>
   </component>
@@ -314,31 +314,36 @@
       <workItem from="1555289073413" duration="4173000" />
       <workItem from="1555676773393" duration="15000" />
       <workItem from="1555814015883" duration="1475000" />
+      <workItem from="1556108126748" duration="15800000" />
+      <workItem from="1556324450983" duration="2588000" />
+      <workItem from="1556350768291" duration="6936000" />
+      <workItem from="1556455116916" duration="2028000" />
+      <workItem from="1556488058174" duration="2527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56739000" />
+    <option name="totallyTimeSpent" value="86618000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="489" y="484" width="1943" height="1103" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22039299" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.04809221" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.622814" weight="0.36037442" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49801272" weight="0.39937598" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.62122416" visible="true" weight="0.36037442" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4972178" weight="0.3978159" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.37599576" side_tool="true" visible="true" weight="0.46026832" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.62400424" visible="true" weight="0.46026832" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.37877584" side_tool="true" visible="true" weight="0.36037442" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.62201905" weight="0.26287052" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -352,74 +357,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/yangguang/yangguang/spiders/yg.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixinProject/wxtools/viewdao_tool.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/__init__.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/474850172/builtins.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/sre_parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="401" selection-start-line="401" selection-end-line="401" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/36kr.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11967">
-          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/474850172/lxml/etree/_ElementTree.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/474850172/lxml/etree/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/models.py" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/url.py" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/api.py" />
-    <entry file="file://$PROJECT_DIR$/戳爷.txt" />
-    <entry file="file://$PROJECT_DIR$/jdbook/jdbook/spiders/dmoz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="298" column="4" selection-start-line="298" selection-start-column="4" selection-end-line="298" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdbook/jdbook/spiders/jdforbook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangguang/yangguang/spiders/yg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdbook/jdbook/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/爬虫_json格式.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -507,9 +461,6 @@
     <entry file="file://$PROJECT_DIR$/csdn_crawl/csdn_crawl/middlewares.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/jdbook/jdbook/items.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/jdbook/jdbook/pipelines.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -517,12 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1242" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangguang/yangguang/items.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yangguang/yangguang/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/yangguang/yangguang/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -546,6 +491,204 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/itcast/itcast/spiders/itcast_01.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangguang/yangguang/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast/itcast/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1026" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suningbook/suningbook/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1006" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdbook/jdbook/items.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdbook/jdbook/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdbook/jdbook/spiders/dmoz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangguang/yangguang/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangguang/yangguang/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="75" column="22" lean-forward="true" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangguang/yangguang/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scrapy/spiderloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scrapy/item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scrapy/http/request/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yangguang/yangguang/spiders/yg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="94" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="94" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电影天堂/dyttSpider/dyttSpider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电影天堂/dyttSpider/dyttSpider/spiders/dyttSpider_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电影天堂/dyttSpider/dyttSpider/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scrapy/selector/unified.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suningbook/suningbook/spiders/snbook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="86" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电影天堂/dyttSpider/dyttSpider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电影天堂/dyttSpider/test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="939" column="83" lean-forward="true" selection-start-line="939" selection-start-column="83" selection-end-line="939" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电影天堂/dyttSpider/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电影天堂/dyttSpider/dyttSpider/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixinProject/component_tools/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixinProject/wxtools/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixinProject/component_tools/findtag_tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixinProject/component_tools/scrollbar_tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#14#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixinProject/wxtools/viewdao_tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#14#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixinProject/wxtools/windows_tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixinProject/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixinProject/txview.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="13" />
+          <folding>
+            <element signature="e#14#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixinProject/weixin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
