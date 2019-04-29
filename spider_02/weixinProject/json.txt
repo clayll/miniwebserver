@@ -1,0 +1,28 @@
+[
+  {
+    "name": "ua_id",
+    "value": "Xpfd6fCcMlofFXSvAAAAAMQNS9SvAuq0KRd8bwl-GVM=",
+    "path": "/",
+    "domain": "mp.weixin.qq.com",
+    "secure": true,
+    "httpOnly": true,
+    "expiry": 2147483647
+  },
+  {
+    "name": "pgv_pvi",
+    "value": "790019072",
+    "path": "/",
+    "domain": ".qq.com",
+    "secure": false,
+    "httpOnly": false,
+    "expiry": 2147385600
+  },
+  {
+    "name": "pgv_si",
+    "value": "s7064078336",
+    "path": "/",
+    "domain": ".qq.com",
+    "secure": false,
+    "httpOnly": false
+  }
+]
