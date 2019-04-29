@@ -4,19 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/36kr.py" line="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0597ef3-a955-4225-9dc7-4f058f61f4d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/weixinProject/component_tools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixinProject/component_tools/findtag_tool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixinProject/component_tools/scrollbar_tool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixinProject/txview.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixinProject/weixin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixinProject/wxtools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixinProject/wxtools/viewdao_tool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixinProject/wxtools/windows_tool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/电影天堂/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/电影天堂/dyttSpider/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f0597ef3-a955-4225-9dc7-4f058f61f4d5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,23 +306,22 @@
       <workItem from="1556324450983" duration="2588000" />
       <workItem from="1556350768291" duration="6936000" />
       <workItem from="1556455116916" duration="2028000" />
-      <workItem from="1556488058174" duration="2527000" />
+      <workItem from="1556488058174" duration="2738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86618000" />
+    <option name="totallyTimeSpent" value="86829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.04809221" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.04809221" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.62122416" visible="true" weight="0.36037442" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.62122416" weight="0.36037442" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4972178" weight="0.3978159" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
