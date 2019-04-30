@@ -2,6 +2,7 @@
 from selenium import webdriver
 from component_tools import findtag_tool
 import json
+import time
 
 
 class WeiXinUpload():
@@ -36,15 +37,14 @@ class WeiXinUpload():
         self.setCookie(self.webBrower)
         self.webBrower.find_element_by_name("account").send_keys("8238491@163.com")
         self.webBrower.find_element_by_name("password").send_keys("p9h4dumu")
-
-        print(type(self.webBrower.find_element_by_class_name("btn_login")))
         self.webBrower.find_element_by_class_name("btn_login").click()
         self.saveCookie()
 
         # 跳转到新建群聊
-        result = findtag_tool.inter_time_find_tag_byNewUrl(self.webBrower,
+        result = findtag_tool.inter_time_find_tag(self.webBrower,
             "//a[contains(text(),'新建群发')]", intertime=1, count=30)
         if result:
+            # is_displayed()
             result.click()
             print("成功登录后跳转到新建群聊")
         else:
@@ -61,11 +61,13 @@ class WeiXinUpload():
             print("登录跳转自建图文失败")
             return False
 
+        self.uploadVidoe()
+
     """上传视频"""
     def uploadVidoe(self):
         #找到标题
         result = findtag_tool.inter_time_find_tag_byNewUrl(self.webBrower,
-                                            "//input[id='title']", intertime=1, count=30)
+                                            "//input[@id='title']", intertime=1, count=30)
         if result:
             result.sendkeys("test标题")
         else:
@@ -73,10 +75,10 @@ class WeiXinUpload():
             return False
 
             # 找到标题
-        result = findtag_tool.inter_time_find_tag_byNewUrl(self.webBrower,
-                                                           "//input[id='title']", intertime=1, count=30)
+        result = findtag_tool.inter_time_find_tag_byFrame(self.webBrower,
+                                                           "//div[contains(text(),'从这里开始写正文')]", intertime=1, count=30)
         if result:
-            result.sendkeys("test标题")
+            result.sendkeys("test正文")
         else:
             print("未找到标题")
             return False
