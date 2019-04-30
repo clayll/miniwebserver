@@ -25,7 +25,6 @@ def inter_time_find_tag_byNewUrl(driver, strtag, intertime=1, count=30):
         time.sleep(intertime)
         try:
             driver.switch_to.window(driver.window_handles[-1])
-
             result = driver.find_element_by_xpath(strtag)
             print("规定时间内找到：" + strtag)
             return result  # 找到tag就返回

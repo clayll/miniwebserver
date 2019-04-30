@@ -1,11 +1,7 @@
 #coding:utf-8
 from selenium import webdriver
 from component_tools import findtag_tool
-import time
 import json
-
-
-
 
 
 class WeiXinUpload():
@@ -21,7 +17,7 @@ class WeiXinUpload():
 
     def setCookie(self,driver):
         try:
-            with open("json.txt",mode="r") as f:
+            with open("json.txt",mode="w") as f:
                 cookeisJson = f.read()
             if cookeisJson:
                 cookeisJson = json.loads(cookeisJson,encoding="utf-8")
@@ -31,7 +27,9 @@ class WeiXinUpload():
             print("设置cooike异常:",ex)
 
 
-
+    """
+    微信登录功能
+    """
     def login(self):
         print("开始登录公众号")
         self.webBrower.get(self.startUlr)
@@ -41,16 +39,47 @@ class WeiXinUpload():
 
         print(type(self.webBrower.find_element_by_class_name("btn_login")))
         self.webBrower.find_element_by_class_name("btn_login").click()
-
-        print("成功登录后跳转到新建群聊")
         self.saveCookie()
-        reuslt = findtag_tool.inter_time_find_tag_byNewUrl(self.webBrower,
-            "//a[contains(text(),'新建群发')]", intertime=1, count=30)
-        if reuslt:
 
-            reuslt.click()
+        # 跳转到新建群聊
+        result = findtag_tool.inter_time_find_tag_byNewUrl(self.webBrower,
+            "//a[contains(text(),'新建群发')]", intertime=1, count=30)
+        if result:
+            result.click()
+            print("成功登录后跳转到新建群聊")
         else:
             print("登录跳转失败")
+            return False
+
+        # 再次跳转到自建图文
+        result = findtag_tool.inter_time_find_tag_byNewUrl(self.webBrower,
+            "//a/strong[contains(text(),'自建图文')]", intertime=1, count=30)
+        if result:
+            result.click()
+            print("成功登录后跳转到自建图文")
+        else:
+            print("登录跳转自建图文失败")
+            return False
+
+    """上传视频"""
+    def uploadVidoe(self):
+        #找到标题
+        result = findtag_tool.inter_time_find_tag_byNewUrl(self.webBrower,
+                                            "//input[id='title']", intertime=1, count=30)
+        if result:
+            result.sendkeys("test标题")
+        else:
+            print("未找到标题")
+            return False
+
+            # 找到标题
+        result = findtag_tool.inter_time_find_tag_byNewUrl(self.webBrower,
+                                                           "//input[id='title']", intertime=1, count=30)
+        if result:
+            result.sendkeys("test标题")
+        else:
+            print("未找到标题")
+            return False
 
 
 
