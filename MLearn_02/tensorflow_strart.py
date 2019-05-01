@@ -60,6 +60,9 @@ def tensor_test():
     with tf.Session() as session:
         print(session.run([s,s1]))
 
+"""
+tensorboard    --logdir=/summary/01/ --host 127.0.0.1
+"""
 def tensorbord_test():
     a = tf.constant(10,name="a")
     array1 = tf.random_normal([4,3],mean=32,stddev=0.9)

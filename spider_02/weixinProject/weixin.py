@@ -13,17 +13,26 @@ class WeiXinUpload():
     def saveCookie(self):
         cookeis = self.webBrower.get_cookies()
         cookeisJson = json.dumps(cookeis,indent=2,ensure_ascii=False)
-        with open("json.txt",mode='a+',encoding="utf-8") as f:
+        with open("json.txt",mode='w',encoding="utf-8") as f:
             f.write(cookeisJson)
 
     def setCookie(self,driver):
         try:
-            with open("json.txt",mode="w") as f:
+            with open("json.txt",mode="r",encoding="utf-8") as f:
                 cookeisJson = f.read()
             if cookeisJson:
                 cookeisJson = json.loads(cookeisJson,encoding="utf-8")
                 for cookiedct in cookeisJson:
-                    driver.add_cookie(cookiedct)
+                    driver.add_cookie({
+                        'name': cookiedct["name"],
+                        'value':cookiedct["value"],
+                        'path':cookiedct["path"],
+                        'domain':cookiedct["domain"],
+                        'secure':cookiedct["secure"],
+                        'httpOnly':cookiedct["httpOnly"],
+                        'expiry':cookiedct["expiry"]
+
+                    })
         except Exception as ex:
             print("设置cooike异常:",ex)
 
@@ -69,20 +78,49 @@ class WeiXinUpload():
         result = findtag_tool.inter_time_find_tag_byNewUrl(self.webBrower,
                                             "//input[@id='title']", intertime=1, count=30)
         if result:
-            result.sendkeys("test标题")
+            result.send_keys("test标题")
         else:
             print("未找到标题")
             return False
 
-            # 找到标题
+        # 找到正文
         result = findtag_tool.inter_time_find_tag_byFrame(self.webBrower,
-                                                           "//div[contains(text(),'从这里开始写正文')]", intertime=1, count=30)
+                                                           "//body","ueditor_0", intertime=1, count=30)
         if result:
-            result.sendkeys("test正文")
+            print(result)
+            result.send_keys("test正文")
+            # result.send_keys("test正文")
         else:
-            print("未找到标题")
+            print("未找到正文")
             return False
 
+        # 找到插入视频,首先从iframe中切换回来
+        self.webBrower.switch_to.default_content()
+        result = findtag_tool.inter_time_find_tag(self.webBrower, "//li[@id='js_editor_insertvideo']", intertime=1, count=30)
+        if result:
+            result.click()
+        else:
+            print("未找到插入视频")
+            return False
+
+        #找到上传视频的按钮
+        result =findtag_tool.inter_time_find_tag(self.webBrower,
+                                                 "//li[@class='weui-desktop-tab__nav']/a[contains(text(),'视频链接')]", intertime=1, count=30)
+
+        if result:
+            result.click()
+        else:
+            print("未找到插入")
+            return False
+
+        self.webBrower.find_element_by_name("videoLink").send_keys("https://v.qq.com/x/page/f0864buyf94.html")
+        time.sleep(3)
+        result = findtag_tool.inter_time_find_tag(self.webBrower,
+                                                  "//div[@weui='true'][2]//button[contains(text(),'确定')]",
+                                                  intertime=1, count=30)
+
+        print(result.is_displayed())
+        result.click()
 
 
 if __name__ == '__main__':

@@ -39,7 +39,7 @@ def inter_time_find_tag_byNewUrl(driver, strtag, intertime=1, count=30):
 
 
 """
-进入iframe找对应的元素，如果找到了元素后，就跳出iframe
+进入iframe找对应的元素，如果找到了元素后返回
 """
 def inter_time_find_tag_byFrame(driver, strtag, iframe,intertime=1, count=30):
     nowcount = 0
@@ -49,11 +49,11 @@ def inter_time_find_tag_byFrame(driver, strtag, iframe,intertime=1, count=30):
             driver.switch_to_frame(iframe)
             result = driver.find_element_by_xpath(strtag)
             print("规定时间内找到：" + strtag)
-            driver.switch_to.default_content()
+
             return result  # 找到tag就返回
         except:
             nowcount += 1
             print( "没找到" + strtag + str(nowcount) + "次")
-            driver.switch_to.default_content()
 
+    #
     print( "规定时间次数内没找到：" + strtag)
