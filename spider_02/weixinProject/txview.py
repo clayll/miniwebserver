@@ -12,23 +12,23 @@ from weixinProject.wxtools.viewdao_tool import viewDao
 from selenium.webdriver.chrome.options import Options
 class TXView:
     def __init__(self):
-        self.maxviewcount = 8
+        self.maxviewcount = 30
         self.flag = 'lrsp'
         #雷人视频最受好评
-        self.url_leiren = "https://v.qq.com/x/list/fun?itype=8&icelebrity=-1&sort=5&iaspect=-1&icolumn=-1&offset=0" #整蛊视频最受好评
+        self.url_leiren = "https://v.qq.com/x/list/fun?itype=8&icelebrity=-1&sort=5&iaspect=-1&icolumn=-1&offset=0"
+
         #self.url_zhenggu = "https://v.qq.com/x/list/fun?itype=3649&offset=0&icolumn=-1&sort=48&icelebrity=-1&iaspect=-1"
         #萌宝视频最新上架
         #self.url_mengbao = "https://v.qq.com/x/list/fun?itype=6&sort=5&offset=0&icelebrity=-1&icolumn=-1&iaspect=-1"   # #三个视频都要
         # self.url_lunxun = (self.url_leiren, self.url_zhenggu, self.url_mengbao)
         # self.url = {"lrsp":self.url_leiren , "zgsp":self.url_zhenggu, "mbsp":self.url_mengbao}
-        self.viewmintime = u"00:00:50"
-        self.viewmaxtime = u"00:05:00"
+        self.viewmintime = u"00:00:30"
+        self.viewmaxtime = u"00:02:00"
         self.viewcount = 0
         # chrome_options = Options()
         # chrome_options.add_argument('--headless')
         # self.viewdriver = webdriver.Chrome(chrome_options=chrome_options)
         self.viewdriver = webdriver.Firefox()
-        self.viewdriver.get(self.url_leiren)
         #self.viewdriver = webdriver.Chrome()
         self.gxviewdb = viewDao()
         self.gxviewdbnames = self.gxviewdb.findviewname()
@@ -80,30 +80,44 @@ class TXView:
             self.getview(viewslist)
 
     def start(self):
+        # 判断如果数据库中有8条数据，则不用再获取
+        if self.gxviewdb.getUnPubulishCount()[0] > 8:
+            self.viewdriver.close()
+            return True
+
+
+        self.viewdriver.get(self.url_leiren)
         viewslist = []
         print("开始")
-        self.viewdriver.get(self.url_leiren)
-        print("结束")
+        # self.viewdriver.get(self.url_leiren)
+        # print("结束")
 
-        self.getview(viewslist)
-        self.saveview(viewslist)
+        # self.getview(viewslist)
+        # self.saveview(viewslist)
         #self.flag = raw_input("雷人视频请输入1\n整蛊视频请输入2\n萌宝视频请输入3\n其它轮询抓取\n")
         # if self.flag != "1" or self.flag != "2" or self.flag != "3":
         #     pass
         #self.wxdriver.get(self.url.get(self.flag, self.url_lunxun))
         #self.flag = "lrsp"
         #self.viewdriver.get(self.url.get(self.flag, "error"))
-        self.gxviewdb.closegxviewdb()#关闭数据库
+        # self.gxviewdb.closegxviewdb()#关闭数据库
+        self.getview(viewslist)
+        for item in viewslist:
+            self.gxviewdb.saveview(item)
+
         self.viewdriver.close()
+        return True
+
 
 
 if __name__ == '__main__':
-    txView = TXView()
-    list=[]
-    txView.getview(list)
-    print(list)
-    for item in list:
-        txView.gxviewdb.saveview(item)
-
-
-    txView.viewdriver.close()
+    # txView = TXView()
+    # list=[]
+    # txView.getview(list)
+    # print(list)
+    # for item in list:
+    #     txView.gxviewdb.saveview(item)
+    #
+    #
+    # txView.viewdriver.close()
+    pass

@@ -1,7 +1,7 @@
 [
   {
     "name": "ua_id",
-    "value": "aiTbzXaMrbWUC9zpAAAAAI8mC8XANt51Ogg0joJWBoo=",
+    "value": "QKiNMUFCBcMHBfBiAAAAADvzz4Nkwn7Id7ulo2UYu30=",
     "path": "/",
     "domain": "mp.weixin.qq.com",
     "secure": true,
@@ -10,7 +10,7 @@
   },
   {
     "name": "pgv_pvi",
-    "value": "3083570176",
+    "value": "4820595712",
     "path": "/",
     "domain": ".qq.com",
     "secure": false,
@@ -19,10 +19,19 @@
   },
   {
     "name": "pgv_si",
-    "value": "s9925160960",
+    "value": "s7169901568",
     "path": "/",
     "domain": ".qq.com",
     "secure": false,
     "httpOnly": false
+  },
+  {
+    "name": "ua_id",
+    "value": "bo3qW5J5NNGviGtkAAAAAMQ12icC1WNQTbH-xsriy00=",
+    "path": "/",
+    "domain": ".mp.weixin.qq.com",
+    "secure": true,
+    "httpOnly": true,
+    "expiry": 2147483647
   }
 ]
