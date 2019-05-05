@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0597ef3-a955-4225-9dc7-4f058f61f4d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../MLearn_02/tensorflow_strart.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MLearn_02/tensorflow_strart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixinProject/app.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixinProject/component_tools/read_config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weixinProject/json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixinProject/json.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixinProject/txview.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixinProject/txview.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weixinProject/weixin.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixinProject/weixin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixinProject/wxtools/viewdao_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixinProject/wxtools/viewdao_tool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixinProject/wxtools/windows_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixinProject/wxtools/windows_tool.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,9 +22,10 @@
     <SUITE FILE_PATH="coverage/spider_02$test.coverage" NAME="test Coverage Results" MODIFIED="1551601660771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider_02$baidu_fanyi.coverage" NAME="baidu_fanyi Coverage Results" MODIFIED="1550395780840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider_02$36kr.coverage" NAME="36kr Coverage Results" MODIFIED="1550408434026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spider_02$read_config.coverage" NAME="read_config Coverage Results" MODIFIED="1557063069033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weixinProject/component_tools" />
     <SUITE FILE_PATH="coverage/spider_02$viewdao_tool.coverage" NAME="viewdao_tool Coverage Results" MODIFIED="1556933450063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weixinProject/wxtools" />
     <SUITE FILE_PATH="coverage/spider_02$txview.coverage" NAME="txview Coverage Results" MODIFIED="1556948605870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weixinProject" />
-    <SUITE FILE_PATH="coverage/spider_02$weixin.coverage" NAME="weixin Coverage Results" MODIFIED="1556949836811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weixinProject" />
+    <SUITE FILE_PATH="coverage/spider_02$weixin.coverage" NAME="weixin Coverage Results" MODIFIED="1557066781394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weixinProject" />
     <SUITE FILE_PATH="coverage/spider_02$xmlpath_01.coverage" NAME="xmlpath_01 Coverage Results" MODIFIED="1553611119613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider_02$xpath_.coverage" NAME="xpath_贴吧 Coverage Results" MODIFIED="1551601716555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider_02$windows_tool.coverage" NAME="windows_tool Coverage Results" MODIFIED="1556877689954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weixinProject/wxtools" />
@@ -36,11 +35,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/weixinProject/weixin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1015">
-              <caret line="216" column="26" selection-start-line="216" selection-start-column="26" selection-end-line="216" selection-end-column="26" />
+            <state relative-caret-position="609">
+              <caret line="77" column="28" lean-forward="true" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
               <folding>
                 <element signature="e#14#44#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weixinProject/app.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -68,6 +76,8 @@
       <find>body</find>
       <find>viewdao_tool</find>
       <find>js_submit</find>
+      <find>sendMsgProcess</find>
+      <find>此次操作完成</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -87,11 +97,13 @@
         <option value="$PROJECT_DIR$/xmlpath_01.py" />
         <option value="$PROJECT_DIR$/jdbook/jdbook/spiders/jdforbook.py" />
         <option value="$PROJECT_DIR$/urllib_01.py" />
-        <option value="$PROJECT_DIR$/weixinProject/json.txt" />
         <option value="$PROJECT_DIR$/weixinProject/component_tools/findtag_tool.py" />
         <option value="$PROJECT_DIR$/weixinProject/wxtools/windows_tool.py" />
         <option value="$PROJECT_DIR$/weixinProject/wxtools/viewdao_tool.py" />
         <option value="$PROJECT_DIR$/weixinProject/txview.py" />
+        <option value="$PROJECT_DIR$/weixinProject/component_tools/read_config.py" />
+        <option value="$PROJECT_DIR$/weixinProject/json.txt" />
+        <option value="$PROJECT_DIR$/weixinProject/app.cfg" />
         <option value="$PROJECT_DIR$/weixinProject/weixin.py" />
       </list>
     </option>
@@ -129,12 +141,6 @@
               <item name="weixinProject" type="462c0819:PsiDirectoryNode" />
               <item name="component_tools" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider_02" type="462c0819:PsiDirectoryNode" />
-              <item name="weixinProject" type="462c0819:PsiDirectoryNode" />
-              <item name="wxtools" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -143,7 +149,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MLearn_02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -161,6 +167,28 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.weixin">
+    <configuration name="read_config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider_02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weixinProject/component_tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weixinProject/component_tools/read_config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="txview" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider_02" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,35 +277,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="xmlpath_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="spider_02" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xmlpath_01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.weixin" />
+        <item itemvalue="Python.read_config" />
         <item itemvalue="Python.txview" />
         <item itemvalue="Python.viewdao_tool" />
         <item itemvalue="Python.windows_tool" />
-        <item itemvalue="Python.xmlpath_01" />
       </list>
     </recent_temporary>
   </component>
@@ -313,31 +319,32 @@
       <workItem from="1556872471430" duration="14537000" />
       <workItem from="1556928230143" duration="15935000" />
       <workItem from="1556955112690" duration="611000" />
+      <workItem from="1557057957621" duration="8642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114390000" />
+    <option name="totallyTimeSpent" value="123032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12480127" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12559618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.76868045" weight="0.13962558" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5536566" weight="0.39703587" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.76748806" visible="true" weight="0.13962558" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.55325913" weight="0.39625585" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.23131956" side_tool="true" visible="true" weight="0.13962558" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.62241656" weight="0.45865834" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.23251192" side_tool="true" visible="true" weight="0.13962558" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.62201905" weight="0.45865834" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -386,12 +393,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/474850172/lxml/etree/_ElementTree.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/474850172/lxml/etree/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/models.py" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/url.py" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/api.py" />
-    <entry file="file://$PROJECT_DIR$/戳爷.txt" />
     <entry file="file://$PROJECT_DIR$/jdbook/jdbook/spiders/dmoz.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -596,27 +597,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weixinProject/component_tools/scrollbar_tool.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/474850172/win32gui.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="893" column="4" selection-start-line="893" selection-start-column="4" selection-end-line="893" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixinProject/json.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixinProject/component_tools/findtag_tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -650,35 +634,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weixinProject/wxtools/windows_tool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="216">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="42" />
           <folding>
             <element signature="e#14#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weixinProject/txview.py">
+    <entry file="file://$PROJECT_DIR$/weixinProject/component_tools/findtag_tool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
+        <state relative-caret-position="396">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="32" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/weixinProject/component_tools/scrollbar_tool.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/weixinProject/wxtools/viewdao_tool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="990">
+          <caret line="55" column="37" lean-forward="true" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
           <folding>
             <element signature="e#14#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/weixinProject/component_tools/read_config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixinProject/component_tools/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/configparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="763" column="33" selection-start-line="763" selection-start-column="27" selection-end-line="763" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixinProject/txview.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="859" selection-start-line="859" selection-end-line="859" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixinProject/component_tools/read_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-start-column="2" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixinProject/json.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixinProject/app.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/weixinProject/weixin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1015">
-          <caret line="216" column="26" selection-start-line="216" selection-start-column="26" selection-end-line="216" selection-end-column="26" />
+        <state relative-caret-position="609">
+          <caret line="77" column="28" lean-forward="true" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
           <folding>
             <element signature="e#14#44#0" expanded="true" />
           </folding>
