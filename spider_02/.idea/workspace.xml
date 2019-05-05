@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0597ef3-a955-4225-9dc7-4f058f61f4d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/weixinProject/component_tools/findtag_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixinProject/component_tools/findtag_tool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixinProject/json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixinProject/json.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixinProject/weixin.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixinProject/weixin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MLearn_02/tensorflow_strart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spiber_03/19-4-10/requests_实例.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spiber_03/19-4-19/无头浏览器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spiber_03/19-4-10/糗事百科.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../spiber_03/19-4-10/糗事百科.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,43 +19,17 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/spider_02$_json.coverage" NAME="爬虫_json格式 Coverage Results" MODIFIED="1550401673827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spider_02$test.coverage" NAME="test Coverage Results" MODIFIED="1551601660771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider_02$baidu_fanyi.coverage" NAME="baidu_fanyi Coverage Results" MODIFIED="1550395780840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider_02$36kr.coverage" NAME="36kr Coverage Results" MODIFIED="1550408434026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/spider_02$test.coverage" NAME="test Coverage Results" MODIFIED="1551601660771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/spider_02$xpath_.coverage" NAME="xpath_贴吧 Coverage Results" MODIFIED="1551601716555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider_02$xmlpath_01.coverage" NAME="xmlpath_01 Coverage Results" MODIFIED="1553611119613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/spider_02$weixin.coverage" NAME="weixin Coverage Results" MODIFIED="1556611197937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weixinProject" />
+    <SUITE FILE_PATH="coverage/spider_02$xpath_.coverage" NAME="xpath_贴吧 Coverage Results" MODIFIED="1551601716555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/weixinProject/weixin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="69" column="63" selection-start-line="69" selection-start-column="63" selection-end-line="69" selection-end-column="63" />
-              <folding>
-                <element signature="e#14#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/itcast/itcast/spiders/itcast_01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weixinProject/component_tools/findtag_tool.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -91,14 +67,12 @@
         <option value="$PROJECT_DIR$/xmlpath_01.py" />
         <option value="$PROJECT_DIR$/jdbook/jdbook/spiders/jdforbook.py" />
         <option value="$PROJECT_DIR$/urllib_01.py" />
-        <option value="$PROJECT_DIR$/weixinProject/component_tools/findtag_tool.py" />
-        <option value="$PROJECT_DIR$/weixinProject/weixin.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="489" />
+    <option name="y" value="484" />
     <option name="width" value="1943" />
     <option name="height" value="1103" />
   </component>
@@ -121,19 +95,53 @@
             <path>
               <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider_02" type="462c0819:PsiDirectoryNode" />
-              <item name="weixinProject" type="462c0819:PsiDirectoryNode" />
+              <item name="csdn_crawl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider_02" type="462c0819:PsiDirectoryNode" />
-              <item name="weixinProject" type="462c0819:PsiDirectoryNode" />
-              <item name="component_tools" type="462c0819:PsiDirectoryNode" />
+              <item name="csdn_crawl" type="462c0819:PsiDirectoryNode" />
+              <item name="csdn_crawl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider_02" type="462c0819:PsiDirectoryNode" />
-              <item name="weixinProject" type="462c0819:PsiDirectoryNode" />
-              <item name="wxtools" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider_02" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider_02" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider_02" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider_02" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbook" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider_02" type="462c0819:PsiDirectoryNode" />
+              <item name="yangguang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider_02" type="462c0819:PsiDirectoryNode" />
+              <item name="yangguang" type="462c0819:PsiDirectoryNode" />
+              <item name="yangguang" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.weixin">
+  <component name="RunManager" selected="Python.xmlpath_01">
     <configuration name="36kr" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider_02" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,6 +191,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="爬虫_json格式" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider_02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫_json格式.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider_02" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,28 +227,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="weixin" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="spider_02" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weixinProject" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weixinProject/weixin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,11 +281,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.weixin" />
         <item itemvalue="Python.xmlpath_01" />
         <item itemvalue="Python.xpath_贴吧" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.36kr" />
+        <item itemvalue="Python.爬虫_json格式" />
       </list>
     </recent_temporary>
   </component>
@@ -306,32 +314,31 @@
       <workItem from="1555289073413" duration="4173000" />
       <workItem from="1555676773393" duration="15000" />
       <workItem from="1555814015883" duration="1475000" />
-      <workItem from="1556593426260" duration="7249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63988000" />
+    <option name="totallyTimeSpent" value="56739000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="489" y="484" width="1943" height="1103" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22386059" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22039299" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.772118" weight="0.38243628" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49731904" visible="true" weight="0.398017" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.622814" weight="0.36037442" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49801272" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50268096" side_tool="true" visible="true" weight="0.398017" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.62299466" weight="0.45938748" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.37599576" side_tool="true" visible="true" weight="0.46026832" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.62400424" visible="true" weight="0.46026832" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -344,36 +351,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/weixinProject/component_tools/findtag_tool.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="setValue">
-      <expression>
-        <expression-string>&quot;//input[@id=\\'title\\']&quot;</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>&quot;input[@id='title']&quot;</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>'//input[@id=\\'title\\']'</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/__init__.py" />
@@ -567,46 +544,8 @@
     <entry file="file://$PROJECT_DIR$/itcast/itcast/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/weixinProject/json.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/webelement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="484" column="21" lean-forward="true" selection-start-line="483" selection-start-column="10" selection-end-line="483" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itcast/itcast/spiders/itcast_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixinProject/component_tools/findtag_tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixinProject/weixin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="69" column="63" selection-start-line="69" selection-start-column="63" selection-end-line="69" selection-end-column="63" />
-          <folding>
-            <element signature="e#14#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
