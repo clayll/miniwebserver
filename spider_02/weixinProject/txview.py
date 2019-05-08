@@ -82,7 +82,7 @@ class TXView:
     def start(self):
         # 判断如果数据库中有8条数据，则不用再获取
         if self.gxviewdb.getUnPubulishCount()[0] > 8:
-            self.viewdriver.close()
+            self.viewdriver.quit()
             return True
 
 
