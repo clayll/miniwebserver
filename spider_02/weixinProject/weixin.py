@@ -3,14 +3,15 @@ from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common import keys
 from wxtools import viewdao_tool,windows_tool
-from component_tools import findtag_tool,scrollbar_tool
+from component_tools import findtag_tool,scrollbar_tool,read_config
 import json
 import time
 import txview
 
 class WeiXinUpload():
     def __init__(self):
-        self.startUlr="https://mp.weixin.qq.com/"
+        self.startUrl= "https://mp.weixin.qq.com/"
+
         self.webBrower = webdriver.Firefox()
         self.viewDao = viewdao_tool.viewDao()
         self.articles = list()
@@ -29,17 +30,18 @@ class WeiXinUpload():
                 cookeisJson = f.read()
             if cookeisJson:
                 cookeisJson = json.loads(cookeisJson,encoding="utf-8")
-                for cookiedct in cookeisJson:
-                    driver.add_cookie({
-                        'name': cookiedct["name"],
-                        'value':cookiedct["value"],
-                        'path':cookiedct["path"],
-                        'domain':cookiedct["domain"],
-                        'secure':cookiedct["secure"],
-                        'httpOnly':cookiedct["httpOnly"],
-                        'expiry':cookiedct["expiry"]
-
-                    })
+                for cookiedict in cookeisJson:
+                    cookie = {
+                        'name': cookiedict["name"],
+                        'value':cookiedict["value"],
+                        'path':cookiedict["path"],
+                        'domain':cookiedict["domain"],
+                        'secure':cookiedict["secure"],
+                        'httpOnly': cookiedict["httpOnly"]
+                    }
+                    if "expiry" in cookiedict:
+                        cookie["expiry"] = cookiedict["expiry"]
+                    driver.add_cookie(cookie)
         except Exception as ex:
             print("设置cooike异常:",ex)
 
@@ -49,17 +51,25 @@ class WeiXinUpload():
     """
     def login(self):
         print("开始登录公众号")
-        self.webBrower.get(self.startUlr)
+        # 如果有cookie则登录
+        if read_config.getAppSection("logindate") == time.strftime('%Y-%m-%d'):
+            url = read_config.getAppSection("cookiewithurl")
+            self.webBrower.get(url)
+            self.setCookie(self.webBrower)
+            self.webBrower.get(url)
+            self.webBrower.maximize_window()
+            # 查询要填充的数据
+            self.articles = list(self.viewDao.findviewunused(self.dataCount))
+            return True
+
+
+        self.webBrower.get(self.startUrl)
         # 窗口最大化
         self.webBrower.maximize_window()
-        self.setCookie(self.webBrower)
         self.webBrower.find_element_by_name("account").send_keys("8238491@163.com")
         self.webBrower.find_element_by_name("password").send_keys("p9h4dumu")
         self.webBrower.find_element_by_class_name("btn_login").click()
-        self.saveCookie()
 
-        # 查询要填充的数据
-        self.articles = list(self.viewDao.findviewunused(self.dataCount))
 
         # 1跳转到新建群聊
         result = findtag_tool.inter_time_find_tag(self.webBrower,
@@ -68,6 +78,7 @@ class WeiXinUpload():
             # is_displayed()
             result.click()
             print("成功登录后跳转到新建群聊")
+            self.saveCookie()
         else:
             print("登录跳转失败")
             return False
@@ -77,14 +88,20 @@ class WeiXinUpload():
             "//a/strong[contains(text(),'自建图文')]", intertime=1, count=30)
         if result:
             result.click()
+
+            read_config.setAppFirstLogin(self.webBrower.find_element_by_xpath("//a/strong[contains(text(),'自建图文')]/..").get_attribute("href"))
             print("成功登录后跳转到自建图文")
+
+            return True
         else:
             print("登录跳转自建图文失败")
             return False
 
 
+
     """上传视频"""
     def uploadVidoe(self, article):
+        print(article)
         #1找到标题
         result = findtag_tool.inter_time_find_tag_byNewUrl(self.webBrower,"//input[@id='title']",
                                                   intertime=1, count=5)
@@ -234,7 +251,13 @@ class WeiXinUpload():
     def sendMsgProcess(cls):
         if txview.TXView().start():
             weixin = WeiXinUpload()
-            weixin.login()
+
+            if weixin.login() == False:
+                print("登录失败")
+                return False
+
+            #2 查询要填充的数据
+            weixin.articles = list(weixin.viewDao.findviewunused(weixin.dataCount))
             # 3 上传第一篇文章
             if weixin.uploadVidoe(weixin.articles[0]) == False:
                 print("上传失败")
