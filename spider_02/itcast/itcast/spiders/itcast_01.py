@@ -18,3 +18,6 @@ class Itcast01Spider(scrapy.Spider):
 
             yield item
 
+
+
+

@@ -12,6 +12,7 @@ from weixinProject.wxtools.viewdao_tool import viewDao
 from selenium.webdriver.chrome.options import Options
 class TXView:
     def __init__(self):
+        self.viewcount = 0
         self.maxviewcount = 30
         self.flag = 'lrsp'
         #雷人视频最受好评
@@ -24,7 +25,7 @@ class TXView:
         # self.url = {"lrsp":self.url_leiren , "zgsp":self.url_zhenggu, "mbsp":self.url_mengbao}
         self.viewmintime = u"00:00:30"
         self.viewmaxtime = u"00:02:00"
-        self.viewcount = 0
+
         # chrome_options = Options()
         # chrome_options.add_argument('--headless')
         # self.viewdriver = webdriver.Chrome(chrome_options=chrome_options)

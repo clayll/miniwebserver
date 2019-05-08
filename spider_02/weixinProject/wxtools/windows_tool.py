@@ -7,8 +7,8 @@ import os
 
 def solvedexplore(filepath,dialogName=u'打开'):
     # 有个bug打开后过快就没反应，停2秒先
-    time.sleep(3)
-    print("开始等打开窗口")
+    time.sleep(5)
+
 
     while not win32gui.FindWindow(None, dialogName):time.sleep(1)  # 等到窗口出现
     dialog = win32gui.FindWindow(None, dialogName)

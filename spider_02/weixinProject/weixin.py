@@ -169,7 +169,7 @@ class WeiXinUpload():
         windows_tool.solvedexplore(article[3],dialogName=u'文件上传')
 
         #选择文件后点击下一步
-        result = findtag_tool.inter_time_find_tag(self.webBrower,
+        result = findtag_tool.inter_time_find_tag_byNewUrl(self.webBrower,
                                          "//div[@class='dialog_ft']/span[1]/button",
                                          intertime=1, count=30)
         if result:
@@ -179,7 +179,7 @@ class WeiXinUpload():
             return False
 
         # 9选择文件后点击完成
-        result = findtag_tool.inter_time_find_tag(self.webBrower,
+        result = findtag_tool.inter_time_find_tag_byNewUrl(self.webBrower,
                                                   "//div[@class='dialog_ft']/span[3]/button",
                                                   intertime=1, count=30)
         if result:
