@@ -118,6 +118,31 @@ def line_regression_test():
         saver.save(sess,'./ckpt/01/')
 
 
+def Sencond_regression_test():
+    #     1 准备数据
+    pass
+
+def testCopy():
+    import copy
+    a = [1,[1,2,3]]
+    b = copy.copy(a)
+    a[0]=2
+    a[1].append(5)
+    print(a)
+    print(b)
+
+    d = [1,2,[1,2,3]]
+    c = d[:]
+    d[2].append(5)
+    d[0] = 3
+    print(d)
+    print(c)
+
+
+
+def testarg(arg,*args,**kwargs):
+    print(args)
+    print(kwargs)
 
 if __name__ == '__main__':
     # first_01()
@@ -125,8 +150,8 @@ if __name__ == '__main__':
     # graph_first()
     # session_test()
     # tensor_test()
-
-    line_regression_test()
+    testCopy()
+    # line_regression_test()
     # y = tf.constant([[1,2,3,4,5]],shape=(5,1),dtype=tf.float16)
     # z = tf.constant([[0.7]],shape=(1,1),dtype=tf.float16)
     # with tf.Session() as sess:
