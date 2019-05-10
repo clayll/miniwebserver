@@ -190,7 +190,7 @@ class WeiXinUpload():
 
         # 10选择文件后点击保存
         self.webBrower.switch_to.default_content()
-        result = findtag_tool.inter_time_find_tag(self.webBrower,"//div[@id='bottom_main']/div[4]/div[1]/span[@id='js_submit']",
+        result = findtag_tool.inter_time_find_tag_byNewUrl(self.webBrower,"//div[@id='bottom_main']/div[4]/div[1]/span[@id='js_submit']",
                                                   intertime=1, count=30)
         if result:
             result.click()
