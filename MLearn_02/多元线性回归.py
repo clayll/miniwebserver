@@ -40,16 +40,14 @@ class MultiRegression():
             self.b = self.b - (1 / self.count * self.lr * b_grad)
 
 
+
+
     def run(self):
         # plt.subplot(2,1,1)
         # plt.scatter(self.x_data[:,0],self.y_data ,c= 'r')
         # plt.subplot(2, 1, 2)
         # plt.scatter(self.x_data[:, 1], self.y_data, c='c')
         # plt.show()
-
-
-
-
         loss1 = self.modelType()
         print("loss:{0},k1:{1},k2:{2},k3:{3}".format(loss1,self.k1,self.k2,self.b))
         self.selfGradient()
@@ -57,7 +55,19 @@ class MultiRegression():
         axes = plt.subplot(1, 1, 1, projection="3d" )
         axes.scatter(self.x_data[:, 0], self.x_data[:, 1], self.y_data, c="r", marker="o",s=10)
 
-        np.meshgrid(self.x_data[:, 0], self.x_data[:, 1])
+
+        x1 = self.x_data[:,0]
+        x2 = self.x_data[:,1]
+        x1, x2 = np.meshgrid(x1, x2)
+        z = self.k1 * x1 + self.k2 * x2 + self.b
+
+
+
+        # print(x1,x2,z,x1.shape,x2.shape,z.shape)
+        axes.plot_surface(x1,x2 ,z)
+        axes.set_xlabel('Miles')
+        axes.set_ylabel('Num of Deliveries')
+        axes.set_zlabel('Time')
         plt.show()
 
     def test(self):
@@ -78,11 +88,15 @@ class MultiRegression():
         # print(np.matrix(a) * np.matrix(b))
         a1 = np.array([[1,9,53]])
         a2 = np.array([[4,5,6]])
-        z = np.array([[8,9,10]])
+        z = np.array([[3,0,10]])
+
+
 
 
         axes = plt.subplot(111,projection="3d")
         axes.scatter(a1,a2,z,c='r' , marker="o")
+
+        z = a1*0.2+a2*0.3+0.1
 
         a1,a2 = np.meshgrid(a1,a2)
         axes.plot_surface(a1,a2,z)
@@ -91,10 +105,35 @@ class MultiRegression():
 
         print(a1,a2)
 
+    def skline(self):
+
+        regression = LinearRegression()
+        regression.fit(self.x_data,self.y_data)
+
+        print(regression.predict(self.x_data))
+
+        axes = plt.subplot(1, 1, 1, projection="3d")
+        axes.scatter(self.x_data[:, 0], self.x_data[:, 1], self.y_data, c="r", marker="o", s=10)
+        x1 = self.x_data[:, 0]
+        x2 = self.x_data[:, 1]
+        x1, x2 = np.meshgrid(x1, x2)
+        z = regression.coef_[0] * x1 +  regression.coef_[1] * x2 + regression.intercept_
+        axes.plot_surface(x1, x2, z)
+        axes.set_xlabel('Miles')
+        axes.set_ylabel('Num of Deliveries')
+        axes.set_zlabel('Time')
+        plt.show()
+        print(regression.coef_[0] ,  regression.coef_[1] ,regression.intercept_)
+
+
+
 
 if __name__ == '__main__':
     mulitRegress=MultiRegression()
     # print(mulitRegress.x_data,mulitRegress.y_data)
-    mulitRegress.run()
+    # mulitRegress.skline()
+    #
+    # mulitRegress.run()
+    mulitRegress.polynomialRegression()
 
 

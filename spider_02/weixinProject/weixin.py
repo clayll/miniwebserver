@@ -234,18 +234,19 @@ class WeiXinUpload():
             print("未找到发送")
             return False
 
-        # # 3 确认群发
-        #
-        # result = findtag_tool.inter_time_find_tag_byNewUrl(self.webBrower,
-        #                                                    "//div[@id='wxDialog_1']/div[3]/a[1]",
-        #                                                    intertime=1, count=5)
-        # if result:
-        #     result.click()
-        #     print("完成继续群发")
-        #     time.sleep(3)
-        # else:
-        #     print("未找到继续群发")
-        #     return False
+        # 3 确认群发
+
+        result = findtag_tool.inter_time_find_tag_byNewUrl(self.webBrower,
+                                                           "//div[@id='list_container']/div[1]/h2[contains(text(),'已群发消息')]",
+                                                           intertime=1, count=50)
+        if result:
+            # 发送成功后，更新状态
+            self.viewDao.changeview(self.articles)
+            print("完成状态更新")
+
+        else:
+            print("未完成状态更新")
+            return False
 
     @classmethod
     def sendMsgProcess(cls):
@@ -273,9 +274,7 @@ class WeiXinUpload():
                 print("发送失败")
                 return False
 
-            # 发送成功后，更新状态
 
-            weixin.viewDao.changeview(weixin.articles)
 
             print("此次操作完成！")
             # weixin.webBrower.close()

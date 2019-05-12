@@ -13,7 +13,7 @@ from selenium.webdriver.chrome.options import Options
 class TXView:
     def __init__(self):
         self.viewcount = 0
-        self.maxviewcount = 3
+        self.maxviewcount = 30
         self.flag = 'lrsp'
         #雷人视频最受好评
         self.url_leiren = "https://v.qq.com/x/list/fun?itype=8&icelebrity=-1&sort=5&iaspect=-1&icolumn=-1&offset=0"
