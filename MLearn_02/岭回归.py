@@ -1,12 +1,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import RidgeCV
+from sklearn import linear_model
 
 class RidgeRegression():
     def __init__(self):
         data = np.genfromtxt("./datas/longley.csv",delimiter=",")
         self.x = data[1:,2:]
         self.y = data[1:,1]
+
 
 
     def runSK(self):
@@ -44,7 +46,27 @@ class RidgeRegression():
         print(self.y)
         print(x*np.mat(ws))
 
+    
+    def runLasso(self):
+        lasso = linear_model.LassoCV()
+        lasso.fit(self.x,self.y)
+        print(self.y)
+        print(lasso.coef_,lasso.intercept_,lasso.alpha_,lasso.predict(self.x[0:4]))
+
+
+    # 弹性网
+    def runNet(self):
+        net = linear_model.ElasticNetCV()
+        net.fit(self.x,self.y)
+        print(net.coef_, net.intercept_, net.alpha_, net.predict(self.x[0:4]))
+
+
+
+
 
 if __name__ == '__main__':
     ridge = RidgeRegression()
-    ridge.runRige()
+    # ridge.runRige()
+    ridge.runLasso()
+    print("*"*40)
+    ridge.runNet()
