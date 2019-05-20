@@ -71,6 +71,7 @@ class PolynomialLogicRegression():
         plt.show()
 
     def showPlot2(self):
+        pass
 
     def prepareData(self):
 

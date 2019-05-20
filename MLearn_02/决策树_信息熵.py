@@ -1,5 +1,4 @@
 import pandas as pd
-
 from sklearn.feature_extraction import DictVectorizer
 from sklearn import tree
 from sklearn import preprocessing
@@ -69,7 +68,26 @@ class  Entropy():
 
 
 
+class CartTree():
+    def __init__(self):
+        self.data = pd.read_csv("./datas/cart.csv")
+        self.labels=[]
+        self.x_data=[]
+        self.y_data=[]
 
+    def prepareData(self):
+
+        datas = self.data.to_dict(orient="list")
+        datas.pop('RID')
+        for k,v in datas.items():
+            self.labels.append(k)
+            self.x_data.append(v[0:-1])
+            self.y_data.append(v[-1:])
+
+    def treeModel(self):
+        treeClassifier = tree.DecisionTreeClassifier()
+        treeClassifier.fit(self.x_data, self.y_data)
+        print(treeClassifier.score(self.x_data,self.y_data))
 
 if __name__ == '__main__':
      entropy = Entropy()
