@@ -44,7 +44,12 @@ if __name__ == '__main__':
     kmeansRealization = KmeansRealization()
     s = kmeansRealization.init_K(4)
 
-    a = np.array([[1,[1,2]],[2,[3,4]]])
+    a = np.array([[1,2],[2,4],[23,4]])
+
+    print( np.nonzero(a[:,1] == 4) )
+
+
+
 
     # b = np.array([[2, 2], [3, 4]])
     # print((a == b).all())
