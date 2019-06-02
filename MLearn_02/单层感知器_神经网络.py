@@ -10,8 +10,7 @@ class Perceptron():
 
     def update(self):
         y = np.sign( np.dot(self.x_data, self.ws))
-        self.ws = self.ws + np.dot(self.x_data.T, ((self.t - y)*self.lr)) / self.x_data.shape[0]
-        return y
+        self.ws = self.ws + np.dot(self.x_data.T, ((self.t - y)*self.lr)) / self.x_data.shape[0]     
 
     def run(self):
         for i in range(100):

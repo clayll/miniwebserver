@@ -86,5 +86,5 @@ class baidu_tieba_jijian():
 
 
 if __name__ == "__main__":
-    teiba = baidu_tieba_jijian("戳爷")
+    teiba = baidu_tieba_jijian("中国好声音")
     teiba.run()
