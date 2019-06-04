@@ -79,6 +79,7 @@ class baidu_tieba_thread():
                 print(filePath)
                 with open(filePath, "a", encoding="utf-8") as f:
                     content = json.dumps(item, ensure_ascii=False, indent=2)
+                    # content = item["title"]
                     f.write(content)
                     f.write("\n")
                     self.qurlDetial.task_done()
@@ -147,7 +148,7 @@ class baidu_tieba_thread():
         t = Thread(target=self.getPageListUrl)
         t.start()
 
-        for i in range(3):
+        for i in range(5):
             t = Thread(target=self.getListDetails)
             t.setDaemon(True)
             t.start()
@@ -163,7 +164,7 @@ class baidu_tieba_thread():
 
 if __name__ == "__main__":
     t1 = time.time()
-    teiba = baidu_tieba_thread(u"腹肌")
+    teiba = baidu_tieba_thread(u"中国好声音")
     teiba.run()
 
 

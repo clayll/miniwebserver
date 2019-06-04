@@ -9,15 +9,20 @@ def nonlin(x,deriv=False):
 X = np.array([[0,0,1],  
             [0,1,1],  
             [1,0,1],  
-            [1,1,1]]) 
+            [1,1,1]])
 print (X.shape)
+
                   
 y = np.array([[0],  
             [1],  
             [1],  
             [0]])  
 print(y.shape)
+
 np.random.seed(1)
+
+np.random.seed(1)  
+
   
 # randomly initialize our weights with mean 0  
 w0 = 2*np.random.random((3,4)) - 1  
@@ -25,8 +30,11 @@ w1 = 2*np.random.random((4,1)) - 1
 print (w0)
 print (w1  )
 print (w0.shape)
+
 print (w1.shape)
-  
+
+
+
 for j in range(60000):
   
      
@@ -38,7 +46,10 @@ for j in range(60000):
     l2_error = y - l2  
       
     if (j% 10000) == 0:  
+
         print ("Error:" + str(np.mean(np.abs(l2_error))))
+
+
           
      
     l2_delta = l2_error*nonlin(l2,deriv=True)  
