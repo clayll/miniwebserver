@@ -1,11 +1,13 @@
 import numpy as np  
-  
+
+'''定义激活函数'''
 def nonlin(x,deriv=False):  
     if(deriv==True):  
         return x*(1-x)  
   
     return 1/(1+np.exp(-x))  
-      
+
+
 X = np.array([[0,0,1],  
             [0,1,1],  
             [1,0,1],  
@@ -21,7 +23,6 @@ print(y.shape)
 
 np.random.seed(1)
 
-np.random.seed(1)  
 
   
 # randomly initialize our weights with mean 0  
@@ -34,7 +35,7 @@ print (w0.shape)
 print (w1.shape)
 
 
-
+'''开始训练'''
 for j in range(60000):
   
      
@@ -42,7 +43,7 @@ for j in range(60000):
     l1 = nonlin(np.dot(l0,w0))  
     l2 = nonlin(np.dot(l1,w1))  
   
-      
+    # 的到第一次的结果
     l2_error = y - l2  
       
     if (j% 10000) == 0:  
@@ -55,7 +56,7 @@ for j in range(60000):
     l2_delta = l2_error*nonlin(l2,deriv=True)  
   
      
-    l1_error = l2_delta.dot(w1.T)  
+    l1_error = l2_delta.dot(w1.T)
       
       
     l1_delta = l1_error * nonlin(l1,deriv=True)  
