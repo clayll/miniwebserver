@@ -22,6 +22,8 @@ np.random.seed(1)
 # randomly initialize our weights with mean 0  
 w0 = 2*np.random.random((3,4)) - 1  
 w1 = 2*np.random.random((4,1)) - 1
+lr = 1.5
+
 print (w0)
 print (w1  )
 print (w0.shape)
@@ -49,5 +51,5 @@ for j in range(60000):
       
     l1_delta = l1_error * nonlin(l1,deriv=True)  
   
-    w1 += l1.T.dot(l2_delta)  
-    w0 += l0.T.dot(l1_delta)  
+    w1 += l1.T.dot(l2_delta) * lr
+    w0 += l0.T.dot(l1_delta) * lr
