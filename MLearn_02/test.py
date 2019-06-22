@@ -41,8 +41,9 @@ probs /= np.sum(probs, axis=1, keepdims=True)
 loss = -np.sum(np.log(probs[np.arange(4), y])) / 4
 print(np.log(probs[np.arange(4), y]))
 print(loss)
+s = tf.truncated_normal((784,500),mean=0.1,stddev=0.1)
+sess = tf.Session()
+print(sess.run(s))
 
-
-print()
 
 

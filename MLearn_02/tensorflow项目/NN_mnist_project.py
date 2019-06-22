@@ -3,10 +3,14 @@ import tensorflow as tf
 import numpy as np
 
 
+LEARNING_RATE_BASE = 0.001   # 学习率
+LEARNING_RATE_DECAY = 0.99
+step = 10000
 ds = input_data.read_data_sets("MNIST_data",one_hot=True)
+batch_size = 50
+DATAS_COUNT = 55000
 
-x_train = ds.train.images
-y_train = ds.train.labels
+
 
 x_test = ds.test.images
 y_test = ds.test.labels
@@ -30,50 +34,70 @@ def conv2d(x, W):
 def max_pool_2x2(x):
   return tf.nn.max_pool(x, ksize=[1, 2, 2, 1],
                         strides=[1, 2, 2, 1], padding='SAME')
+
+def forword():
+    w0 = get_w_variable((784, 500), 0.0001)
+    b0 = bias_variable((1, 500))
+
+    w = get_w_variable((500, 10), 0.0001)
+    b = bias_variable((1, 10))
+
+    # 第一层的结果
+    y0_ = tf.matmul(x, w0) + b0
+
+    corss_entroy0 = tf.nn.relu(y0_)
+
+    # 第二层的结果
+    y_ = tf.matmul(corss_entroy0, w) + b
+    return y_
+
+def get_w_variable(size,regularization):
+    w = tf.Variable(tf.truncated_normal(size,mean=0,stddev=0.1))
+    if regularization:
+        tf.add_to_collection("losses", tf.contrib.layers.l2_regularizer(regularization)(w))
+    return w
+
+
 def NN_test():
 
 
-
-
-    # w0 = tf.Variable(tf.zeros((784,784)),dtype=tf.float32)
-    # b0 = tf.Variable(tf.zeros([784]))
-
-    w = tf.Variable(tf.zeros((784,10)),dtype=tf.float32)
-    b = tf.Variable(tf.zeros([10]))
-
-    # # 第一层的结果
-    # y0_ = tf.matmul(x,w0)+b0
-    #
-    # corss_entroy0 = tf.nn.softmax(y0_)
-
-    # 第二层的结果
-    y_ = tf.matmul(x,w)+b
-
+    y_ = forword()
     corss_entroy = tf.nn.softmax(y_)
 
     correct_prediction = tf.equal(tf.argmax(y,1),tf.argmax(y_,1))
     accuracy  = tf.reduce_mean(tf.cast(correct_prediction,dtype=tf.float32))
 
-    loss = -tf.reduce_sum(y* (tf.log(corss_entroy)))
-    train_step = tf.train.GradientDescentOptimizer(0.0015).minimize(loss)
+
+    global_step = tf.Variable(0, trainable=False)
+    learning_rate = tf.train.exponential_decay(
+        LEARNING_RATE_BASE,
+        global_step,
+        100,
+        LEARNING_RATE_DECAY,
+        staircase=False)
+    regu_loss = tf.add_n(tf.get_collection('losses'))
+    loss = -tf.reduce_sum(y* (tf.log(corss_entroy))) + regu_loss
+    # loss = -tf.reduce_sum(y * (tf.log(corss_entroy)))
+    train_step = tf.train.GradientDescentOptimizer(learning_rate).minimize(loss)
 
 
     with tf.Session() as sess:
         init = tf.global_variables_initializer()
         sess.run(init)
-        start = 0
-        end = 500
-        endMax = x_train.shape[0]
-        while True:
-            if end > endMax:
-                break
-            sess.run(train_step,feed_dict={x : x_train[start:end], y : y_train[start:end]})
-            now_loss = sess.run(loss, feed_dict={x: x_train[start:end], y: y_train[start:end]})
-            print("%s第%s轮训练后的now_loss值：%s " % (start,end, now_loss))
+        saver = tf.train.Saver()
+
+        for i in range(step):
+            x_train,y_train = ds.train.next_batch(batch_size)
+            sess.run(learning_rate,feed_dict={global_step:i})
+            sess.run(train_step,feed_dict={x : x_train, y : y_train})
+            now_loss = sess.run(loss, feed_dict={x : x_train, y : y_train})
+            if i % 100 == 0:
+                print("第%s轮训练后的now_loss值：%s " % (i , now_loss))
+            if i % 2000 == 0:
+                saver.save(sess,"model/"+ 'model.ckpt',global_step=i+1)
             # if end %  2000 == 0 :
             #     print("准确率是：", sess.run(accuracy, feed_dict={x: x_train[start:end], y: y_train[start:end]}))
-            start+= 500
-            end +=  500
+
         # y_prodict = sess.run(corss_entroy,feed_dict={x: x_test,y: y_test})
         print("准确率是：", sess.run(accuracy, feed_dict={x: x_test,y: y_test}))
         #
@@ -184,4 +208,22 @@ def CNN_test():
             # x: ds.test.images, y: ds.test.labels, keep_prob: 1.0})
 
             x: ds.test.images, y: ds.test.labels}))
-CNN_test()
+
+def NN_Predict():
+    y_ = forword()
+    correct_prediction = tf.equal(tf.argmax(y, 1), tf.argmax(y_, 1))
+    accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+
+    saver = tf.train.Saver()
+    with tf.Session() as sess:
+        init = tf.global_variables_initializer()
+        sess.run(init)
+        ckpt = tf.train.get_checkpoint_state("model/")
+        if  ckpt.model_checkpoint_path:
+            saver.restore(sess, ckpt.model_checkpoint_path)
+
+            print(sess.run(accuracy,feed_dict={x:ds.test.images,y:ds.test.labels}))
+
+
+if __name__ == '__main__':
+    NN_Predict()
