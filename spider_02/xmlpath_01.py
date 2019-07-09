@@ -1,4 +1,4 @@
-from lxml import  etree
+from lxml import  html
 import json
 from pprint import pprint
 
@@ -13,7 +13,7 @@ text = '''
      </ul>
  </div'''
 
-html = etree.HTML(text)
+html = html.etree.HTML(text)
 
 print(html)
 

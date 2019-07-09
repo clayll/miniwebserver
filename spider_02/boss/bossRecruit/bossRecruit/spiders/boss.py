@@ -3,6 +3,7 @@ import scrapy
 import random
 import threading
 import time
+import csv
 
 
 class BossSpider(scrapy.Spider):
@@ -21,7 +22,7 @@ class BossSpider(scrapy.Spider):
             href = self.base_url+li.xpath("//div[@class='job-primary']//a/@href").extract_first()
             title = li.xpath("//div[@class='job-primary']//a/div[@class='job-title']/text()").extract_first()
             item = dict({ "boss链接": href,"职位名称": title})
-            time.sleep(random.random() * 5)
+            time.sleep(random.random() * 10)
             yield scrapy.Request(href, callback=self.parse_details ,meta={"item": item}, dont_filter=True)
 
         nexturl = self.base_url+response.xpath("//a[@ka='page-next']/@href").extract_first()
@@ -76,6 +77,7 @@ class BossSpider(scrapy.Spider):
             return ""
 
     def deal_em(self,element):
-        elements = element[0].split('<em class="dolt"></em>')
+
+        elements = element.split('<em class="dolt"></em>')
 
         return elements

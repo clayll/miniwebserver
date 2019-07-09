@@ -17,7 +17,7 @@ NEWSPIDER_MODULE = 'bossRecruit.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'bossRecruit (+http://www.yourdomain.com)'
-LOG_LEVEL = "WARNING"
+# LOG_LEVEL = "WARNING"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent

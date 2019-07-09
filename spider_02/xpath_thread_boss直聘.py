@@ -1,4 +1,4 @@
-from lxml import etree
+from lxml import html
 import requests,json,time,os
 from threading import Thread
 from queue import Queue
@@ -34,7 +34,7 @@ class baidu_tieba_thread():
         while next_url:
             print(next_url)
             html = self.parse_rul(next_url)
-            html = etree.HTML(html)
+            html = html.etree.HTML(html)
             div_list = html.xpath(r"//div/div[@class='i']")
             for r in div_list:
                 item = {}
@@ -53,7 +53,7 @@ class baidu_tieba_thread():
             next_url = item["href"]
             while next_url:
                 html = self.parse_rul(next_url)
-                html = etree.HTML(html)
+                html = html.etree.HTML(html)
                 # 抓取对应的图片的地址
                 result = html.xpath("//img[@class='BDE_Image']/@src")
                 img_list = []
@@ -90,7 +90,7 @@ class baidu_tieba_thread():
     def get_url_content(self, html):
 
         """遍历所有的页面"""
-        html = etree.HTML(html)
+        html = html.etree.HTML(html)
         div_list = html.xpath(r"//div/div[@class='i']")
         content_list = []
 
@@ -107,7 +107,7 @@ class baidu_tieba_thread():
 
     def getimage_list(self,href,total_list:list):
         html = self.parse_rul(href)
-        html = etree.HTML(html)
+        html = html.html.etree.HTML(html)
         # 抓取对应的图片的地址
         result = html.xpath("//img[@class='BDE_Image']/@src")
         for r in result:
