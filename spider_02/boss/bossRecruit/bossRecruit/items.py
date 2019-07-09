@@ -8,8 +8,7 @@
 import scrapy
 
 
-class SuningbookItem(scrapy.Item):
+class BossrecruitItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    print(scrapy.Item)
     pass
