@@ -2,6 +2,7 @@ import pandas as pd
 import tensorflow as tf
 
 from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import minmax_scale
 import numpy as np
 
 # index = ['a','b']
@@ -77,7 +78,10 @@ def testStander():
     np.random.seed(2)
     randrage =  np.random.randint(1,100,[10,1]).astype(dtype=np.float)
     print(randrage[:,0:1])
-    randrage1 = StandardScaler()
-    print(randrage1.fit(randrage[:,0:1]))
+    randrage1 = StandardScaler().fit_transform(randrage)
+    randrage2 = minmax_scale(randrage)
+    print(randrage1)
+    print(randrage2)
+
 testStander()
 
