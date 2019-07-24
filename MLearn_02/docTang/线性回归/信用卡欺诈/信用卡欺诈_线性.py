@@ -2,6 +2,12 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import KFold,cross_val_score,cross_val_predict
+from sklearn.metrics import confusion_matrix,recall_score,classification_report
+
+
 
 
 
@@ -10,6 +16,8 @@ class CreditCardTest:
     def __init__(self,filePath):
         self.originData = pd.read_csv(filePath)
 
+        self.originX = self.originData.loc[:,self.originData.columns !='Class']
+        self.originX = self.originData.loc[:,self.originData.columns == 'Class']
 
     def myPrint(self):
         print(self.originData.shape)
@@ -30,7 +38,10 @@ class CreditCardTest:
         y = self.originData['Amount'].values.reshape(-1, 1)
         self.originData['NorAmount'] = StandardScaler().fit_transform(y)
         self.originData = self.originData.drop(['Time','Amount'],axis=1)
-        print(self.originData.head())
+        self.originX = self.originData.loc[:, self.originData.columns != 'Class']
+        self.originy = self.originData.loc[:, self.originData.columns == 'Class']
+
+
     # 下采样方案
     def undersampl(self):
         X = self.originData.loc[:,self.originData.columns != 'Class']
@@ -44,10 +55,78 @@ class CreditCardTest:
 
         # 得到所有正常样本的索引
         normal_indices = y[y.Class == 0].index
+        random_normal_indices = np.random.choice(normal_indices,number_records_fraud,replace=False)
+
+        # 有了正常和异常样本后把它们的索引都拿到手
+
+        under_sample_indices = np.concatenate((fraud_indices, random_normal_indices))
+
+        # 根据索引得到下采样所有样本点
+        under_sample_data = self.originData.iloc[under_sample_indices, :]
+
+        X_undersample = under_sample_data.loc[:,under_sample_data.columns!='Class']
+        y_undersample = under_sample_data.loc[:, under_sample_data.columns == 'Class']
+
+        # 下采样 样本比例
+        print("Percentage of normal transactions: ",
+              len(under_sample_data[y_undersample.Class == 0]) / len(under_sample_data))
+        print("Percentage of fraud transactions: ",
+              len(under_sample_data[y_undersample.Class == 1]) / len(under_sample_data))
+        print("Total number of transactions in resampled data: ", len(under_sample_data))
+
+        return  X_undersample,y_undersample
+
+    # 数据集的划分,X,y为采样的变量数据
+    def dataSplit(self,X,y):
+        X_train, X_test, y_train, y_test = train_test_split(
+        self.originX, self.originy, test_size = 0.3, random_state = 42)
+
+        print("Number transactions train dataset: ", len(X_train))
+        print("Number transactions test dataset: ", len(X_test))
+        print("Total number of transactions: ", len(X_train) + len(X_test))
+
+        X_train_undersample, X_test_undersample, y_train_undersample, y_test_undersample = train_test_split(
+            X, y, test_size=0.3, random_state=42)
+
+        print("")
+        print("Number transactions train dataset: ", len(X_train_undersample))
+        print("Number transactions test dataset: ", len(X_test_undersample))
+        print("Total number of transactions: ", len(X_train_undersample) + len(X_test_undersample))
+
+        return X_train_undersample, X_test_undersample, y_train_undersample, y_test_undersample
+
+    # 交叉验证
+    def printing_Kfold_scores(self,x_train_data, y_train_data):
+        kf = KFold(n_splits=5,shuffle=True)
+
+        # 定义不同力度的正则化惩罚力度
+        c_param_range = [0.01, 0.1, 1, 10, 100]
+
+        results_table = pd.DataFrame(columns=['C_parameter', 'Mean recall score'])
+        results_table['C_parameter'] = c_param_range
 
 
-        np.random.choice()
+        for j,c_param in enumerate(c_param_range,0) :
+            recall_accs = []
+            # 分折后的数据
+            for train_index, test_index in kf.split(x_train_data):
+                # print("TRAIN:", train_index, "TEST:", test_index)
 
+                reg = LogisticRegression(C = c_param, penalty = 'l1',solver='liblinear')
+                reg.fit(x_train_data.iloc[train_index], y_train_data.iloc[train_index].values.ravel())
+                y_predict = reg.predict(x_train_data.iloc[test_index])
+
+                # 有了预测结果之后就可以来进行评估了，这里recall_score需要传入预测值和真实值。
+                recall_acc = recall_score(y_train_data.iloc[test_index].values, y_predict)
+                recall_accs.append(recall_acc)
+
+                # 一会还要算平均，所以把每一步的结果都先保存起来。
+                # recall_accs.append(recall_acc)
+
+            results_table.iloc[j,1] = np.mean(recall_accs)
+        print(results_table)
+        # series idxmax() 返回最大值索引
+        print(results_table['Mean recall score'].astype('float32').idxmax())
 
 
 if __name__ == '__main__':
@@ -56,4 +135,8 @@ if __name__ == '__main__':
     # c.drawbar(c.originData)
     c.doScale()
 
-    c.undersampl()
+    X_undersample, y_undersample = c.undersampl()
+
+    X_train_undersample, X_test_undersample, y_train_undersample, y_test_undersample = c.dataSplit(X_undersample, y_undersample)
+
+    c.printing_Kfold_scores(X_train_undersample,y_train_undersample)

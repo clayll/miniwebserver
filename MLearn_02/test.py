@@ -82,6 +82,30 @@ def testStander():
     randrage2 = minmax_scale(randrage)
     print(randrage1)
     print(randrage2)
+def KFlodTest():
 
-testStander()
+    from sklearn.model_selection import KFold
+    X = np.array([[1, 2], [3, 4], [1, 2], [3, 4],[4,5],[6,7]])
+    y = np.array([1, 2, 3, 4,5,6])
+    kf = KFold(n_splits=4)
+    # kf.get_n_splits(X)
 
+    for train_index, test_index in kf.split(X):
+
+        print("TRAIN:", train_index, "TEST:", test_index)
+
+        # print(X[train_index], X[test_index])
+        # # ...
+        # # y_train, y_test =
+        # print(y[train_index], y[test_index])
+# testStander()
+
+# KFlodTest()
+# 定义不同力度的正则化惩罚力度
+c_param_range = [0.01, 0.1, 1, 10, 100]
+
+results_table = pd.DataFrame(columns=['C_parameter', 'Mean recall score'])
+for i in range(5,2):
+    print(i)
+print(range(5,2))
+print(results_table)
