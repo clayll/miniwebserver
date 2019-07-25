@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import KFold,cross_val_score,cross_val_predict
 from sklearn.metrics import confusion_matrix,recall_score,classification_report
-
+import itertools
 
 
 
@@ -95,7 +95,7 @@ class CreditCardTest:
 
         return X_train_undersample, X_test_undersample, y_train_undersample, y_test_undersample
 
-    # 交叉验证
+    # 根据不用的正则化惩罚项目，交叉验证,选择出最好的惩罚参数
     def printing_Kfold_scores(self,x_train_data, y_train_data):
         kf = KFold(n_splits=5,shuffle=True)
 
@@ -126,7 +126,52 @@ class CreditCardTest:
             results_table.iloc[j,1] = np.mean(recall_accs)
         print(results_table)
         # series idxmax() 返回最大值索引
-        print(results_table['Mean recall score'].astype('float32').idxmax())
+        return results_table.iloc[results_table['Mean recall score'].astype('float32').idxmax(),0]
+
+    # 画图，混淆矩阵
+    def plot_confusion_matrix(self,cm, classes,
+                              title='Confusion matrix',
+                              cmap=plt.cm.Blues):
+        """
+        绘制混淆矩阵
+        """
+
+        plt.imshow(cm, interpolation='nearest', cmap=cmap)
+        plt.title(title)
+        plt.colorbar()
+        tick_marks = np.arange(len(classes))
+        plt.xticks(tick_marks, classes, rotation=0)
+        plt.yticks(tick_marks, classes)
+
+        thresh = cm.max() / 2.
+        for i, j in itertools.product(range(cm.shape[0]), range(cm.shape[1])):
+            plt.text(j, i, cm[i, j],
+                     horizontalalignment="center",
+                     color="white" if cm[i, j] > thresh else "black")
+
+        plt.tight_layout()
+        plt.ylabel('True label')
+        plt.xlabel('Predicted label')
+
+    def logicRegress_show(self,best_c,X_train_undersample,y_train_undersample
+                          ,X_test_undersample,y_test_undersample):
+        lr = LogisticRegression(C=best_c, penalty='l1',solver='liblinear')
+        lr.fit(X_train_undersample, y_train_undersample.values.ravel())
+        y_pred_undersample = lr.predict(X_test_undersample.values)
+
+        # 计算所需值
+        cnf_matrix = confusion_matrix(y_test_undersample, y_pred_undersample)
+        print(cnf_matrix)
+        np.set_printoptions(precision=2)
+
+        print("Recall metric in the testing dataset: ", cnf_matrix[1, 1] / (cnf_matrix[1, 0] + cnf_matrix[1, 1]))
+
+        # 绘制
+        class_names = [0, 1]
+        plt.figure()
+        print(type(cnf_matrix))
+        self.plot_confusion_matrix(cnf_matrix,classes=class_names)
+        plt.show()
 
 
 if __name__ == '__main__':
@@ -139,4 +184,8 @@ if __name__ == '__main__':
 
     X_train_undersample, X_test_undersample, y_train_undersample, y_test_undersample = c.dataSplit(X_undersample, y_undersample)
 
-    c.printing_Kfold_scores(X_train_undersample,y_train_undersample)
+    best_Param_C = c.printing_Kfold_scores(X_train_undersample,y_train_undersample)
+
+    c.logicRegress_show(best_Param_C,X_train_undersample,y_train_undersample
+                        ,X_test_undersample,y_test_undersample)
+
