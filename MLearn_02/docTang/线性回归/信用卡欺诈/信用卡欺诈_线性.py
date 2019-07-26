@@ -102,17 +102,18 @@ class CreditCardTest:
         # 定义不同力度的正则化惩罚力度
         c_param_range = [0.01, 0.1, 1, 10, 100]
 
-        results_table = pd.DataFrame(columns=['C_parameter', 'Mean recall score'])
+        results_table = pd.DataFrame(columns=['C_parameter', 'Mean recall score','logicModel'])
         results_table['C_parameter'] = c_param_range
 
 
         for j,c_param in enumerate(c_param_range,0) :
             recall_accs = []
+            reg = LogisticRegression(C=c_param, penalty='l1', solver='liblinear')
             # 分折后的数据
             for train_index, test_index in kf.split(x_train_data):
                 # print("TRAIN:", train_index, "TEST:", test_index)
 
-                reg = LogisticRegression(C = c_param, penalty = 'l1',solver='liblinear')
+
                 reg.fit(x_train_data.iloc[train_index], y_train_data.iloc[train_index].values.ravel())
                 y_predict = reg.predict(x_train_data.iloc[test_index])
 
@@ -124,9 +125,12 @@ class CreditCardTest:
                 # recall_accs.append(recall_acc)
 
             results_table.iloc[j,1] = np.mean(recall_accs)
+            results_table.iloc[j, 2] = reg
         print(results_table)
         # series idxmax() 返回最大值索引
-        return results_table.iloc[results_table['Mean recall score'].astype('float32').idxmax(),0]
+        bset_index = results_table['Mean recall score'].astype('float32').idxmax()
+
+        return results_table.iloc[bset_index,0],results_table.iloc[bset_index,2]
 
     # 画图，混淆矩阵
     def plot_confusion_matrix(self,cm, classes,
@@ -154,14 +158,26 @@ class CreditCardTest:
         plt.xlabel('Predicted label')
 
     def logicRegress_show(self,best_c,X_train_undersample,y_train_undersample
-                          ,X_test_undersample,y_test_undersample):
-        lr = LogisticRegression(C=best_c, penalty='l1',solver='liblinear')
-        lr.fit(X_train_undersample, y_train_undersample.values.ravel())
-        y_pred_undersample = lr.predict(X_test_undersample.values)
+                          ,X_test_undersample,y_test_undersample,reg=None):
+        if reg:
 
+            y_pred_undersample = reg.predict(X_test_undersample.values)
+            r1 = classification_report(y_test_undersample, y_pred_undersample)
+            print("r1:",r1)
+            cm1 = confusion_matrix(y_test_undersample, y_pred_undersample)
+
+            lr = LogisticRegression(C=best_c, penalty='l1', solver='liblinear')
+            lr.fit(X_train_undersample, y_train_undersample.values.ravel())
+            y_pred_undersample = lr.predict(X_test_undersample.values)
+            r2 = classification_report(y_test_undersample, y_pred_undersample)
+            cm2 = confusion_matrix(y_test_undersample, y_pred_undersample)
+            print("r2:", r2)
+
+        print("cm1:",cm1)
+        print("cm2:",cm2)
         # 计算所需值
         cnf_matrix = confusion_matrix(y_test_undersample, y_pred_undersample)
-        print(cnf_matrix)
+
         np.set_printoptions(precision=2)
 
         print("Recall metric in the testing dataset: ", cnf_matrix[1, 1] / (cnf_matrix[1, 0] + cnf_matrix[1, 1]))
@@ -169,7 +185,7 @@ class CreditCardTest:
         # 绘制
         class_names = [0, 1]
         plt.figure()
-        print(type(cnf_matrix))
+
         self.plot_confusion_matrix(cnf_matrix,classes=class_names)
         plt.show()
 
@@ -184,8 +200,8 @@ if __name__ == '__main__':
 
     X_train_undersample, X_test_undersample, y_train_undersample, y_test_undersample = c.dataSplit(X_undersample, y_undersample)
 
-    best_Param_C = c.printing_Kfold_scores(X_train_undersample,y_train_undersample)
+    best_Param_C,reg = c.printing_Kfold_scores(X_train_undersample,y_train_undersample)
 
     c.logicRegress_show(best_Param_C,X_train_undersample,y_train_undersample
-                        ,X_test_undersample,y_test_undersample)
+                        ,X_test_undersample,y_test_undersample,reg=reg)
 
