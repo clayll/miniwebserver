@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import KFold,cross_val_score,cross_val_predict
 from sklearn.metrics import confusion_matrix,recall_score,classification_report
 import itertools
-
+from imblearn.over_sampling  import  SMOTE
 
 
 
@@ -16,8 +16,8 @@ class CreditCardTest:
     def __init__(self,filePath):
         self.originData = pd.read_csv(filePath)
 
-        self.originX = self.originData.loc[:,self.originData.columns !='Class']
-        self.originX = self.originData.loc[:,self.originData.columns == 'Class']
+        self.originX1 = self.originData.loc[:,self.originData.columns !='Class']
+        self.originy1 = self.originData.loc[:,self.originData.columns == 'Class']
 
     def myPrint(self):
         print(self.originData.shape)
@@ -139,7 +139,6 @@ class CreditCardTest:
         """
         绘制混淆矩阵
         """
-
         plt.imshow(cm, interpolation='nearest', cmap=cmap)
         plt.title(title)
         plt.colorbar()
@@ -158,23 +157,27 @@ class CreditCardTest:
         plt.xlabel('Predicted label')
 
     def logicRegress_show(self,best_c,X_train_undersample,y_train_undersample
-                          ,X_test_undersample,y_test_undersample,reg=None):
+                          ,X_test_undersample,y_test_undersample,reg=None,Thresholds = None):
         if reg:
 
             y_pred_undersample = reg.predict(X_test_undersample.values)
             r1 = classification_report(y_test_undersample, y_pred_undersample)
-            print("r1:",r1)
+            # print("r1:",r1)
             cm1 = confusion_matrix(y_test_undersample, y_pred_undersample)
 
-            lr = LogisticRegression(C=best_c, penalty='l1', solver='liblinear')
-            lr.fit(X_train_undersample, y_train_undersample.values.ravel())
-            y_pred_undersample = lr.predict(X_test_undersample.values)
-            r2 = classification_report(y_test_undersample, y_pred_undersample)
-            cm2 = confusion_matrix(y_test_undersample, y_pred_undersample)
-            print("r2:", r2)
+        lr = LogisticRegression(C=best_c, penalty='l1', solver='liblinear')
+        lr.fit(X_train_undersample, y_train_undersample.values.ravel())
+        y_pred_undersample = lr.predict(X_test_undersample.values)
 
-        print("cm1:",cm1)
-        print("cm2:",cm2)
+        if Thresholds:
+            y_pred_undersample = lr.predict_proba(X_test_undersample.values)[:,1]>Thresholds
+
+        r2 = classification_report(y_test_undersample, y_pred_undersample)
+        cm2 = confusion_matrix(y_test_undersample, y_pred_undersample)
+        print("r2:", r2)
+
+        # print("cm1:",cm1)
+        # print("cm2:",cm2)
         # 计算所需值
         cnf_matrix = confusion_matrix(y_test_undersample, y_pred_undersample)
 
@@ -190,9 +193,57 @@ class CreditCardTest:
         plt.show()
 
 
+    def diffThresholds(self, best_param_c,X,y,X_test,y_test):
+        '''
+        不同阈值对结果的影响
+        :param best_param_c:
+        :param X:
+        :param y:
+        :param X_test:
+        :param y_test:
+        :return:
+        '''
+        reg =  LogisticRegression(C=best_Param_C,penalty="l1",solver="liblinear")
+
+        reg.fit(X,y.values.ravel())
+        y_proba = reg.predict_proba(X_test.values)
+
+        j = 1
+        # 指定不同的阈值
+        thresholds = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+
+        for i in thresholds:
+            plt.subplot(3, 3,j)
+            y_proba_test = y_proba[:,1] > i
+
+            cnf_matrix = confusion_matrix(y_test, y_proba_test)
+            self.plot_confusion_matrix(cnf_matrix,classes= [0, 1],title='thresholds>'+str(i))
+            np.set_printoptions(precision=2)
+
+            print("Recall metric in the testing dataset, "+'thresholds> '+str(i)+":  ", cnf_matrix[1, 1] / (cnf_matrix[1, 0] + cnf_matrix[1, 1]))
+            j = j + 1
+
+        plt.show()
+
+    def over_sampleS(self,bset_c):
+
+        # 对训练集合测试集进行拆分
+        X_train, X_test, y_train, y_test = train_test_split(c.originX1, c.originy1, test_size = 0.2, random_state = 42)
+
+        smote = SMOTE(random_state=0 )
+
+        X_train,y_train = smote.fit_sample(X_train,y_train)
+
+        self.logicRegress_show(bset_c,X_train, pd.DataFrame(y_train),X_test,y_test )
+
+
+
 if __name__ == '__main__':
-    c = CreditCardTest(r"C:\文档\ML\第十一章：项目实战-交易数据异常检测\逻辑回归-信用卡欺诈检测\creditcard.csv")
+    # c = CreditCardTest(r"C:\文档\ML\第十一章：项目实战-交易数据异常检测\逻辑回归-信用卡欺诈检测\creditcard.csv")
+
+    c = CreditCardTest(r"G:\唐博士\机器学习入门\第十一章：项目实战-交易数据异常检测\逻辑回归-信用卡欺诈检测\creditcard.csv")
     # c.myPrint()
+
     # c.drawbar(c.originData)
     c.doScale()
 
@@ -202,6 +253,22 @@ if __name__ == '__main__':
 
     best_Param_C,reg = c.printing_Kfold_scores(X_train_undersample,y_train_undersample)
 
-    c.logicRegress_show(best_Param_C,X_train_undersample,y_train_undersample
-                        ,X_test_undersample,y_test_undersample,reg=reg)
+    # 下采样的数据去画图，查看情况
+    # c.logicRegress_show(best_Param_C,X_train_undersample,y_train_undersample
+    #                     ,X_test_undersample,y_test_undersample,reg=reg)
 
+    # 测试三种不同方案的准确率
+
+    #正常的数据,recall值才0.54左右
+    X_train, X_test, y_train, y_test = train_test_split(c.originX1, c.originy1, test_size = 0.3, random_state = 42)
+    c.logicRegress_show(best_Param_C,X_train,y_train,X_test,y_test)
+
+
+    # 查看不同阈值的情况
+    # c.diffThresholds(best_Param_C,X_train_undersample,y_train_undersample
+    #                     ,X_test_undersample,y_test_undersample)
+    # 过采样方案的召回率 0.9
+    c.over_sampleS(best_Param_C)
+
+    # 采用固定阈值的方案 0.49 最低
+    c.logicRegress_show(best_Param_C, X_train, y_train, X_test, y_test,Thresholds=0.5)
