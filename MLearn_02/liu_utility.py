@@ -44,18 +44,18 @@ def getKNeighborsClassifier(X_train,y_train,n_neighbors=3):
     knn.fit(X_train, y_train)
     return knn
 
-def getLogisticRegression(X_train,y_train,SEED=0,n_neighbors=3):
-    lr = LogisticRegression(C=100, random_state=SEED)
+def getLogisticRegression(X_train,y_train,random_state=0,C=100):
+    lr = LogisticRegression(C=C, random_state=random_state)
     lr.fit(X_train, y_train)
     return lr
 
-def getMLPClassifier(X_train,y_train,SEED=0,n_neighbors=3):
-    nn = MLPClassifier((80, 10), early_stopping=False, random_state=SEED)
+def getMLPClassifier(X_train,y_train,hidden_layer_sizes,early_stopping=False,random_state=0):
+    nn = MLPClassifier(hidden_layer_sizes, early_stopping=early_stopping, random_state=random_state)
     nn.fit(X_train, y_train)
     return nn
 
-def getGradientBoostingClassifier(X_train,y_train,SEED=0,n_estimators=100):
-    gb = GradientBoostingClassifier(n_estimators=n_estimators, random_state=SEED)
+def getGradientBoostingClassifier(X_train,y_train,random_state=0,n_estimators=100):
+    gb = GradientBoostingClassifier(n_estimators=n_estimators, random_state=random_state)
     gb.fit(X_train, y_train)
     return gb
 

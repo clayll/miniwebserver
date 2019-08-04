@@ -107,7 +107,7 @@ class EnsembleStudyDemo:
 
     def getSplitData(self):
         X_train, X_test, y_train, y_test =\
-            train_test_split(self.X,self.y,test_size=0.2, random_state=SEED)
+            train_test_split(self.X,self.y,test_size=0.95, random_state=SEED)
         return X_train.values, X_test.values, y_train.values, y_test.values
 
     def getAllMode(self,X_train, X_test, y_train, y_test):
@@ -115,9 +115,9 @@ class EnsembleStudyDemo:
         svc = liu_utility.getSVC(X_train,y_train,C=10, probability=True)
         knn =liu_utility.getKNeighborsClassifier(X_train,y_train,n_neighbors=3)
         lr = liu_utility.getLogisticRegression(X_train,y_train,C=10, random_state=SEED)
-        nn = liu_utility.getMLPClassifier(X_train,y_train,(80, 10), early_stopping=False, random_state=SEED)
+        nn = liu_utility.getMLPClassifier(X_train,y_train,(80, 10),random_state=SEED)
         gb = liu_utility.getGradientBoostingClassifier(X_train,y_train,n_estimators=10, random_state=SEED)
-        rf = liu_utility.getRandomForestClassifier(X_train,y_train,n_estimators=10, max_features=3, random_state=SEED)
+        rf = liu_utility.getRandomForestClassifier(X_train,y_train,n_estimators=10, max_depth=3, random_state=SEED)
         models = {'svm': svc,
                   'knn': knn,
                   'naive bayes': nb,
@@ -128,9 +128,9 @@ class EnsembleStudyDemo:
                   }
         P = np.zeros((y_test.shape[0], len(models)))
         P = pd.DataFrame(P)
-        print(P)
-        for i,value in models:
-            print("算法名称%s:auc的值是：%f" % i,roc_auc_score(y_test, value.predict_proba(X_test)[:, 1]))
+        # print(P)
+        # for i,value in models:
+        #     print("算法名称%s:auc的值是：%f" % i,roc_auc_score(y_test, value.predict_proba(X_test)[:, 1]))
 
 if  __name__ == '__main__':
     # 1--测试决策树demo
@@ -149,7 +149,7 @@ if  __name__ == '__main__':
     X_train, X_test, y_train, y_test = E.getSplitData()
     P = np.zeros((y_test.shape[0], 7))
     P = pd.DataFrame(P)
-    print(P)
+    # print(P)
     # m = liu_utility.getDecisionTreeClassifier(X_train,y_train)
     # res = m.predict_proba(X_test)
     # print("roc_auc_score:%f" % roc_auc_score(y_test,res[:,1]))
