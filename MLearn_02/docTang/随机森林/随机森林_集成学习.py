@@ -129,8 +129,8 @@ class EnsembleStudyDemo:
         P = np.zeros((y_test.shape[0], len(models)))
         P = pd.DataFrame(P)
         # print(P)
-        # for i,value in models:
-        #     print("算法名称%s:auc的值是：%f" % i,roc_auc_score(y_test, value.predict_proba(X_test)[:, 1]))
+        for i,(name,item) in enumerate(models,start=0) :
+            print("算法名称%s:auc的值是：%f" % i,roc_auc_score(y_test, value.predict_proba(X_test)[:, 1]))
 
 if  __name__ == '__main__':
     # 1--测试决策树demo
