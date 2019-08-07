@@ -11,6 +11,9 @@ import pandas as pd
 import numpy as np
 from sklearn.metrics import classification_report,roc_auc_score
 import liu_utility
+from mlens.visualization import corrmat
+import matplotlib.pyplot   as plt
+from sklearn.metrics import roc_curve
 
 SEED = 42
 
@@ -126,11 +129,71 @@ class EnsembleStudyDemo:
                   'gbm': gb,
                   'logistic': lr,
                   }
-        P = np.zeros((y_test.shape[0], len(models)))
+        return models
+        # P = np.zeros((y_test.shape[0], len(models)))
+        # P = pd.DataFrame(P)
+        # columns=[]
+        # for i,(name,item) in enumerate(models.items(),start=0) :
+        #     P.iloc[:,i] = item.predict_proba(X_test)[:, 1]
+        #     columns.append(name)
+        #     print("算法名称{0}:auc的值是：{1}".format(name,roc_auc_score(y_test, P.iloc[:,i])))
+        #
+        # P.columns= columns
+        # return P
+
+        print("Ensemble ROC-AUC score: %.3f" % roc_auc_score(y_test, P.mean(axis=1)))
+        # corrmat(P.corr(),inflate=False)
+        # plt.show()
+
+    def train_predict(self,model_list,X_train, X_test, y_train):
+        """Fit models in list on training set and return preds"""
+        P = np.zeros((y_test.shape[0], len(model_list)))
         P = pd.DataFrame(P)
-        # print(P)
-        for i,(name,item) in enumerate(models,start=0) :
-            print("算法名称%s:auc的值是：%f" % i,roc_auc_score(y_test, value.predict_proba(X_test)[:, 1]))
+
+        print("Fitting models.")
+        cols = list()
+        for i, (name, m) in enumerate(model_list.items()):
+            print("%s..." % name, end=" ", flush=False)
+            m.fit(X_train, y_train)
+            P.iloc[:, i] = m.predict_proba(X_test)[:, 1]
+            cols.append(name)
+            print("done")
+
+        P.columns = cols
+        print("Done.\n")
+        return P
+
+    def score_models(self,P, y):
+        """Score model in prediction DF"""
+        print("Scoring models.")
+        for m in P.columns:
+            score = roc_auc_score(y, P.loc[:, m])
+            print("%-26s: %.3f" % (m, score))
+        print("Ensemble ROC-AUC score: %.3f" % roc_auc_score(y, P.mean(axis=1)))
+
+    def plot_roc_curve(self,ytest, P_base_learners, P_ensemble, labels, ens_label):
+        """Plot the roc curve for base learners and ensemble."""
+        plt.figure(figsize=(10, 8))
+        plt.plot([0, 1], [0, 1], 'k--')
+
+        cm = [plt.cm.rainbow(i)
+              for i in np.linspace(0, 1.0, P_base_learners.shape[1] + 1)]
+
+        for i in range(P_base_learners.shape[1]):
+            p = P_base_learners[:, i]
+            fpr, tpr, _ = roc_curve(ytest, p)
+            plt.plot(fpr, tpr, label=labels[i], c=cm[i + 1])
+
+        fpr, tpr, _ = roc_curve(ytest, P_ensemble)
+        plt.plot(fpr, tpr, label=ens_label, c=cm[0])
+
+        plt.xlabel('False positive rate')
+        plt.ylabel('True positive rate')
+        plt.title('ROC curve')
+        plt.legend(frameon=False)
+        plt.show()
+
+
 
 if  __name__ == '__main__':
     # 1--测试决策树demo
@@ -147,8 +210,8 @@ if  __name__ == '__main__':
     #     2 -- 集成学习demo
     E = EnsembleStudyDemo()
     X_train, X_test, y_train, y_test = E.getSplitData()
-    P = np.zeros((y_test.shape[0], 7))
-    P = pd.DataFrame(P)
+    # P = np.zeros((y_test.shape[0], 7))
+    # P = pd.DataFrame(P)
     # print(P)
     # m = liu_utility.getDecisionTreeClassifier(X_train,y_train)
     # res = m.predict_proba(X_test)
@@ -156,8 +219,12 @@ if  __name__ == '__main__':
     #
     # rm = liu_utility.getRandomForestClassifier(X_train,y_train,n_estimators=10,max_depth=3)
     # res1 = rm.predict_proba(X_test)
-    # print("roc_auc_score:%f" % roc_auc_score(y_test, res1[:, 1]))
-    E.getAllMode(X_train, X_test, y_train, y_test)
+    models = E.getAllMode(X_train, X_test, y_train, y_test)
+    P = E.train_predict(models,X_train, X_test, y_train)
+    E.score_models(P,y_test)
+    # E.plot_roc_curve(y_test, P.values, P.mean(axis=1), list(P.columns), "ensemble")
+
+    meta_learner = liu_utility.getGradientBoostingClassifier(X_train, y_train,random_state=SEED)
 
 
 
