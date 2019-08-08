@@ -5,7 +5,7 @@ import pydotplus
 from sklearn import tree
 from IPython.display import Image
 from sklearn.model_selection import GridSearchCV
-from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import RandomForestRegressor,GradientBoostingClassifier
 import os
 import pandas as pd
 import numpy as np
@@ -14,6 +14,8 @@ import liu_utility
 from mlens.visualization import corrmat
 import matplotlib.pyplot   as plt
 from sklearn.metrics import roc_curve
+
+
 
 SEED = 42
 
@@ -193,7 +195,32 @@ class EnsembleStudyDemo:
         plt.legend(frameon=False)
         plt.show()
 
+    def train_base_learners(self,base_learners, inp, out, verbose=True):
+        """Train all base learners in the library."""
+        if verbose: print("Fitting models.")
+        for i, (name, m) in enumerate(base_learners.items()):
+            if verbose: print("%s..." % name, end=" ", flush=False)
+            m.fit(inp, out)
+            if verbose: print("done")
 
+    def predict_base_learners(self,pred_base_learners, inp, verbose=True):
+        """Generate a prediction matrix."""
+        P = np.zeros((inp.shape[0], len(pred_base_learners)))
+
+        if verbose: print("Generating base learner predictions.")
+        for i, (name, m) in enumerate(pred_base_learners.items()):
+            if verbose: print("%s..." % name, end=" ", flush=False)
+            p = m.predict_proba(inp)
+            # With two classes, need only predictions for one class
+            P[:, i] = p[:, 1]
+            if verbose: print("done")
+
+        return P
+
+    def ensemble_predict(self,base_learners, meta_learner, inp, verbose=True):
+        """Generate predictions from the ensemble."""
+        P_pred = self.predict_base_learners(base_learners, inp, verbose=verbose)
+        return P_pred, meta_learner.predict_proba(P_pred)[:, 1]
 
 if  __name__ == '__main__':
     # 1--测试决策树demo
@@ -220,11 +247,26 @@ if  __name__ == '__main__':
     # rm = liu_utility.getRandomForestClassifier(X_train,y_train,n_estimators=10,max_depth=3)
     # res1 = rm.predict_proba(X_test)
     models = E.getAllMode(X_train, X_test, y_train, y_test)
-    P = E.train_predict(models,X_train, X_test, y_train)
-    E.score_models(P,y_test)
+    # P = E.train_predict(models,X_train, X_test, y_train)
+    # E.score_models(P,y_test)
     # E.plot_roc_curve(y_test, P.values, P.mean(axis=1), list(P.columns), "ensemble")
 
-    meta_learner = liu_utility.getGradientBoostingClassifier(X_train, y_train,random_state=SEED)
+    meta_learner =  GradientBoostingClassifier(
+    n_estimators=1000,
+    loss="exponential",
+    max_features=4,
+    max_depth=3,
+    subsample=0.5,
+    learning_rate=0.005,
+    random_state=SEED)
+    xtrain_base, xpred_base, ytrain_base, ypred_base = train_test_split(
+        E.X, E.y, test_size=0.9, random_state=SEED)
+    E.train_base_learners(models,xtrain_base,ypred_base,True)
+    P_base = E.predict_base_learners(models, xpred_base)
+    meta_learner.fit(P_base, ypred_base)
+    P_pred, p = E.ensemble_predict(models,meta_learner,xpred_base)
+
+    print("\nEnsemble ROC-AUC score: %.3f" % roc_auc_score(ypred_base, p))
 
 
 
