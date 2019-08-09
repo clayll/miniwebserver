@@ -1,11 +1,12 @@
 from sklearn.datasets import california_housing
-from sklearn.model_selection import  train_test_split
+from sklearn.model_selection import  train_test_split,KFold
 from sklearn.tree import  DecisionTreeRegressor
 import pydotplus
 from sklearn import tree
 from IPython.display import Image
 from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestRegressor,GradientBoostingClassifier
+from mlens.ensemble import SuperLearner
 import os
 import pandas as pd
 import numpy as np
@@ -14,6 +15,16 @@ import liu_utility
 from mlens.visualization import corrmat
 import matplotlib.pyplot   as plt
 from sklearn.metrics import roc_curve
+from sklearn.svm import SVC, LinearSVC
+from sklearn.naive_bayes import GaussianNB
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.neural_network import MLPClassifier
+from sklearn.kernel_approximation import Nystroem
+from sklearn.kernel_approximation import RBFSampler
+from sklearn.pipeline import make_pipeline
+from sklearn.base import clone
 
 
 
@@ -112,7 +123,7 @@ class EnsembleStudyDemo:
 
     def getSplitData(self):
         X_train, X_test, y_train, y_test =\
-            train_test_split(self.X,self.y,test_size=0.95, random_state=SEED)
+            train_test_split(self.X,self.y,test_size=0.9, random_state=SEED)
         return X_train.values, X_test.values, y_train.values, y_test.values
 
     def getAllMode(self,X_train, X_test, y_train, y_test):
@@ -222,6 +233,70 @@ class EnsembleStudyDemo:
         P_pred = self.predict_base_learners(base_learners, inp, verbose=verbose)
         return P_pred, meta_learner.predict_proba(P_pred)[:, 1]
 
+    def get_models(self):
+        """Generate a library of base learners."""
+        nb = GaussianNB()
+        svc = SVC(C=100, probability=True)
+        knn = KNeighborsClassifier(n_neighbors=3)
+        lr = LogisticRegression(C=100, random_state=SEED)
+        nn = MLPClassifier((80, 10), early_stopping=False, random_state=SEED)
+        gb = GradientBoostingClassifier(n_estimators=100, random_state=SEED)
+        rf = RandomForestClassifier(n_estimators=10, max_features=3, random_state=SEED)
+
+        models = {'svm': svc,
+                  'knn': knn,
+                  'naive bayes': nb,
+                  'mlp-nn': nn,
+                  'random forest': rf,
+                  'gbm': gb,
+                  'logistic': lr,
+                  }
+
+        return models
+
+    def stacking(self,base_learners, meta_learner, X, y, generator):
+        """Simple training routine for stacking."""
+
+        # Train final base learners for test time
+        print("Fitting final base learners...", end="")
+        self.train_base_learners(base_learners, X, y, verbose=False)
+        print("done")
+
+        # Generate predictions for training meta learners
+        # Outer loop:
+        print("Generating cross-validated predictions...")
+        cv_preds, cv_y = [], []
+        for i, (train_idx, test_idx) in enumerate(generator.split(X)):
+            fold_xtrain, fold_ytrain = X[train_idx, :], y[train_idx]
+            fold_xtest, fold_ytest = X[test_idx, :], y[test_idx]
+
+            # Inner loop: step 4 and 5
+            # 克隆这个对象，避免同样的对象呗训练
+            fold_base_learners = {name: clone(model)
+                                  for name, model in base_learners.items()}
+            self.train_base_learners(
+                fold_base_learners, fold_xtrain, fold_ytrain, verbose=False)
+
+            fold_P_base = self.predict_base_learners(
+                fold_base_learners, fold_xtest, verbose=False)
+
+            cv_preds.append(fold_P_base)
+            cv_y.append(fold_ytest)
+            print("Fold %i done" % (i + 1))
+
+        print("CV-predictions done")
+
+        # Be careful to get rows in the right order
+        cv_preds = np.vstack(cv_preds)
+        cv_y = np.hstack(cv_y)
+
+        # Train meta learner
+        print("Fitting meta learner...", end="")
+        meta_learner.fit(cv_preds, cv_y)
+        print("done")
+
+        return base_learners, meta_learner
+
 if  __name__ == '__main__':
     # 1--测试决策树demo
     # d = DecisionTreeDemo()
@@ -246,7 +321,7 @@ if  __name__ == '__main__':
     #
     # rm = liu_utility.getRandomForestClassifier(X_train,y_train,n_estimators=10,max_depth=3)
     # res1 = rm.predict_proba(X_test)
-    models = E.getAllMode(X_train, X_test, y_train, y_test)
+
     # P = E.train_predict(models,X_train, X_test, y_train)
     # E.score_models(P,y_test)
     # E.plot_roc_curve(y_test, P.values, P.mean(axis=1), list(P.columns), "ensemble")
@@ -260,13 +335,36 @@ if  __name__ == '__main__':
     learning_rate=0.005,
     random_state=SEED)
     xtrain_base, xpred_base, ytrain_base, ypred_base = train_test_split(
-        E.X, E.y, test_size=0.9, random_state=SEED)
-    E.train_base_learners(models,xtrain_base,ypred_base,True)
-    P_base = E.predict_base_learners(models, xpred_base)
-    meta_learner.fit(P_base, ypred_base)
-    P_pred, p = E.ensemble_predict(models,meta_learner,xpred_base)
+        X_train, y_train, test_size=0.5, random_state=SEED)
+    models = E.get_models()
+    # E.train_base_learners(models,xtrain_base,ytrain_base,True)
+    # P_base = E.predict_base_learners(models, xpred_base)
+    # meta_learner.fit(P_base, ypred_base)
+    # P_pred, p = E.ensemble_predict(models,meta_learner,X_test)
+    #
+    # print("\nEnsemble ROC-AUC score: %.3f" % roc_auc_score(y_test, p))
 
-    print("\nEnsemble ROC-AUC score: %.3f" % roc_auc_score(ypred_base, p))
+    base_learners, meta_learner1 = E.stacking(models,clone(meta_learner),xtrain_base,ytrain_base,KFold(2))
+    P_pred, p = E.ensemble_predict(base_learners, meta_learner1, X_test)
+    print("\nEnsemble ROC-AUC score: %.3f" % roc_auc_score(y_test, p))
 
+    sl = SuperLearner(
+        folds=10,
+        random_state=SEED,
+        verbose=2,
+        backend="multiprocessing"
+    )
+
+    # Add the base learners and the meta learner
+    sl.add(list(models.values()), proba=True)
+    sl.add_meta(meta_learner, proba=True)
+
+    # Train the ensemble
+    sl.fit(X_train, y_train)
+
+    # Predict the test set
+    p_sl = sl.predict_proba(X_test)
+
+    print("\nSuper Learner ROC-AUC score: %.3f" % roc_auc_score(y_test, p_sl[:, 1]))
 
 
