@@ -82,6 +82,7 @@ def testStander():
     randrage2 = minmax_scale(randrage)
     print(randrage1)
     print(randrage2)
+
 def KFlodTest():
 
     from sklearn.model_selection import KFold
@@ -98,14 +99,46 @@ def KFlodTest():
         # # ...
         # # y_train, y_test =
         # print(y[train_index], y[test_index])
+
+
+def testTfidf():
+    from sklearn.feature_extraction.text import TfidfVectorizer,CountVectorizer
+
+    X_test = ['卡尔 敌法师 蓝胖子 小小', '卡尔 敌法师 蓝胖子 痛苦女王']
+
+    tfidf = TfidfVectorizer()
+    weight = tfidf.fit_transform(X_test).toarray()
+    word = tfidf.get_feature_names()
+    print(weight)
+    for i in range(len(weight)):
+        print(u"第", i, u"篇文章的tf-idf权重特征")
+        for j in range(len(word)):
+            print(word[j], weight[i][j])
+
+def testCountVec():
+    from sklearn.feature_extraction.text import CountVectorizer
+    texts =["dog cat fish","dog cat cat","fish bird", 'bird']   # 为了简单期间，这里4句话我们就当做4篇文章了
+    cv = CountVectorizer()  # 词频统计
+    cv_fit = cv.fit_transform(texts)  # 转换数据
+    # print(cv_fit.toarray())
+
+    print(cv.fit_transform(texts))
+    print("-------------------------")
+    print(cv.transform(texts))
+
+
 # testStander()
 
 # KFlodTest()
 # 定义不同力度的正则化惩罚力度
 c_param_range = [0.01, 0.1, 1, 10, 100]
-
-results_table = pd.DataFrame(columns=['C_parameter', 'Mean recall score'])
-for i in range(5,2):
-    print(i)
-print(range(5,2))
-print(results_table)
+#
+# results_table = pd.DataFrame({'c_param_range':c_param_range})
+# # for i in range(5,2):
+# #     print(i)
+# # print(range(5,2))
+#
+# print(type(results_table.c_param_range.values))
+# print(results_table['c_param_range'])
+# testTfidf()
+testCountVec()
