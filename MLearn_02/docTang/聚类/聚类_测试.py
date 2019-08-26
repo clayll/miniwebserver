@@ -6,6 +6,8 @@ warnings.filterwarnings('ignore')
 np.random.seed(42)
 from sklearn.datasets import make_blobs
 from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
+from matplotlib.image import imread
 
 blob_centers = np.array(
     [[0.2,2.3],
@@ -140,10 +142,31 @@ class ClusterTest:
         plt.plot(range(1,10),[i.inertia_ for i in preKMeans],'bo-')
         plt.show()
 
+    #
+    def clusters_silhouette(self):
+        k = 5
+        X, y = self.initBlobsData()
+        preKMeans = [KMeans(n_clusters=k).fit(X) for k in range(1, 10)]
+
+        plt.figure(figsize=(8,5))
+        plt.plot( range(2,10),[silhouette_score(X,preKMeans[i].predict(X))  for i in range(1,9)],"yo-")
+        plt.show()
+
+    def keansPic(self):
+        img = imread(r"./聚类算法-实验/ladybug.png")
+        img = img.reshape(-1,3)
+        kmeans = KMeans(n_clusters=8,random_state=1)
+        kmeans.fit(img)
+        print(kmeans.cluster_centers_.shape)
+        print(kmeans.labels_.shape)
+        print(kmeans.cluster_centers_[kmeans.labels_.shape])
+
 
 if __name__ == '__main__':
     import math
     ct = ClusterTest()
     # ct.kmeansTest()
     # ct.kmeansShow_iter()
-    ct.clusters_inertia()
+    # ct.clusters_inertia()
+    # ct.clusters_silhouette()
+    ct.keansPic()
