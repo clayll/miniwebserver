@@ -141,4 +141,4 @@ c_param_range = [0.01, 0.1, 1, 10, 100]
 # print(type(results_table.c_param_range.values))
 # print(results_table['c_param_range'])
 # testTfidf()
-testCountVec()
+# testCountVec()
