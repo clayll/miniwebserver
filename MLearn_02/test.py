@@ -1,5 +1,6 @@
 import pandas as pd
 import tensorflow as tf
+import matplotlib.pyplot as plt
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import minmax_scale
@@ -125,6 +126,15 @@ def testCountVec():
     print(cv.fit_transform(texts))
     print("-------------------------")
     print(cv.transform(texts))
+def testz_score():
+    arr = np.array(np.random.randint(1,100,20))
+    mean = arr.mean()
+    std = arr.std()
+    print(mean,std)
+    arr1 =(arr-mean)/std
+    print(arr)
+    print(arr1)
+    print(arr1.std())
 
 
 # testStander()
@@ -132,6 +142,7 @@ def testCountVec():
 # KFlodTest()
 # 定义不同力度的正则化惩罚力度
 c_param_range = [0.01, 0.1, 1, 10, 100]
+testz_score()
 #
 # results_table = pd.DataFrame({'c_param_range':c_param_range})
 # # for i in range(5,2):
