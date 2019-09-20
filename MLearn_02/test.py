@@ -137,6 +137,29 @@ def testz_score():
     print(arr1)
     print(arr1.std())
 
+def 清洗数据挖掘行业():
+    f = pd.read_csv(r"C:\\myPython\\miniweb\\dataAnalysis\\dataAnalysis\\spss\\作业\\spss项目\\数据源\\清洗关键词v0.1\\数据挖掘清洗关键词1.csv")
+    arr = "移动互联网,电商,教育,金融,服务,人工智能,社交,文娱,医疗,物流,工具,房产,消费生活,硬件,信息安全,汽车,其他,游戏,广告,旅游".split(",")
+    for i in range(len(f.loc[:,["所属行业"]])):
+        for content in arr:
+            print(i)
+            if str(f.loc[i,"所属行业"]).find(content) != -1:
+                f.loc[i,"所属行业1"]=content
+                break
+    f.to_excel(r"C:\\myPython\\miniweb\\dataAnalysis\\dataAnalysis\\spss\\作业\\spss项目\\数据源\\清洗关键词v0.1\\数据挖掘清洗关键词2.xlsx")
+
+
+def 清洗数据分析行业():
+    f = pd.read_csv(r"C:\\myPython\\miniweb\\dataAnalysis\\dataAnalysis\\spss\\作业\\spss项目\\数据源\\清洗关键词v0.1\\数据分析清洗关键词1.csv")
+    arr = "移动互联网,电商,教育,金融,服务,人工智能,社交,文娱,医疗,物流,工具,房产,消费生活,硬件,信息安全,汽车,其他,游戏,广告,旅游".split(",")
+
+    for i in range(len(f.loc[:,["所属行业"]])):
+        for content in arr:
+            print(i)
+            if str(f.loc[i,"所属行业"]).find(content) != -1:
+                f.loc[i,"所属行业1"]=content
+                break
+    f.to_excel(r"C:\\myPython\\miniweb\\dataAnalysis\\dataAnalysis\\spss\\作业\\spss项目\\数据源\\清洗关键词v0.1\\数据分析清洗关键词2.xlsx")
 
 def 处理数据分析():
     skilllist = "Sql,Python,R,Excel,Sas,Hive,Spss,Ppt,Bi,Hadoop,Tableau,Spark,Mysql,Java,Oracle,Linux,Office,Matlab,Svm,Erp,Scala,Pandas,Nlp,Tensorflow,Insights,Powerbi,Mongodb,Gekko,Hbase".upper().split(",")
@@ -182,5 +205,7 @@ def 处理数据挖掘():
 # print(results_table['c_param_range'])
 # testTfidf()
 # testCountVec()
+
 # 处理数据分析()
-处理数据挖掘()
+# 处理数据挖掘()
+
