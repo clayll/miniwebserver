@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import minmax_scale
 import numpy as np
+import jieba
 
 # index = ['a','b']
 # index2 = ["a","b"]
@@ -137,12 +138,40 @@ def testz_score():
     print(arr1.std())
 
 
+def 处理数据分析():
+    skilllist = "Sql,Python,R,Excel,Sas,Hive,Spss,Ppt,Bi,Hadoop,Tableau,Spark,Mysql,Java,Oracle,Linux,Office,Matlab,Svm,Erp,Scala,Pandas,Nlp,Tensorflow,Insights,Powerbi,Mongodb,Gekko,Hbase".upper().split(",")
+    exl = pd.read_csv("E:\数据分析-ALL.csv")
+
+    for i in skilllist:
+        exl[i] = "F"
+
+    for index,i in enumerate(exl["职位描述"]):
+        i = jieba.lcut(str(i))
+        s = [item.upper() for item in i if item.upper()  in skilllist]
+        exl.loc[index, s ] = "T"
+
+    exl.to_excel("e:\数据分析清洗关键词1.xlsx")
+
+def 处理数据挖掘():
+    skilllist = "Python,Spark,Hadoop,Java,C,Hive,Linux,Sql,R,Nlp,Scala,Hbase,Tensorflow,Svm,Shell,Sas,Storm,Caffe,Gbdt,Matlab,Mysql,Pandas,Xgboost,Numpy,Spss,Etl,Excel,Go,Learn,Scikit,Flink,Kaggle,Rnn,Theano,Pytorch,Sklearn,Java,python,Oracle,Bi,Keras,Mapreduce,Mllib".upper().split(",")
+    exl = pd.read_csv("E:\数据挖掘-all输出.csv")
+
+    for i in skilllist:
+        exl[i] = "F"
+
+    for index,i in enumerate(exl["职位描述"]):
+        i = jieba.lcut(str(i))
+        s = [item.upper() for item in i if item.upper()  in skilllist]
+        exl.loc[index, s ] = "T"
+
+    exl.to_excel("e:\数据挖掘清洗关键词1.xlsx")
+
 # testStander()
 
 # KFlodTest()
 # 定义不同力度的正则化惩罚力度
-c_param_range = [0.01, 0.1, 1, 10, 100]
-testz_score()
+# c_param_range = [0.01, 0.1, 1, 10, 100]
+# testz_score()
 #
 # results_table = pd.DataFrame({'c_param_range':c_param_range})
 # # for i in range(5,2):
@@ -153,3 +182,5 @@ testz_score()
 # print(results_table['c_param_range'])
 # testTfidf()
 # testCountVec()
+# 处理数据分析()
+处理数据挖掘()
