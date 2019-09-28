@@ -187,7 +187,7 @@ def 处理数据挖掘():
         s = [item.upper() for item in i if item.upper()  in skilllist]
         exl.loc[index, s ] = "T"
 
-    exl.to_excel("e:\数据挖掘清洗关键词1.xlsx")
+    exl.to_excel("e:\数据挖掘   清洗关键词1.xlsx")
 
 # testStander()
 
